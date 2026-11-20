@@ -1,0 +1,9047 @@
+{
+  "id": "brewer_break_habit",
+  "title": "A Simple Way to Break a Bad Habit",
+  "titleZh": "改掉坏习惯的简单方法",
+  "topicZh": "习惯与改变",
+  "speaker": "Judson Brewer",
+  "level": "高级",
+  "difficulty": 3,
+  "durationMs": 564710,
+  "coverUrl": "",
+  "audioPath": "assets/audio/ted_07.mp4",
+  "audioMissing": false,
+  "sourceMedia": "反复失败的戒断：TED演讲 ｜ 分享改掉坏习惯的可行方法_哔哩哔哩_bilibili.mp4",
+  "tags": [
+    "习惯",
+    "正念",
+    "行为改变"
+  ],
+  "coverColors": [
+    "#E06A55",
+    "#F0A05B"
+  ],
+  "topicQuestions": [
+    "Why do bad habits keep coming back even when we want to change?｜为什么明想改变，坏习惯仍反复出现？",
+    "What role does curiosity play in breaking a habit?｜好奇心在戒除习惯中起什么作用？",
+    "Describe one habit you would like to understand better.｜描述一个你想更了解的自身习惯。"
+  ],
+  "source": "官方逐字稿 + Whisper 词级对齐",
+  "transcriptScope": "full",
+  "timingSource": "whisper_word",
+  "hasTranscript": true,
+  "sentences": [
+    {
+      "text": "When I was first learning to meditate, the instruction was to simply pay attention to",
+      "translation": "我初学冥想时，得到的指引很简单：把注意力放在呼吸上，走神了就拉回来。",
+      "startTime": 0.31,
+      "endTime": 16.92,
+      "words": [
+        {
+          "w": "When",
+          "s": 0.31,
+          "e": 1.89
+        },
+        {
+          "w": "I",
+          "s": 1.89,
+          "e": 2.36
+        },
+        {
+          "w": "was",
+          "s": 2.36,
+          "e": 3.77
+        },
+        {
+          "w": "first",
+          "s": 3.78,
+          "e": 6.15
+        },
+        {
+          "w": "learning",
+          "s": 6.15,
+          "e": 9.94
+        },
+        {
+          "w": "to",
+          "s": 9.94,
+          "e": 10.89
+        },
+        {
+          "w": "meditate,",
+          "s": 10.89,
+          "e": 14.8
+        },
+        {
+          "w": "the",
+          "s": 14.8,
+          "e": 14.84
+        },
+        {
+          "w": "instruction",
+          "s": 14.84,
+          "e": 15.54
+        },
+        {
+          "w": "was",
+          "s": 15.7,
+          "e": 15.81
+        },
+        {
+          "w": "to",
+          "s": 15.81,
+          "e": 15.9
+        },
+        {
+          "w": "simply",
+          "s": 15.9,
+          "e": 16.21
+        },
+        {
+          "w": "pay",
+          "s": 16.21,
+          "e": 16.28
+        },
+        {
+          "w": "attention",
+          "s": 16.39,
+          "e": 16.84
+        },
+        {
+          "w": "to",
+          "s": 16.84,
+          "e": 16.92
+        }
+      ]
+    },
+    {
+      "text": "My breath and when my mind wandered to bring it back.",
+      "translation": "听起来够简单。",
+      "startTime": 17.11,
+      "endTime": 21.04,
+      "words": [
+        {
+          "w": "My",
+          "s": 17.11,
+          "e": 17.21
+        },
+        {
+          "w": "breath",
+          "s": 17.23,
+          "e": 17.69
+        },
+        {
+          "w": "and",
+          "s": 17.69,
+          "e": 17.98
+        },
+        {
+          "w": "when",
+          "s": 17.98,
+          "e": 18.27
+        },
+        {
+          "w": "my",
+          "s": 18.27,
+          "e": 18.46
+        },
+        {
+          "w": "mind",
+          "s": 18.46,
+          "e": 18.85
+        },
+        {
+          "w": "wandered",
+          "s": 18.85,
+          "e": 19.43
+        },
+        {
+          "w": "to",
+          "s": 19.43,
+          "e": 19.62
+        },
+        {
+          "w": "bring",
+          "s": 19.62,
+          "e": 20.11
+        },
+        {
+          "w": "it",
+          "s": 20.11,
+          "e": 20.29
+        },
+        {
+          "w": "back.",
+          "s": 20.3,
+          "e": 21.04
+        }
+      ]
+    },
+    {
+      "text": "Sounded simple enough, yet I'd sit on these silent retreats, sweating through shirts",
+      "translation": "可我坐在止语禅修里，大冬天把 T 恤都汗湿了。",
+      "startTime": 21.35,
+      "endTime": 27.52,
+      "words": [
+        {
+          "w": "Sounded",
+          "s": 21.35,
+          "e": 21.63
+        },
+        {
+          "w": "simple",
+          "s": 21.63,
+          "e": 22.14
+        },
+        {
+          "w": "enough,",
+          "s": 22.14,
+          "e": 22.82
+        },
+        {
+          "w": "yet",
+          "s": 22.82,
+          "e": 23.07
+        },
+        {
+          "w": "I'd",
+          "s": 23.07,
+          "e": 23.32
+        },
+        {
+          "w": "sit",
+          "s": 23.32,
+          "e": 23.57
+        },
+        {
+          "w": "on",
+          "s": 23.57,
+          "e": 23.74
+        },
+        {
+          "w": "these",
+          "s": 23.74,
+          "e": 24.16
+        },
+        {
+          "w": "silent",
+          "s": 24.16,
+          "e": 24.66
+        },
+        {
+          "w": "retreats,",
+          "s": 24.67,
+          "e": 25.51
+        },
+        {
+          "w": "sweating",
+          "s": 25.51,
+          "e": 26.19
+        },
+        {
+          "w": "through",
+          "s": 26.19,
+          "e": 26.78
+        },
+        {
+          "w": "shirts",
+          "s": 26.78,
+          "e": 27.52
+        }
+      ]
+    },
+    {
+      "text": "In the middle of winter.",
+      "translation": "一有机会就打盹，",
+      "startTime": 27.69,
+      "endTime": 29.4,
+      "words": [
+        {
+          "w": "In",
+          "s": 27.69,
+          "e": 27.79
+        },
+        {
+          "w": "the",
+          "s": 27.83,
+          "e": 27.94
+        },
+        {
+          "w": "middle",
+          "s": 27.94,
+          "e": 28.45
+        },
+        {
+          "w": "of",
+          "s": 28.45,
+          "e": 28.62
+        },
+        {
+          "w": "winter.",
+          "s": 28.62,
+          "e": 29.4
+        }
+      ]
+    },
+    {
+      "text": "I take naps every chance I got because it was really hard work.",
+      "translation": "因为这实在太费劲。说实话，",
+      "startTime": 29.4,
+      "endTime": 32.96,
+      "words": [
+        {
+          "w": "I",
+          "s": 29.4,
+          "e": 29.68
+        },
+        {
+          "w": "take",
+          "s": 29.71,
+          "e": 29.83
+        },
+        {
+          "w": "naps",
+          "s": 29.83,
+          "e": 30.08
+        },
+        {
+          "w": "every",
+          "s": 30.08,
+          "e": 30.4
+        },
+        {
+          "w": "chance",
+          "s": 30.4,
+          "e": 30.78
+        },
+        {
+          "w": "I",
+          "s": 30.78,
+          "e": 30.84
+        },
+        {
+          "w": "got",
+          "s": 30.84,
+          "e": 31.03
+        },
+        {
+          "w": "because",
+          "s": 31.03,
+          "e": 31.48
+        },
+        {
+          "w": "it",
+          "s": 31.48,
+          "e": 31.6
+        },
+        {
+          "w": "was",
+          "s": 31.6,
+          "e": 31.79
+        },
+        {
+          "w": "really",
+          "s": 31.79,
+          "e": 32.17
+        },
+        {
+          "w": "hard",
+          "s": 32.17,
+          "e": 32.42
+        },
+        {
+          "w": "work.",
+          "s": 32.42,
+          "e": 32.96
+        }
+      ]
+    },
+    {
+      "text": "Actually, it was exhausting.",
+      "translation": "累得精疲力尽。",
+      "startTime": 33.27,
+      "endTime": 35.64,
+      "words": [
+        {
+          "w": "Actually,",
+          "s": 33.27,
+          "e": 33.91
+        },
+        {
+          "w": "it",
+          "s": 33.91,
+          "e": 34.1
+        },
+        {
+          "w": "was",
+          "s": 34.1,
+          "e": 34.38
+        },
+        {
+          "w": "exhausting.",
+          "s": 34.38,
+          "e": 35.64
+        }
+      ]
+    },
+    {
+      "text": "The instruction was simple enough, but I was missing something really important.",
+      "translation": "为什么保持专注这么难？",
+      "startTime": 35.84,
+      "endTime": 40.6,
+      "words": [
+        {
+          "w": "The",
+          "s": 35.84,
+          "e": 35.94
+        },
+        {
+          "w": "instruction",
+          "s": 35.95,
+          "e": 36.59
+        },
+        {
+          "w": "was",
+          "s": 36.59,
+          "e": 36.79
+        },
+        {
+          "w": "simple",
+          "s": 36.79,
+          "e": 37.19
+        },
+        {
+          "w": "enough,",
+          "s": 37.2,
+          "e": 37.74
+        },
+        {
+          "w": "but",
+          "s": 37.74,
+          "e": 37.94
+        },
+        {
+          "w": "I",
+          "s": 37.94,
+          "e": 38.0
+        },
+        {
+          "w": "was",
+          "s": 38.0,
+          "e": 38.2
+        },
+        {
+          "w": "missing",
+          "s": 38.2,
+          "e": 38.68
+        },
+        {
+          "w": "something",
+          "s": 38.68,
+          "e": 39.29
+        },
+        {
+          "w": "really",
+          "s": 39.29,
+          "e": 39.7
+        },
+        {
+          "w": "important.",
+          "s": 39.7,
+          "e": 40.6
+        }
+      ]
+    },
+    {
+      "text": "So why is it so hard to pay attention?",
+      "translation": "那为什么保持专注这么难呢？",
+      "startTime": 40.74,
+      "endTime": 42.88,
+      "words": [
+        {
+          "w": "So",
+          "s": 40.74,
+          "e": 40.84
+        },
+        {
+          "w": "why",
+          "s": 40.91,
+          "e": 40.95
+        },
+        {
+          "w": "is",
+          "s": 40.95,
+          "e": 41.08
+        },
+        {
+          "w": "it",
+          "s": 41.09,
+          "e": 41.23
+        },
+        {
+          "w": "so",
+          "s": 41.23,
+          "e": 41.37
+        },
+        {
+          "w": "hard",
+          "s": 41.37,
+          "e": 41.65
+        },
+        {
+          "w": "to",
+          "s": 41.65,
+          "e": 41.78
+        },
+        {
+          "w": "pay",
+          "s": 41.8,
+          "e": 42.0
+        },
+        {
+          "w": "attention?",
+          "s": 42.0,
+          "e": 42.88
+        }
+      ]
+    },
+    {
+      "text": "Well, studies show that even when we're really trying to pay attention to something, like",
+      "translation": "研究显示，即便我们很努力地专注，大约一半人迟早会走神做白日梦。",
+      "startTime": 43.14,
+      "endTime": 47.96,
+      "words": [
+        {
+          "w": "Well,",
+          "s": 43.14,
+          "e": 43.27
+        },
+        {
+          "w": "studies",
+          "s": 43.27,
+          "e": 43.73
+        },
+        {
+          "w": "show",
+          "s": 43.73,
+          "e": 43.99
+        },
+        {
+          "w": "that",
+          "s": 43.99,
+          "e": 44.25
+        },
+        {
+          "w": "even",
+          "s": 44.25,
+          "e": 44.51
+        },
+        {
+          "w": "when",
+          "s": 44.51,
+          "e": 44.77
+        },
+        {
+          "w": "we're",
+          "s": 44.77,
+          "e": 45.09
+        },
+        {
+          "w": "really",
+          "s": 45.09,
+          "e": 45.47
+        },
+        {
+          "w": "trying",
+          "s": 45.48,
+          "e": 45.87
+        },
+        {
+          "w": "to",
+          "s": 45.87,
+          "e": 46.0
+        },
+        {
+          "w": "pay",
+          "s": 46.0,
+          "e": 46.19
+        },
+        {
+          "w": "attention",
+          "s": 46.19,
+          "e": 46.77
+        },
+        {
+          "w": "to",
+          "s": 46.78,
+          "e": 46.91
+        },
+        {
+          "w": "something,",
+          "s": 46.91,
+          "e": 47.68
+        },
+        {
+          "w": "like",
+          "s": 47.68,
+          "e": 47.96
+        }
+      ]
+    },
+    {
+      "text": "Maybe this talk, at some point about half of us will drift off into a daydream or have",
+      "translation": "或者忍不住想刷一下推特。",
+      "startTime": 48.27,
+      "endTime": 53.51,
+      "words": [
+        {
+          "w": "Maybe",
+          "s": 48.27,
+          "e": 48.35
+        },
+        {
+          "w": "this",
+          "s": 48.35,
+          "e": 48.66
+        },
+        {
+          "w": "talk,",
+          "s": 48.66,
+          "e": 49.12
+        },
+        {
+          "w": "at",
+          "s": 49.12,
+          "e": 49.27
+        },
+        {
+          "w": "some",
+          "s": 49.27,
+          "e": 49.58
+        },
+        {
+          "w": "point",
+          "s": 49.58,
+          "e": 49.97
+        },
+        {
+          "w": "about",
+          "s": 49.97,
+          "e": 50.36
+        },
+        {
+          "w": "half",
+          "s": 50.36,
+          "e": 50.67
+        },
+        {
+          "w": "of",
+          "s": 50.67,
+          "e": 50.82
+        },
+        {
+          "w": "us",
+          "s": 50.82,
+          "e": 50.97
+        },
+        {
+          "w": "will",
+          "s": 50.97,
+          "e": 51.28
+        },
+        {
+          "w": "drift",
+          "s": 51.28,
+          "e": 51.67
+        },
+        {
+          "w": "off",
+          "s": 51.67,
+          "e": 51.89
+        },
+        {
+          "w": "into",
+          "s": 51.89,
+          "e": 52.21
+        },
+        {
+          "w": "a",
+          "s": 52.21,
+          "e": 52.29
+        },
+        {
+          "w": "daydream",
+          "s": 52.29,
+          "e": 52.91
+        },
+        {
+          "w": "or",
+          "s": 52.91,
+          "e": 53.06
+        },
+        {
+          "w": "have",
+          "s": 53.06,
+          "e": 53.51
+        }
+      ]
+    },
+    {
+      "text": "This urged to check our Twitter feed.",
+      "translation": "或者忍不住想刷一下推特。",
+      "startTime": 53.83,
+      "endTime": 56.6,
+      "words": [
+        {
+          "w": "This",
+          "s": 53.83,
+          "e": 53.9
+        },
+        {
+          "w": "urged",
+          "s": 53.9,
+          "e": 54.28
+        },
+        {
+          "w": "to",
+          "s": 54.28,
+          "e": 54.47
+        },
+        {
+          "w": "check",
+          "s": 54.47,
+          "e": 54.95
+        },
+        {
+          "w": "our",
+          "s": 54.95,
+          "e": 55.23
+        },
+        {
+          "w": "Twitter",
+          "s": 55.23,
+          "e": 55.9
+        },
+        {
+          "w": "feed.",
+          "s": 55.9,
+          "e": 56.6
+        }
+      ]
+    },
+    {
+      "text": "So what's going on here?",
+      "translation": "这到底是怎么回事？",
+      "startTime": 56.84,
+      "endTime": 59.32,
+      "words": [
+        {
+          "w": "So",
+          "s": 56.84,
+          "e": 56.94
+        },
+        {
+          "w": "what's",
+          "s": 56.91,
+          "e": 57.57
+        },
+        {
+          "w": "going",
+          "s": 57.57,
+          "e": 58.18
+        },
+        {
+          "w": "on",
+          "s": 58.18,
+          "e": 58.42
+        },
+        {
+          "w": "here?",
+          "s": 58.42,
+          "e": 59.32
+        }
+      ]
+    },
+    {
+      "text": "It turns out that we're fighting one of the most evolutionarily conserved learning processes",
+      "translation": "它一直可以回溯到人类已知最原始的神经系统。",
+      "startTime": 59.42,
+      "endTime": 63.51,
+      "words": [
+        {
+          "w": "It",
+          "s": 59.42,
+          "e": 59.52
+        },
+        {
+          "w": "turns",
+          "s": 59.63,
+          "e": 59.68
+        },
+        {
+          "w": "out",
+          "s": 59.68,
+          "e": 59.83
+        },
+        {
+          "w": "that",
+          "s": 59.83,
+          "e": 60.03
+        },
+        {
+          "w": "we're",
+          "s": 60.03,
+          "e": 60.28
+        },
+        {
+          "w": "fighting",
+          "s": 60.28,
+          "e": 60.69
+        },
+        {
+          "w": "one",
+          "s": 60.69,
+          "e": 60.84
+        },
+        {
+          "w": "of",
+          "s": 60.84,
+          "e": 60.94
+        },
+        {
+          "w": "the",
+          "s": 60.94,
+          "e": 61.09
+        },
+        {
+          "w": "most",
+          "s": 61.09,
+          "e": 61.29
+        },
+        {
+          "w": "evolutionarily",
+          "s": 61.29,
+          "e": 62.0
+        },
+        {
+          "w": "conserved",
+          "s": 62.0,
+          "e": 62.46
+        },
+        {
+          "w": "learning",
+          "s": 62.46,
+          "e": 62.96
+        },
+        {
+          "w": "processes",
+          "s": 62.96,
+          "e": 63.51
+        }
+      ]
+    },
+    {
+      "text": "Currently known in science, one that's conserved back to the most basic nervous systems known",
+      "translation": "这种基于奖赏的学习过程叫正强化与负强化。",
+      "startTime": 63.83,
+      "endTime": 68.28,
+      "words": [
+        {
+          "w": "Currently",
+          "s": 63.83,
+          "e": 64.05
+        },
+        {
+          "w": "known",
+          "s": 64.05,
+          "e": 64.34
+        },
+        {
+          "w": "in",
+          "s": 64.34,
+          "e": 64.45
+        },
+        {
+          "w": "science,",
+          "s": 64.45,
+          "e": 64.97
+        },
+        {
+          "w": "one",
+          "s": 64.97,
+          "e": 65.14
+        },
+        {
+          "w": "that's",
+          "s": 65.14,
+          "e": 65.48
+        },
+        {
+          "w": "conserved",
+          "s": 65.48,
+          "e": 66.0
+        },
+        {
+          "w": "back",
+          "s": 66.0,
+          "e": 66.23
+        },
+        {
+          "w": "to",
+          "s": 66.23,
+          "e": 66.34
+        },
+        {
+          "w": "the",
+          "s": 66.34,
+          "e": 66.5
+        },
+        {
+          "w": "most",
+          "s": 66.51,
+          "e": 66.74
+        },
+        {
+          "w": "basic",
+          "s": 66.74,
+          "e": 67.02
+        },
+        {
+          "w": "nervous",
+          "s": 67.03,
+          "e": 67.43
+        },
+        {
+          "w": "systems",
+          "s": 67.43,
+          "e": 67.85
+        },
+        {
+          "w": "known",
+          "s": 67.85,
+          "e": 68.28
+        }
+      ]
+    },
+    {
+      "text": "To man.",
+      "translation": "到人身上。",
+      "startTime": 68.59,
+      "endTime": 70.16,
+      "words": [
+        {
+          "w": "To",
+          "s": 68.59,
+          "e": 68.75
+        },
+        {
+          "w": "man.",
+          "s": 68.75,
+          "e": 70.16
+        }
+      ]
+    },
+    {
+      "text": "This based learning process is called positive and negative reinforcement, and",
+      "translation": "这种基于奖赏的学习过程，就叫正强化和负强化，",
+      "startTime": 70.34,
+      "endTime": 73.68,
+      "words": [
+        {
+          "w": "This",
+          "s": 70.34,
+          "e": 70.44
+        },
+        {
+          "w": "based",
+          "s": 70.47,
+          "e": 70.88
+        },
+        {
+          "w": "learning",
+          "s": 70.88,
+          "e": 71.25
+        },
+        {
+          "w": "process",
+          "s": 71.25,
+          "e": 71.57
+        },
+        {
+          "w": "is",
+          "s": 71.57,
+          "e": 71.66
+        },
+        {
+          "w": "called",
+          "s": 71.66,
+          "e": 71.93
+        },
+        {
+          "w": "positive",
+          "s": 71.93,
+          "e": 72.3
+        },
+        {
+          "w": "and",
+          "s": 72.3,
+          "e": 72.43
+        },
+        {
+          "w": "negative",
+          "s": 72.43,
+          "e": 72.8
+        },
+        {
+          "w": "reinforcement,",
+          "s": 72.8,
+          "e": 73.49
+        },
+        {
+          "w": "and",
+          "s": 73.49,
+          "e": 73.68
+        }
+      ]
+    },
+    {
+      "text": "Basically goes like this.",
+      "translation": "基本就是这样运作的。",
+      "startTime": 73.99,
+      "endTime": 76.48,
+      "words": [
+        {
+          "w": "Basically",
+          "s": 73.99,
+          "e": 74.72
+        },
+        {
+          "w": "goes",
+          "s": 74.72,
+          "e": 75.18
+        },
+        {
+          "w": "like",
+          "s": 75.18,
+          "e": 75.64
+        },
+        {
+          "w": "this.",
+          "s": 75.64,
+          "e": 76.48
+        }
+      ]
+    },
+    {
+      "text": "We see some food that looks good, our brain says, calories, survival.",
+      "translation": "看到诱人的食物，大脑说：",
+      "startTime": 76.62,
+      "endTime": 80.88,
+      "words": [
+        {
+          "w": "We",
+          "s": 76.62,
+          "e": 76.72
+        },
+        {
+          "w": "see",
+          "s": 76.79,
+          "e": 76.82
+        },
+        {
+          "w": "some",
+          "s": 76.82,
+          "e": 77.09
+        },
+        {
+          "w": "food",
+          "s": 77.09,
+          "e": 77.36
+        },
+        {
+          "w": "that",
+          "s": 77.36,
+          "e": 77.63
+        },
+        {
+          "w": "looks",
+          "s": 77.63,
+          "e": 77.97
+        },
+        {
+          "w": "good,",
+          "s": 77.97,
+          "e": 78.37
+        },
+        {
+          "w": "our",
+          "s": 78.37,
+          "e": 78.57
+        },
+        {
+          "w": "brain",
+          "s": 78.57,
+          "e": 78.91
+        },
+        {
+          "w": "says,",
+          "s": 78.91,
+          "e": 79.31
+        },
+        {
+          "w": "calories,",
+          "s": 79.31,
+          "e": 79.98
+        },
+        {
+          "w": "survival.",
+          "s": 79.99,
+          "e": 80.88
+        }
+      ]
+    },
+    {
+      "text": "We eat the food, we taste tasted it tastes good, and especially with sugar, our body send a",
+      "translation": "热量、活下去。尤其是糖，身体会给大脑发信号：记住你吃的是什么、",
+      "startTime": 81.0,
+      "endTime": 85.72,
+      "words": [
+        {
+          "w": "We",
+          "s": 81.0,
+          "e": 81.1
+        },
+        {
+          "w": "eat",
+          "s": 81.19,
+          "e": 81.29
+        },
+        {
+          "w": "the",
+          "s": 81.19,
+          "e": 81.38
+        },
+        {
+          "w": "food,",
+          "s": 81.38,
+          "e": 81.75
+        },
+        {
+          "w": "we",
+          "s": 81.75,
+          "e": 81.87
+        },
+        {
+          "w": "taste",
+          "s": 81.87,
+          "e": 82.18
+        },
+        {
+          "w": "tasted",
+          "s": 82.18,
+          "e": 82.42
+        },
+        {
+          "w": "it",
+          "s": 82.42,
+          "e": 82.54
+        },
+        {
+          "w": "tastes",
+          "s": 82.54,
+          "e": 82.92
+        },
+        {
+          "w": "good,",
+          "s": 82.92,
+          "e": 83.29
+        },
+        {
+          "w": "and",
+          "s": 83.29,
+          "e": 83.47
+        },
+        {
+          "w": "especially",
+          "s": 83.48,
+          "e": 84.11
+        },
+        {
+          "w": "with",
+          "s": 84.11,
+          "e": 84.36
+        },
+        {
+          "w": "sugar,",
+          "s": 84.36,
+          "e": 84.79
+        },
+        {
+          "w": "our",
+          "s": 84.79,
+          "e": 84.98
+        },
+        {
+          "w": "body",
+          "s": 84.98,
+          "e": 85.22
+        },
+        {
+          "w": "send",
+          "s": 85.23,
+          "e": 85.68
+        },
+        {
+          "w": "a",
+          "s": 85.68,
+          "e": 85.72
+        }
+      ]
+    },
+    {
+      "text": "Signal to our brain that says, remember what you're eating and where you found it.",
+      "translation": "在哪儿找到的。",
+      "startTime": 86.03,
+      "endTime": 91.58,
+      "words": [
+        {
+          "w": "Signal",
+          "s": 86.03,
+          "e": 86.21
+        },
+        {
+          "w": "to",
+          "s": 86.21,
+          "e": 86.37
+        },
+        {
+          "w": "our",
+          "s": 86.37,
+          "e": 86.61
+        },
+        {
+          "w": "brain",
+          "s": 86.61,
+          "e": 87.02
+        },
+        {
+          "w": "that",
+          "s": 87.02,
+          "e": 87.35
+        },
+        {
+          "w": "says,",
+          "s": 87.35,
+          "e": 87.84
+        },
+        {
+          "w": "remember",
+          "s": 87.84,
+          "e": 88.49
+        },
+        {
+          "w": "what",
+          "s": 88.49,
+          "e": 88.82
+        },
+        {
+          "w": "you're",
+          "s": 88.82,
+          "e": 89.3
+        },
+        {
+          "w": "eating",
+          "s": 89.3,
+          "e": 89.79
+        },
+        {
+          "w": "and",
+          "s": 89.79,
+          "e": 90.03
+        },
+        {
+          "w": "where",
+          "s": 90.03,
+          "e": 90.44
+        },
+        {
+          "w": "you",
+          "s": 90.44,
+          "e": 90.68
+        },
+        {
+          "w": "found",
+          "s": 90.68,
+          "e": 91.09
+        },
+        {
+          "w": "it.",
+          "s": 91.09,
+          "e": 91.58
+        }
+      ]
+    },
+    {
+      "text": "We lay down this dependent memory and learn to repeat the process next time.",
+      "translation": "于是形成依赖情境的记忆，下次照做。",
+      "startTime": 91.72,
+      "endTime": 96.84,
+      "words": [
+        {
+          "w": "We",
+          "s": 91.72,
+          "e": 91.82
+        },
+        {
+          "w": "lay",
+          "s": 91.89,
+          "e": 91.93
+        },
+        {
+          "w": "down",
+          "s": 91.93,
+          "e": 92.21
+        },
+        {
+          "w": "this",
+          "s": 92.21,
+          "e": 92.49
+        },
+        {
+          "w": "dependent",
+          "s": 92.49,
+          "e": 93.7
+        },
+        {
+          "w": "memory",
+          "s": 93.7,
+          "e": 94.13
+        },
+        {
+          "w": "and",
+          "s": 94.13,
+          "e": 94.34
+        },
+        {
+          "w": "learn",
+          "s": 94.34,
+          "e": 94.7
+        },
+        {
+          "w": "to",
+          "s": 94.7,
+          "e": 94.84
+        },
+        {
+          "w": "repeat",
+          "s": 94.84,
+          "e": 95.27
+        },
+        {
+          "w": "the",
+          "s": 95.27,
+          "e": 95.47
+        },
+        {
+          "w": "process",
+          "s": 95.48,
+          "e": 95.98
+        },
+        {
+          "w": "next",
+          "s": 95.98,
+          "e": 96.25
+        },
+        {
+          "w": "time.",
+          "s": 96.26,
+          "e": 96.84
+        }
+      ]
+    },
+    {
+      "text": "See food, eat food, feel good, repeat.",
+      "translation": "看见食物、吃、爽、",
+      "startTime": 97.15,
+      "endTime": 101.48,
+      "words": [
+        {
+          "w": "See",
+          "s": 97.15,
+          "e": 97.21
+        },
+        {
+          "w": "food,",
+          "s": 97.21,
+          "e": 97.96
+        },
+        {
+          "w": "eat",
+          "s": 97.96,
+          "e": 98.33
+        },
+        {
+          "w": "food,",
+          "s": 98.33,
+          "e": 99.08
+        },
+        {
+          "w": "feel",
+          "s": 99.08,
+          "e": 99.58
+        },
+        {
+          "w": "good,",
+          "s": 99.58,
+          "e": 100.33
+        },
+        {
+          "w": "repeat.",
+          "s": 100.33,
+          "e": 101.48
+        }
+      ]
+    },
+    {
+      "text": "Trigger behavior reward.",
+      "translation": "再来一次。",
+      "startTime": 101.79,
+      "endTime": 104.0,
+      "words": [
+        {
+          "w": "Trigger",
+          "s": 101.79,
+          "e": 102.21
+        },
+        {
+          "w": "behavior",
+          "s": 102.21,
+          "e": 103.05
+        },
+        {
+          "w": "reward.",
+          "s": 103.05,
+          "e": 104.0
+        }
+      ]
+    },
+    {
+      "text": "Simple right.",
+      "translation": "很简单，对吧。",
+      "startTime": 104.31,
+      "endTime": 106.2,
+      "words": [
+        {
+          "w": "Simple",
+          "s": 104.31,
+          "e": 104.94
+        },
+        {
+          "w": "right.",
+          "s": 104.94,
+          "e": 106.2
+        }
+      ]
+    },
+    {
+      "text": "Well after a while, our creative brains say, you know what?",
+      "translation": "过了一阵子，我们那富有创造力的大脑会说：你知道吗？",
+      "startTime": 106.45,
+      "endTime": 109.52,
+      "words": [
+        {
+          "w": "Well",
+          "s": 106.45,
+          "e": 106.55
+        },
+        {
+          "w": "after",
+          "s": 106.51,
+          "e": 106.76
+        },
+        {
+          "w": "a",
+          "s": 106.76,
+          "e": 106.82
+        },
+        {
+          "w": "while,",
+          "s": 106.82,
+          "e": 107.25
+        },
+        {
+          "w": "our",
+          "s": 107.25,
+          "e": 107.4
+        },
+        {
+          "w": "creative",
+          "s": 107.44,
+          "e": 107.95
+        },
+        {
+          "w": "brains",
+          "s": 107.95,
+          "e": 108.26
+        },
+        {
+          "w": "say,",
+          "s": 108.26,
+          "e": 108.57
+        },
+        {
+          "w": "you",
+          "s": 108.57,
+          "e": 108.76
+        },
+        {
+          "w": "know",
+          "s": 108.76,
+          "e": 109.01
+        },
+        {
+          "w": "what?",
+          "s": 109.01,
+          "e": 109.52
+        }
+      ]
+    },
+    {
+      "text": "You can use this for more than just remembering where food is.",
+      "translation": "你可以用它做的，远不止记住食物在哪儿。",
+      "startTime": 109.72,
+      "endTime": 113.16,
+      "words": [
+        {
+          "w": "You",
+          "s": 109.72,
+          "e": 109.82
+        },
+        {
+          "w": "can",
+          "s": 109.83,
+          "e": 109.92
+        },
+        {
+          "w": "use",
+          "s": 109.92,
+          "e": 110.12
+        },
+        {
+          "w": "this",
+          "s": 110.12,
+          "e": 110.39
+        },
+        {
+          "w": "for",
+          "s": 110.39,
+          "e": 110.59
+        },
+        {
+          "w": "more",
+          "s": 110.59,
+          "e": 110.86
+        },
+        {
+          "w": "than",
+          "s": 110.86,
+          "e": 111.13
+        },
+        {
+          "w": "just",
+          "s": 111.13,
+          "e": 111.4
+        },
+        {
+          "w": "remembering",
+          "s": 111.4,
+          "e": 112.15
+        },
+        {
+          "w": "where",
+          "s": 112.15,
+          "e": 112.49
+        },
+        {
+          "w": "food",
+          "s": 112.49,
+          "e": 112.76
+        },
+        {
+          "w": "is.",
+          "s": 112.76,
+          "e": 113.16
+        }
+      ]
+    },
+    {
+      "text": "Even next time you feel bad, why don't you try eating something good so you'll feel better?",
+      "translation": "大脑会说：下次心情不好，不如吃点好的让自己舒服点？",
+      "startTime": 113.44,
+      "endTime": 119.96,
+      "words": [
+        {
+          "w": "Even",
+          "s": 113.44,
+          "e": 113.54
+        },
+        {
+          "w": "next",
+          "s": 113.47,
+          "e": 113.72
+        },
+        {
+          "w": "time",
+          "s": 113.72,
+          "e": 113.99
+        },
+        {
+          "w": "you",
+          "s": 114.0,
+          "e": 114.21
+        },
+        {
+          "w": "feel",
+          "s": 114.21,
+          "e": 114.49
+        },
+        {
+          "w": "bad,",
+          "s": 114.49,
+          "e": 114.84
+        },
+        {
+          "w": "why",
+          "s": 114.84,
+          "e": 115.05
+        },
+        {
+          "w": "don't",
+          "s": 115.05,
+          "e": 115.4
+        },
+        {
+          "w": "you",
+          "s": 115.4,
+          "e": 115.61
+        },
+        {
+          "w": "try",
+          "s": 115.62,
+          "e": 115.82
+        },
+        {
+          "w": "eating",
+          "s": 115.82,
+          "e": 116.25
+        },
+        {
+          "w": "something",
+          "s": 116.25,
+          "e": 116.9
+        },
+        {
+          "w": "good",
+          "s": 116.9,
+          "e": 117.18
+        },
+        {
+          "w": "so",
+          "s": 117.18,
+          "e": 117.32
+        },
+        {
+          "w": "you'll",
+          "s": 117.32,
+          "e": 117.74
+        },
+        {
+          "w": "feel",
+          "s": 117.74,
+          "e": 118.16
+        },
+        {
+          "w": "better?",
+          "s": 118.16,
+          "e": 119.96
+        }
+      ]
+    },
+    {
+      "text": "We think our brains for the great idea, try this and quickly learn that if we eat chocolate",
+      "translation": "我们谢过大脑的好主意，一试就学会：生气或难过时吃巧克力、冰淇淋会好受些。",
+      "startTime": 120.09,
+      "endTime": 124.96,
+      "words": [
+        {
+          "w": "We",
+          "s": 120.09,
+          "e": 120.19
+        },
+        {
+          "w": "think",
+          "s": 120.27,
+          "e": 120.42
+        },
+        {
+          "w": "our",
+          "s": 120.42,
+          "e": 120.61
+        },
+        {
+          "w": "brains",
+          "s": 120.62,
+          "e": 121.01
+        },
+        {
+          "w": "for",
+          "s": 121.01,
+          "e": 121.21
+        },
+        {
+          "w": "the",
+          "s": 121.21,
+          "e": 121.41
+        },
+        {
+          "w": "great",
+          "s": 121.41,
+          "e": 121.74
+        },
+        {
+          "w": "idea,",
+          "s": 121.74,
+          "e": 122.13
+        },
+        {
+          "w": "try",
+          "s": 122.13,
+          "e": 122.33
+        },
+        {
+          "w": "this",
+          "s": 122.33,
+          "e": 122.59
+        },
+        {
+          "w": "and",
+          "s": 122.59,
+          "e": 122.79
+        },
+        {
+          "w": "quickly",
+          "s": 122.79,
+          "e": 123.25
+        },
+        {
+          "w": "learn",
+          "s": 123.25,
+          "e": 123.58
+        },
+        {
+          "w": "that",
+          "s": 123.58,
+          "e": 123.84
+        },
+        {
+          "w": "if",
+          "s": 123.84,
+          "e": 123.97
+        },
+        {
+          "w": "we",
+          "s": 123.97,
+          "e": 124.1
+        },
+        {
+          "w": "eat",
+          "s": 124.1,
+          "e": 124.3
+        },
+        {
+          "w": "chocolate",
+          "s": 124.3,
+          "e": 124.96
+        }
+      ]
+    },
+    {
+      "text": "Or ice cream when we're mad or sad, we feel better.",
+      "translation": "或者冰淇淋，一生气或难过时吃就会好受些。",
+      "startTime": 125.14,
+      "endTime": 129.04,
+      "words": [
+        {
+          "w": "Or",
+          "s": 125.14,
+          "e": 125.24
+        },
+        {
+          "w": "ice",
+          "s": 125.27,
+          "e": 125.41
+        },
+        {
+          "w": "cream",
+          "s": 125.41,
+          "e": 125.87
+        },
+        {
+          "w": "when",
+          "s": 125.87,
+          "e": 126.23
+        },
+        {
+          "w": "we're",
+          "s": 126.24,
+          "e": 126.68
+        },
+        {
+          "w": "mad",
+          "s": 126.69,
+          "e": 126.96
+        },
+        {
+          "w": "or",
+          "s": 126.96,
+          "e": 127.14
+        },
+        {
+          "w": "sad,",
+          "s": 127.14,
+          "e": 127.59
+        },
+        {
+          "w": "we",
+          "s": 127.59,
+          "e": 127.77
+        },
+        {
+          "w": "feel",
+          "s": 127.77,
+          "e": 128.14
+        },
+        {
+          "w": "better.",
+          "s": 128.14,
+          "e": 129.04
+        }
+      ]
+    },
+    {
+      "text": "Same process, just a different trigger.",
+      "translation": "同一套机制，",
+      "startTime": 129.35,
+      "endTime": 132.28,
+      "words": [
+        {
+          "w": "Same",
+          "s": 129.35,
+          "e": 129.39
+        },
+        {
+          "w": "process,",
+          "s": 129.39,
+          "e": 130.17
+        },
+        {
+          "w": "just",
+          "s": 130.17,
+          "e": 130.52
+        },
+        {
+          "w": "a",
+          "s": 130.52,
+          "e": 130.59
+        },
+        {
+          "w": "different",
+          "s": 130.6,
+          "e": 131.38
+        },
+        {
+          "w": "trigger.",
+          "s": 131.38,
+          "e": 132.28
+        }
+      ]
+    },
+    {
+      "text": "Instead of this hunger signal coming from our stomach, this emotional signal feeling",
+      "translation": "只是触发条件变了。不再是胃里的饥饿信号，",
+      "startTime": 132.59,
+      "endTime": 136.6,
+      "words": [
+        {
+          "w": "Instead",
+          "s": 132.59,
+          "e": 132.69
+        },
+        {
+          "w": "of",
+          "s": 132.69,
+          "e": 132.8
+        },
+        {
+          "w": "this",
+          "s": 132.8,
+          "e": 133.03
+        },
+        {
+          "w": "hunger",
+          "s": 133.03,
+          "e": 133.38
+        },
+        {
+          "w": "signal",
+          "s": 133.38,
+          "e": 133.73
+        },
+        {
+          "w": "coming",
+          "s": 133.73,
+          "e": 134.08
+        },
+        {
+          "w": "from",
+          "s": 134.08,
+          "e": 134.31
+        },
+        {
+          "w": "our",
+          "s": 134.31,
+          "e": 134.48
+        },
+        {
+          "w": "stomach,",
+          "s": 134.48,
+          "e": 135.0
+        },
+        {
+          "w": "this",
+          "s": 135.0,
+          "e": 135.23
+        },
+        {
+          "w": "emotional",
+          "s": 135.23,
+          "e": 135.76
+        },
+        {
+          "w": "signal",
+          "s": 135.76,
+          "e": 136.1
+        },
+        {
+          "w": "feeling",
+          "s": 136.1,
+          "e": 136.6
+        }
+      ]
+    },
+    {
+      "text": "Sad triggers that urge to eat.",
+      "translation": "而是「难过」这种情绪信号触发了想吃的冲动。",
+      "startTime": 136.91,
+      "endTime": 139.48,
+      "words": [
+        {
+          "w": "Sad",
+          "s": 136.91,
+          "e": 136.92
+        },
+        {
+          "w": "triggers",
+          "s": 136.92,
+          "e": 137.77
+        },
+        {
+          "w": "that",
+          "s": 137.77,
+          "e": 138.19
+        },
+        {
+          "w": "urge",
+          "s": 138.19,
+          "e": 138.61
+        },
+        {
+          "w": "to",
+          "s": 138.61,
+          "e": 138.82
+        },
+        {
+          "w": "eat.",
+          "s": 138.82,
+          "e": 139.48
+        }
+      ]
+    },
+    {
+      "text": "In our teenage years, we were a nerd at school, and we see those rebel kids outside",
+      "translation": "十几岁时，我们在学校里是个书呆子，看到外面那些叛逆的孩子",
+      "startTime": 139.79,
+      "endTime": 145.35,
+      "words": [
+        {
+          "w": "In",
+          "s": 139.79,
+          "e": 139.81
+        },
+        {
+          "w": "our",
+          "s": 139.81,
+          "e": 140.05
+        },
+        {
+          "w": "teenage",
+          "s": 140.05,
+          "e": 140.62
+        },
+        {
+          "w": "years,",
+          "s": 140.62,
+          "e": 141.19
+        },
+        {
+          "w": "we",
+          "s": 141.19,
+          "e": 141.35
+        },
+        {
+          "w": "were",
+          "s": 141.35,
+          "e": 141.68
+        },
+        {
+          "w": "a",
+          "s": 141.68,
+          "e": 141.75
+        },
+        {
+          "w": "nerd",
+          "s": 141.76,
+          "e": 142.09
+        },
+        {
+          "w": "at",
+          "s": 142.09,
+          "e": 142.25
+        },
+        {
+          "w": "school,",
+          "s": 142.25,
+          "e": 142.89
+        },
+        {
+          "w": "and",
+          "s": 142.9,
+          "e": 143.14
+        },
+        {
+          "w": "we",
+          "s": 143.14,
+          "e": 143.3
+        },
+        {
+          "w": "see",
+          "s": 143.3,
+          "e": 143.54
+        },
+        {
+          "w": "those",
+          "s": 143.54,
+          "e": 143.95
+        },
+        {
+          "w": "rebel",
+          "s": 143.95,
+          "e": 144.36
+        },
+        {
+          "w": "kids",
+          "s": 144.36,
+          "e": 144.69
+        },
+        {
+          "w": "outside",
+          "s": 144.69,
+          "e": 145.35
+        }
+      ]
+    },
+    {
+      "text": "Smoking we think, hey, I want to be cool, so we start smoking.",
+      "translation": "在抽烟，我们想：嘿，我想变酷，于是我们也开始抽烟。",
+      "startTime": 145.67,
+      "endTime": 150.03,
+      "words": [
+        {
+          "w": "Smoking",
+          "s": 145.67,
+          "e": 145.95
+        },
+        {
+          "w": "we",
+          "s": 145.95,
+          "e": 146.12
+        },
+        {
+          "w": "think,",
+          "s": 146.12,
+          "e": 146.7
+        },
+        {
+          "w": "hey,",
+          "s": 146.7,
+          "e": 147.11
+        },
+        {
+          "w": "I",
+          "s": 147.11,
+          "e": 147.19
+        },
+        {
+          "w": "want",
+          "s": 147.19,
+          "e": 147.53
+        },
+        {
+          "w": "to",
+          "s": 147.53,
+          "e": 147.7
+        },
+        {
+          "w": "be",
+          "s": 147.7,
+          "e": 147.87
+        },
+        {
+          "w": "cool,",
+          "s": 147.87,
+          "e": 148.37
+        },
+        {
+          "w": "so",
+          "s": 148.37,
+          "e": 148.54
+        },
+        {
+          "w": "we",
+          "s": 148.54,
+          "e": 148.71
+        },
+        {
+          "w": "start",
+          "s": 148.71,
+          "e": 149.13
+        },
+        {
+          "w": "smoking.",
+          "s": 149.13,
+          "e": 150.03
+        }
+      ]
+    },
+    {
+      "text": "The marlborough man wasn't a adoric and that was no accident.",
+      "translation": "看见酷、为了变酷而抽烟、感觉良好、",
+      "startTime": 150.27,
+      "endTime": 153.88,
+      "words": [
+        {
+          "w": "The",
+          "s": 150.27,
+          "e": 150.37
+        },
+        {
+          "w": "marlborough",
+          "s": 150.35,
+          "e": 150.87
+        },
+        {
+          "w": "man",
+          "s": 150.87,
+          "e": 151.1
+        },
+        {
+          "w": "wasn't",
+          "s": 151.1,
+          "e": 151.55
+        },
+        {
+          "w": "a",
+          "s": 151.55,
+          "e": 151.62
+        },
+        {
+          "w": "adoric",
+          "s": 151.62,
+          "e": 152.06
+        },
+        {
+          "w": "and",
+          "s": 152.06,
+          "e": 152.29
+        },
+        {
+          "w": "that",
+          "s": 152.29,
+          "e": 152.59
+        },
+        {
+          "w": "was",
+          "s": 152.59,
+          "e": 152.81
+        },
+        {
+          "w": "no",
+          "s": 152.82,
+          "e": 152.97
+        },
+        {
+          "w": "accident.",
+          "s": 152.97,
+          "e": 153.88
+        }
+      ]
+    },
+    {
+      "text": "See cool, smoke to be cool, feel good, repeat, trigger behavior reward.",
+      "translation": "再来一次。",
+      "startTime": 154.19,
+      "endTime": 160.96,
+      "words": [
+        {
+          "w": "See",
+          "s": 154.19,
+          "e": 154.2
+        },
+        {
+          "w": "cool,",
+          "s": 154.2,
+          "e": 154.83
+        },
+        {
+          "w": "smoke",
+          "s": 154.83,
+          "e": 155.36
+        },
+        {
+          "w": "to",
+          "s": 155.36,
+          "e": 155.57
+        },
+        {
+          "w": "be",
+          "s": 155.57,
+          "e": 155.78
+        },
+        {
+          "w": "cool,",
+          "s": 155.78,
+          "e": 156.41
+        },
+        {
+          "w": "feel",
+          "s": 156.41,
+          "e": 156.83
+        },
+        {
+          "w": "good,",
+          "s": 156.83,
+          "e": 157.46
+        },
+        {
+          "w": "repeat,",
+          "s": 157.46,
+          "e": 158.31
+        },
+        {
+          "w": "trigger",
+          "s": 158.31,
+          "e": 159.06
+        },
+        {
+          "w": "behavior",
+          "s": 159.06,
+          "e": 159.91
+        },
+        {
+          "w": "reward.",
+          "s": 159.91,
+          "e": 160.96
+        }
+      ]
+    },
+    {
+      "text": "And each time we do this, we learn to repeat the process, and it becomes a habit.",
+      "translation": "每重复一次，我们就更熟练一次，",
+      "startTime": 161.18,
+      "endTime": 166.16,
+      "words": [
+        {
+          "w": "And",
+          "s": 161.18,
+          "e": 161.28
+        },
+        {
+          "w": "each",
+          "s": 161.27,
+          "e": 161.48
+        },
+        {
+          "w": "time",
+          "s": 161.48,
+          "e": 161.78
+        },
+        {
+          "w": "we",
+          "s": 161.78,
+          "e": 161.93
+        },
+        {
+          "w": "do",
+          "s": 161.93,
+          "e": 162.08
+        },
+        {
+          "w": "this,",
+          "s": 162.08,
+          "e": 162.53
+        },
+        {
+          "w": "we",
+          "s": 162.53,
+          "e": 162.68
+        },
+        {
+          "w": "learn",
+          "s": 162.68,
+          "e": 163.05
+        },
+        {
+          "w": "to",
+          "s": 163.05,
+          "e": 163.2
+        },
+        {
+          "w": "repeat",
+          "s": 163.2,
+          "e": 163.65
+        },
+        {
+          "w": "the",
+          "s": 163.65,
+          "e": 163.87
+        },
+        {
+          "w": "process,",
+          "s": 163.87,
+          "e": 164.54
+        },
+        {
+          "w": "and",
+          "s": 164.54,
+          "e": 164.76
+        },
+        {
+          "w": "it",
+          "s": 164.76,
+          "e": 164.9
+        },
+        {
+          "w": "becomes",
+          "s": 164.9,
+          "e": 165.43
+        },
+        {
+          "w": "a",
+          "s": 165.43,
+          "e": 165.49
+        },
+        {
+          "w": "habit.",
+          "s": 165.5,
+          "e": 166.16
+        }
+      ]
+    },
+    {
+      "text": "So later, feelings stressed out triggers that urge to smoke a cigarette or to eat something",
+      "translation": "最后变成习惯。所以后来，一有压力就想抽烟或吃点甜的。",
+      "startTime": 166.31,
+      "endTime": 172.0,
+      "words": [
+        {
+          "w": "So",
+          "s": 166.31,
+          "e": 166.41
+        },
+        {
+          "w": "later,",
+          "s": 166.47,
+          "e": 166.84
+        },
+        {
+          "w": "feelings",
+          "s": 166.84,
+          "e": 167.36
+        },
+        {
+          "w": "stressed",
+          "s": 167.4,
+          "e": 167.98
+        },
+        {
+          "w": "out",
+          "s": 167.98,
+          "e": 168.21
+        },
+        {
+          "w": "triggers",
+          "s": 168.21,
+          "e": 168.82
+        },
+        {
+          "w": "that",
+          "s": 168.82,
+          "e": 169.12
+        },
+        {
+          "w": "urge",
+          "s": 169.12,
+          "e": 169.42
+        },
+        {
+          "w": "to",
+          "s": 169.42,
+          "e": 169.57
+        },
+        {
+          "w": "smoke",
+          "s": 169.57,
+          "e": 169.95
+        },
+        {
+          "w": "a",
+          "s": 169.95,
+          "e": 170.02
+        },
+        {
+          "w": "cigarette",
+          "s": 170.02,
+          "e": 170.71
+        },
+        {
+          "w": "or",
+          "s": 170.71,
+          "e": 170.86
+        },
+        {
+          "w": "to",
+          "s": 170.86,
+          "e": 171.01
+        },
+        {
+          "w": "eat",
+          "s": 171.01,
+          "e": 171.24
+        },
+        {
+          "w": "something",
+          "s": 171.24,
+          "e": 172.0
+        }
+      ]
+    },
+    {
+      "text": "Sweet.",
+      "translation": "甜的。",
+      "startTime": 172.31,
+      "endTime": 173.52,
+      "words": [
+        {
+          "w": "Sweet.",
+          "s": 172.31,
+          "e": 173.52
+        }
+      ]
+    },
+    {
+      "text": "Now with these same brain processes, we've gone from learning to survive to literally",
+      "translation": "同样是这套脑机制，把「学会求生」变成了「用习惯慢慢害死自己」。",
+      "startTime": 173.73,
+      "endTime": 178.76,
+      "words": [
+        {
+          "w": "Now",
+          "s": 173.73,
+          "e": 173.83
+        },
+        {
+          "w": "with",
+          "s": 173.83,
+          "e": 174.01
+        },
+        {
+          "w": "these",
+          "s": 174.01,
+          "e": 174.35
+        },
+        {
+          "w": "same",
+          "s": 174.36,
+          "e": 174.64
+        },
+        {
+          "w": "brain",
+          "s": 174.64,
+          "e": 174.99
+        },
+        {
+          "w": "processes,",
+          "s": 174.99,
+          "e": 175.77
+        },
+        {
+          "w": "we've",
+          "s": 175.77,
+          "e": 176.11
+        },
+        {
+          "w": "gone",
+          "s": 176.12,
+          "e": 176.4
+        },
+        {
+          "w": "from",
+          "s": 176.4,
+          "e": 176.68
+        },
+        {
+          "w": "learning",
+          "s": 176.68,
+          "e": 177.24
+        },
+        {
+          "w": "to",
+          "s": 177.24,
+          "e": 177.39
+        },
+        {
+          "w": "survive",
+          "s": 177.39,
+          "e": 177.89
+        },
+        {
+          "w": "to",
+          "s": 177.89,
+          "e": 178.03
+        },
+        {
+          "w": "literally",
+          "s": 178.03,
+          "e": 178.76
+        }
+      ]
+    },
+    {
+      "text": "Killing ourselves with these habits, obesity and smoking among the leading preventable",
+      "translation": "肥胖和吸烟是全球可预防疾病与死亡的主要原因。",
+      "startTime": 179.07,
+      "endTime": 183.88,
+      "words": [
+        {
+          "w": "Killing",
+          "s": 179.07,
+          "e": 179.23
+        },
+        {
+          "w": "ourselves",
+          "s": 179.23,
+          "e": 179.83
+        },
+        {
+          "w": "with",
+          "s": 179.83,
+          "e": 180.09
+        },
+        {
+          "w": "these",
+          "s": 180.09,
+          "e": 180.42
+        },
+        {
+          "w": "habits,",
+          "s": 180.42,
+          "e": 180.95
+        },
+        {
+          "w": "obesity",
+          "s": 180.95,
+          "e": 181.42
+        },
+        {
+          "w": "and",
+          "s": 181.42,
+          "e": 181.62
+        },
+        {
+          "w": "smoking",
+          "s": 181.62,
+          "e": 182.09
+        },
+        {
+          "w": "among",
+          "s": 182.09,
+          "e": 182.42
+        },
+        {
+          "w": "the",
+          "s": 182.42,
+          "e": 182.62
+        },
+        {
+          "w": "leading",
+          "s": 182.62,
+          "e": 183.09
+        },
+        {
+          "w": "preventable",
+          "s": 183.09,
+          "e": 183.88
+        }
+      ]
+    },
+    {
+      "text": "Causes of morbidity and immortality in the world.",
+      "translation": "是全世界可预防疾病与死亡的主要原因。",
+      "startTime": 184.19,
+      "endTime": 187.72,
+      "words": [
+        {
+          "w": "Causes",
+          "s": 184.19,
+          "e": 184.42
+        },
+        {
+          "w": "of",
+          "s": 184.42,
+          "e": 184.6
+        },
+        {
+          "w": "morbidity",
+          "s": 184.6,
+          "e": 185.41
+        },
+        {
+          "w": "and",
+          "s": 185.41,
+          "e": 185.68
+        },
+        {
+          "w": "immortality",
+          "s": 185.69,
+          "e": 186.5
+        },
+        {
+          "w": "in",
+          "s": 186.5,
+          "e": 186.67
+        },
+        {
+          "w": "the",
+          "s": 186.68,
+          "e": 186.95
+        },
+        {
+          "w": "world.",
+          "s": 186.95,
+          "e": 187.72
+        }
+      ]
+    },
+    {
+      "text": "So back to my breath.",
+      "translation": "回到呼吸上。",
+      "startTime": 187.96,
+      "endTime": 190.08,
+      "words": [
+        {
+          "w": "So",
+          "s": 187.96,
+          "e": 188.06
+        },
+        {
+          "w": "back",
+          "s": 188.03,
+          "e": 188.45
+        },
+        {
+          "w": "to",
+          "s": 188.45,
+          "e": 188.69
+        },
+        {
+          "w": "my",
+          "s": 188.69,
+          "e": 188.92
+        },
+        {
+          "w": "breath.",
+          "s": 188.96,
+          "e": 190.08
+        }
+      ]
+    },
+    {
+      "text": "What if instead of fighting our brains or trying to force ourselves to pay attention,",
+      "translation": "如果我们不是跟大脑对着干、不是强迫自己集中注意力，",
+      "startTime": 190.34,
+      "endTime": 194.92,
+      "words": [
+        {
+          "w": "What",
+          "s": 190.34,
+          "e": 190.44
+        },
+        {
+          "w": "if",
+          "s": 190.39,
+          "e": 190.47
+        },
+        {
+          "w": "instead",
+          "s": 190.47,
+          "e": 190.93
+        },
+        {
+          "w": "of",
+          "s": 190.93,
+          "e": 191.06
+        },
+        {
+          "w": "fighting",
+          "s": 191.06,
+          "e": 191.59
+        },
+        {
+          "w": "our",
+          "s": 191.59,
+          "e": 191.79
+        },
+        {
+          "w": "brains",
+          "s": 191.79,
+          "e": 192.19
+        },
+        {
+          "w": "or",
+          "s": 192.19,
+          "e": 192.32
+        },
+        {
+          "w": "trying",
+          "s": 192.32,
+          "e": 192.72
+        },
+        {
+          "w": "to",
+          "s": 192.72,
+          "e": 192.85
+        },
+        {
+          "w": "force",
+          "s": 192.85,
+          "e": 193.18
+        },
+        {
+          "w": "ourselves",
+          "s": 193.18,
+          "e": 193.78
+        },
+        {
+          "w": "to",
+          "s": 193.78,
+          "e": 193.9
+        },
+        {
+          "w": "pay",
+          "s": 193.9,
+          "e": 194.11
+        },
+        {
+          "w": "attention,",
+          "s": 194.11,
+          "e": 194.92
+        }
+      ]
+    },
+    {
+      "text": "We instead tapped into this natural based learning process, but added a twist?",
+      "translation": "如果这个转折是：",
+      "startTime": 195.07,
+      "endTime": 200.84,
+      "words": [
+        {
+          "w": "We",
+          "s": 195.07,
+          "e": 195.17
+        },
+        {
+          "w": "instead",
+          "s": 195.23,
+          "e": 195.61
+        },
+        {
+          "w": "tapped",
+          "s": 195.61,
+          "e": 196.07
+        },
+        {
+          "w": "into",
+          "s": 196.07,
+          "e": 196.38
+        },
+        {
+          "w": "this",
+          "s": 196.38,
+          "e": 196.69
+        },
+        {
+          "w": "natural",
+          "s": 196.69,
+          "e": 197.23
+        },
+        {
+          "w": "based",
+          "s": 197.23,
+          "e": 198.14
+        },
+        {
+          "w": "learning",
+          "s": 198.14,
+          "e": 198.76
+        },
+        {
+          "w": "process,",
+          "s": 198.76,
+          "e": 199.45
+        },
+        {
+          "w": "but",
+          "s": 199.45,
+          "e": 199.68
+        },
+        {
+          "w": "added",
+          "s": 199.68,
+          "e": 200.06
+        },
+        {
+          "w": "a",
+          "s": 200.06,
+          "e": 200.13
+        },
+        {
+          "w": "twist?",
+          "s": 200.13,
+          "e": 200.84
+        }
+      ]
+    },
+    {
+      "text": "What if instead we just got really curious about what was happening in our momentary",
+      "translation": "对当下正在发生的体验，真心感到好奇？",
+      "startTime": 201.02,
+      "endTime": 204.11,
+      "words": [
+        {
+          "w": "What",
+          "s": 201.02,
+          "e": 201.12
+        },
+        {
+          "w": "if",
+          "s": 201.11,
+          "e": 201.21
+        },
+        {
+          "w": "instead",
+          "s": 201.15,
+          "e": 201.43
+        },
+        {
+          "w": "we",
+          "s": 201.43,
+          "e": 201.52
+        },
+        {
+          "w": "just",
+          "s": 201.52,
+          "e": 201.7
+        },
+        {
+          "w": "got",
+          "s": 201.7,
+          "e": 201.84
+        },
+        {
+          "w": "really",
+          "s": 201.84,
+          "e": 202.11
+        },
+        {
+          "w": "curious",
+          "s": 202.12,
+          "e": 202.43
+        },
+        {
+          "w": "about",
+          "s": 202.44,
+          "e": 202.67
+        },
+        {
+          "w": "what",
+          "s": 202.67,
+          "e": 202.85
+        },
+        {
+          "w": "was",
+          "s": 202.85,
+          "e": 202.99
+        },
+        {
+          "w": "happening",
+          "s": 202.99,
+          "e": 203.41
+        },
+        {
+          "w": "in",
+          "s": 203.41,
+          "e": 203.5
+        },
+        {
+          "w": "our",
+          "s": 203.5,
+          "e": 203.63
+        },
+        {
+          "w": "momentary",
+          "s": 203.64,
+          "e": 204.11
+        }
+      ]
+    },
+    {
+      "text": "Experience?",
+      "translation": "体验呢？",
+      "startTime": 204.43,
+      "endTime": 205.12,
+      "words": [
+        {
+          "w": "Experience?",
+          "s": 204.43,
+          "e": 205.12
+        }
+      ]
+    },
+    {
+      "text": "I'll give you an example.",
+      "translation": "我举个例子。",
+      "startTime": 205.19,
+      "endTime": 206.92,
+      "words": [
+        {
+          "w": "I'll",
+          "s": 205.19,
+          "e": 205.52
+        },
+        {
+          "w": "give",
+          "s": 205.43,
+          "e": 205.73
+        },
+        {
+          "w": "you",
+          "s": 205.73,
+          "e": 205.95
+        },
+        {
+          "w": "an",
+          "s": 205.96,
+          "e": 206.11
+        },
+        {
+          "w": "example.",
+          "s": 206.11,
+          "e": 206.92
+        }
+      ]
+    },
+    {
+      "text": "In my lab, we studied whether this training could help people quit smoking.",
+      "translation": "我实验室研究过正念训练能否帮人戒烟。",
+      "startTime": 207.04,
+      "endTime": 211.44,
+      "words": [
+        {
+          "w": "In",
+          "s": 207.04,
+          "e": 207.14
+        },
+        {
+          "w": "my",
+          "s": 207.16,
+          "e": 207.26
+        },
+        {
+          "w": "lab,",
+          "s": 207.23,
+          "e": 207.46
+        },
+        {
+          "w": "we",
+          "s": 207.46,
+          "e": 207.57
+        },
+        {
+          "w": "studied",
+          "s": 207.58,
+          "e": 208.01
+        },
+        {
+          "w": "whether",
+          "s": 208.01,
+          "e": 208.44
+        },
+        {
+          "w": "this",
+          "s": 208.44,
+          "e": 209.12
+        },
+        {
+          "w": "training",
+          "s": 209.12,
+          "e": 209.61
+        },
+        {
+          "w": "could",
+          "s": 209.61,
+          "e": 209.9
+        },
+        {
+          "w": "help",
+          "s": 209.91,
+          "e": 210.15
+        },
+        {
+          "w": "people",
+          "s": 210.15,
+          "e": 210.52
+        },
+        {
+          "w": "quit",
+          "s": 210.52,
+          "e": 210.76
+        },
+        {
+          "w": "smoking.",
+          "s": 210.76,
+          "e": 211.44
+        }
+      ]
+    },
+    {
+      "text": "Now just like trying to force myself to pay attention on my breath, they could try to",
+      "translation": "大多数人此前都试过，",
+      "startTime": 211.63,
+      "endTime": 216.03,
+      "words": [
+        {
+          "w": "Now",
+          "s": 211.63,
+          "e": 211.73
+        },
+        {
+          "w": "just",
+          "s": 211.75,
+          "e": 211.89
+        },
+        {
+          "w": "like",
+          "s": 211.89,
+          "e": 212.15
+        },
+        {
+          "w": "trying",
+          "s": 212.15,
+          "e": 212.54
+        },
+        {
+          "w": "to",
+          "s": 212.54,
+          "e": 212.64
+        },
+        {
+          "w": "force",
+          "s": 212.68,
+          "e": 212.99
+        },
+        {
+          "w": "myself",
+          "s": 212.99,
+          "e": 213.38
+        },
+        {
+          "w": "to",
+          "s": 213.38,
+          "e": 213.51
+        },
+        {
+          "w": "pay",
+          "s": 213.51,
+          "e": 213.7
+        },
+        {
+          "w": "attention",
+          "s": 213.7,
+          "e": 214.29
+        },
+        {
+          "w": "on",
+          "s": 214.29,
+          "e": 214.42
+        },
+        {
+          "w": "my",
+          "s": 214.42,
+          "e": 214.54
+        },
+        {
+          "w": "breath,",
+          "s": 214.55,
+          "e": 215.06
+        },
+        {
+          "w": "they",
+          "s": 215.07,
+          "e": 215.33
+        },
+        {
+          "w": "could",
+          "s": 215.33,
+          "e": 215.65
+        },
+        {
+          "w": "try",
+          "s": 215.65,
+          "e": 215.84
+        },
+        {
+          "w": "to",
+          "s": 215.84,
+          "e": 216.03
+        }
+      ]
+    },
+    {
+      "text": "Force themselves to quit smoking, and the majority of them had tried this before and",
+      "translation": "平均失败六次。",
+      "startTime": 216.35,
+      "endTime": 220.52,
+      "words": [
+        {
+          "w": "Force",
+          "s": 216.35,
+          "e": 216.45
+        },
+        {
+          "w": "themselves",
+          "s": 216.35,
+          "e": 216.98
+        },
+        {
+          "w": "to",
+          "s": 216.98,
+          "e": 217.1
+        },
+        {
+          "w": "quit",
+          "s": 217.1,
+          "e": 217.35
+        },
+        {
+          "w": "smoking,",
+          "s": 217.35,
+          "e": 217.91
+        },
+        {
+          "w": "and",
+          "s": 217.91,
+          "e": 218.09
+        },
+        {
+          "w": "the",
+          "s": 218.09,
+          "e": 218.27
+        },
+        {
+          "w": "majority",
+          "s": 218.27,
+          "e": 218.77
+        },
+        {
+          "w": "of",
+          "s": 218.77,
+          "e": 218.89
+        },
+        {
+          "w": "them",
+          "s": 218.89,
+          "e": 219.14
+        },
+        {
+          "w": "had",
+          "s": 219.14,
+          "e": 219.31
+        },
+        {
+          "w": "tried",
+          "s": 219.32,
+          "e": 219.63
+        },
+        {
+          "w": "this",
+          "s": 219.63,
+          "e": 219.88
+        },
+        {
+          "w": "before",
+          "s": 219.88,
+          "e": 220.25
+        },
+        {
+          "w": "and",
+          "s": 220.25,
+          "e": 220.52
+        }
+      ]
+    },
+    {
+      "text": "Failed, on average six times.",
+      "translation": "失败了，平均失败六次。",
+      "startTime": 220.83,
+      "endTime": 224.2,
+      "words": [
+        {
+          "w": "Failed,",
+          "s": 220.83,
+          "e": 221.56
+        },
+        {
+          "w": "on",
+          "s": 221.56,
+          "e": 221.82
+        },
+        {
+          "w": "average",
+          "s": 221.82,
+          "e": 222.73
+        },
+        {
+          "w": "six",
+          "s": 222.73,
+          "e": 223.11
+        },
+        {
+          "w": "times.",
+          "s": 223.12,
+          "e": 224.2
+        }
+      ]
+    },
+    {
+      "text": "Now with mindfulness training, we dropped a bit about forcing, and instead focused on",
+      "translation": "正念训练里我们不讲「强迫」，",
+      "startTime": 224.35,
+      "endTime": 227.96,
+      "words": [
+        {
+          "w": "Now",
+          "s": 224.35,
+          "e": 224.45
+        },
+        {
+          "w": "with",
+          "s": 224.51,
+          "e": 224.55
+        },
+        {
+          "w": "mindfulness",
+          "s": 224.55,
+          "e": 225.1
+        },
+        {
+          "w": "training,",
+          "s": 225.1,
+          "e": 225.6
+        },
+        {
+          "w": "we",
+          "s": 225.6,
+          "e": 225.7
+        },
+        {
+          "w": "dropped",
+          "s": 225.7,
+          "e": 226.05
+        },
+        {
+          "w": "a",
+          "s": 226.05,
+          "e": 226.1
+        },
+        {
+          "w": "bit",
+          "s": 226.1,
+          "e": 226.25
+        },
+        {
+          "w": "about",
+          "s": 226.25,
+          "e": 226.5
+        },
+        {
+          "w": "forcing,",
+          "s": 226.5,
+          "e": 226.95
+        },
+        {
+          "w": "and",
+          "s": 226.95,
+          "e": 227.1
+        },
+        {
+          "w": "instead",
+          "s": 227.1,
+          "e": 227.45
+        },
+        {
+          "w": "focused",
+          "s": 227.45,
+          "e": 227.84
+        },
+        {
+          "w": "on",
+          "s": 227.84,
+          "e": 227.96
+        }
+      ]
+    },
+    {
+      "text": "Being curious.",
+      "translation": "只讲「好奇」。",
+      "startTime": 228.27,
+      "endTime": 229.84,
+      "words": [
+        {
+          "w": "Being",
+          "s": 228.27,
+          "e": 228.58
+        },
+        {
+          "w": "curious.",
+          "s": 228.58,
+          "e": 229.84
+        }
+      ]
+    },
+    {
+      "text": "In fact, we even told them to smoke.",
+      "translation": "我们甚至让他们去抽。",
+      "startTime": 230.04,
+      "endTime": 233.08,
+      "words": [
+        {
+          "w": "In",
+          "s": 230.04,
+          "e": 230.14
+        },
+        {
+          "w": "fact,",
+          "s": 230.15,
+          "e": 230.63
+        },
+        {
+          "w": "we",
+          "s": 230.64,
+          "e": 230.84
+        },
+        {
+          "w": "even",
+          "s": 230.84,
+          "e": 231.24
+        },
+        {
+          "w": "told",
+          "s": 231.24,
+          "e": 231.64
+        },
+        {
+          "w": "them",
+          "s": 231.64,
+          "e": 232.04
+        },
+        {
+          "w": "to",
+          "s": 232.04,
+          "e": 232.24
+        },
+        {
+          "w": "smoke.",
+          "s": 232.24,
+          "e": 233.08
+        }
+      ]
+    },
+    {
+      "text": "What?",
+      "translation": "什么？",
+      "startTime": 233.39,
+      "endTime": 234.08,
+      "words": [
+        {
+          "w": "What?",
+          "s": 233.39,
+          "e": 234.08
+        }
+      ]
+    },
+    {
+      "text": "Yeah, we said go ahead and smoke.",
+      "translation": "没错，我们说：去抽吧。",
+      "startTime": 234.21,
+      "endTime": 235.08,
+      "words": [
+        {
+          "w": "Yeah,",
+          "s": 234.21,
+          "e": 234.37
+        },
+        {
+          "w": "we",
+          "s": 234.33,
+          "e": 234.43
+        },
+        {
+          "w": "said",
+          "s": 234.39,
+          "e": 234.46
+        },
+        {
+          "w": "go",
+          "s": 234.46,
+          "e": 234.52
+        },
+        {
+          "w": "ahead",
+          "s": 234.52,
+          "e": 234.68
+        },
+        {
+          "w": "and",
+          "s": 234.68,
+          "e": 234.78
+        },
+        {
+          "w": "smoke.",
+          "s": 234.78,
+          "e": 235.08
+        }
+      ]
+    },
+    {
+      "text": "Just be really curious about what it's like when you do.",
+      "translation": "是的，我们说：去抽吧，只是在抽的时候好好好奇一下那到底是什么感觉。",
+      "startTime": 235.37,
+      "endTime": 238.6,
+      "words": [
+        {
+          "w": "Just",
+          "s": 235.37,
+          "e": 235.47
+        },
+        {
+          "w": "be",
+          "s": 235.39,
+          "e": 235.51
+        },
+        {
+          "w": "really",
+          "s": 235.51,
+          "e": 235.94
+        },
+        {
+          "w": "curious",
+          "s": 235.94,
+          "e": 236.45
+        },
+        {
+          "w": "about",
+          "s": 236.45,
+          "e": 236.8
+        },
+        {
+          "w": "what",
+          "s": 236.81,
+          "e": 237.1
+        },
+        {
+          "w": "it's",
+          "s": 237.1,
+          "e": 237.38
+        },
+        {
+          "w": "like",
+          "s": 237.38,
+          "e": 237.67
+        },
+        {
+          "w": "when",
+          "s": 237.67,
+          "e": 237.96
+        },
+        {
+          "w": "you",
+          "s": 237.96,
+          "e": 238.18
+        },
+        {
+          "w": "do.",
+          "s": 238.18,
+          "e": 238.6
+        }
+      ]
+    },
+    {
+      "text": "And what did they notice?",
+      "translation": "他们注意到了什么？",
+      "startTime": 238.75,
+      "endTime": 239.78,
+      "words": [
+        {
+          "w": "And",
+          "s": 238.75,
+          "e": 238.85
+        },
+        {
+          "w": "what",
+          "s": 238.91,
+          "e": 238.95
+        },
+        {
+          "w": "did",
+          "s": 238.95,
+          "e": 239.1
+        },
+        {
+          "w": "they",
+          "s": 239.1,
+          "e": 239.3
+        },
+        {
+          "w": "notice?",
+          "s": 239.3,
+          "e": 239.78
+        }
+      ]
+    },
+    {
+      "text": "Well here's an example from one of our smokers.",
+      "translation": "这是其中一位抽烟者分享的例子。",
+      "startTime": 239.95,
+      "endTime": 243.0,
+      "words": [
+        {
+          "w": "Well",
+          "s": 239.95,
+          "e": 240.2
+        },
+        {
+          "w": "here's",
+          "s": 240.11,
+          "e": 240.56
+        },
+        {
+          "w": "an",
+          "s": 240.56,
+          "e": 240.71
+        },
+        {
+          "w": "example",
+          "s": 240.71,
+          "e": 241.25
+        },
+        {
+          "w": "from",
+          "s": 241.25,
+          "e": 241.56
+        },
+        {
+          "w": "one",
+          "s": 241.56,
+          "e": 241.79
+        },
+        {
+          "w": "of",
+          "s": 241.79,
+          "e": 241.94
+        },
+        {
+          "w": "our",
+          "s": 241.94,
+          "e": 242.17
+        },
+        {
+          "w": "smokers.",
+          "s": 242.17,
+          "e": 243.0
+        }
+      ]
+    },
+    {
+      "text": "She said, mindful smoking smells like stinky cheese and tastes like chemicals.",
+      "translation": "一位参与者说：正念抽烟闻着像臭奶酪，",
+      "startTime": 243.23,
+      "endTime": 248.36,
+      "words": [
+        {
+          "w": "She",
+          "s": 243.23,
+          "e": 243.33
+        },
+        {
+          "w": "said,",
+          "s": 243.31,
+          "e": 243.68
+        },
+        {
+          "w": "mindful",
+          "s": 243.68,
+          "e": 244.2
+        },
+        {
+          "w": "smoking",
+          "s": 244.24,
+          "e": 244.74
+        },
+        {
+          "w": "smells",
+          "s": 244.74,
+          "e": 245.19
+        },
+        {
+          "w": "like",
+          "s": 245.19,
+          "e": 245.49
+        },
+        {
+          "w": "stinky",
+          "s": 245.49,
+          "e": 245.94
+        },
+        {
+          "w": "cheese",
+          "s": 245.94,
+          "e": 246.39
+        },
+        {
+          "w": "and",
+          "s": 246.39,
+          "e": 246.62
+        },
+        {
+          "w": "tastes",
+          "s": 246.62,
+          "e": 247.07
+        },
+        {
+          "w": "like",
+          "s": 247.07,
+          "e": 247.37
+        },
+        {
+          "w": "chemicals.",
+          "s": 247.37,
+          "e": 248.36
+        }
+      ]
+    },
+    {
+      "text": "Yuck!",
+      "translation": "尝着像化学药品，",
+      "startTime": 248.5,
+      "endTime": 249.36,
+      "words": [
+        {
+          "w": "Yuck!",
+          "s": 248.5,
+          "e": 249.36
+        }
+      ]
+    },
+    {
+      "text": "Now, she knew cognitively that smoking was bad for her.",
+      "translation": "呕！她在理智上当然知道吸烟有害。",
+      "startTime": 249.61,
+      "endTime": 253.52,
+      "words": [
+        {
+          "w": "Now,",
+          "s": 249.61,
+          "e": 249.77
+        },
+        {
+          "w": "she",
+          "s": 249.77,
+          "e": 250.01
+        },
+        {
+          "w": "knew",
+          "s": 250.02,
+          "e": 250.35
+        },
+        {
+          "w": "cognitively",
+          "s": 250.35,
+          "e": 251.27
+        },
+        {
+          "w": "that",
+          "s": 251.27,
+          "e": 251.6
+        },
+        {
+          "w": "smoking",
+          "s": 251.6,
+          "e": 252.19
+        },
+        {
+          "w": "was",
+          "s": 252.19,
+          "e": 252.44
+        },
+        {
+          "w": "bad",
+          "s": 252.44,
+          "e": 252.69
+        },
+        {
+          "w": "for",
+          "s": 252.69,
+          "e": 252.94
+        },
+        {
+          "w": "her.",
+          "s": 252.94,
+          "e": 253.52
+        }
+      ]
+    },
+    {
+      "text": "That's why she joined our program.",
+      "translation": "这也是她加入我们项目的原因。",
+      "startTime": 253.83,
+      "endTime": 256.0,
+      "words": [
+        {
+          "w": "That's",
+          "s": 253.83,
+          "e": 253.99
+        },
+        {
+          "w": "why",
+          "s": 253.99,
+          "e": 254.23
+        },
+        {
+          "w": "she",
+          "s": 254.23,
+          "e": 254.47
+        },
+        {
+          "w": "joined",
+          "s": 254.47,
+          "e": 254.94
+        },
+        {
+          "w": "our",
+          "s": 254.94,
+          "e": 255.18
+        },
+        {
+          "w": "program.",
+          "s": 255.18,
+          "e": 256.0
+        }
+      ]
+    },
+    {
+      "text": "What she discovered just by being curiously aware when she smoked was that smoking tastes",
+      "translation": "但带着好奇心去觉察时，她发现烟的味道糟透了。",
+      "startTime": 256.31,
+      "endTime": 262.19,
+      "words": [
+        {
+          "w": "What",
+          "s": 256.31,
+          "e": 256.32
+        },
+        {
+          "w": "she",
+          "s": 256.32,
+          "e": 256.56
+        },
+        {
+          "w": "discovered",
+          "s": 256.56,
+          "e": 257.36
+        },
+        {
+          "w": "just",
+          "s": 257.36,
+          "e": 257.68
+        },
+        {
+          "w": "by",
+          "s": 257.68,
+          "e": 257.84
+        },
+        {
+          "w": "being",
+          "s": 257.84,
+          "e": 258.24
+        },
+        {
+          "w": "curiously",
+          "s": 258.24,
+          "e": 258.96
+        },
+        {
+          "w": "aware",
+          "s": 258.96,
+          "e": 259.36
+        },
+        {
+          "w": "when",
+          "s": 259.36,
+          "e": 259.68
+        },
+        {
+          "w": "she",
+          "s": 259.68,
+          "e": 259.91
+        },
+        {
+          "w": "smoked",
+          "s": 259.91,
+          "e": 260.4
+        },
+        {
+          "w": "was",
+          "s": 260.4,
+          "e": 260.64
+        },
+        {
+          "w": "that",
+          "s": 260.64,
+          "e": 260.96
+        },
+        {
+          "w": "smoking",
+          "s": 260.96,
+          "e": 261.55
+        },
+        {
+          "w": "tastes",
+          "s": 261.55,
+          "e": 262.19
+        }
+      ]
+    },
+    {
+      "text": "Like shit.",
+      "translation": "像屎一样。",
+      "startTime": 262.51,
+      "endTime": 264.64,
+      "words": [
+        {
+          "w": "Like",
+          "s": 262.51,
+          "e": 263.08
+        },
+        {
+          "w": "shit.",
+          "s": 263.08,
+          "e": 264.64
+        }
+      ]
+    },
+    {
+      "text": "Now, she moved from knowledge to wisdom.",
+      "translation": "她从「知道」走到了「体会」。",
+      "startTime": 264.95,
+      "endTime": 270.72,
+      "words": [
+        {
+          "w": "Now,",
+          "s": 264.95,
+          "e": 265.45
+        },
+        {
+          "w": "she",
+          "s": 265.45,
+          "e": 265.94
+        },
+        {
+          "w": "moved",
+          "s": 265.94,
+          "e": 266.76
+        },
+        {
+          "w": "from",
+          "s": 266.76,
+          "e": 267.41
+        },
+        {
+          "w": "knowledge",
+          "s": 267.41,
+          "e": 268.88
+        },
+        {
+          "w": "to",
+          "s": 268.88,
+          "e": 269.2
+        },
+        {
+          "w": "wisdom.",
+          "s": 269.2,
+          "e": 270.72
+        }
+      ]
+    },
+    {
+      "text": "She moved from knowing in her head that smoking is bad for her, to knowing it in her bones.",
+      "translation": "从脑子里知道，变成骨子里明白，烟的魔咒就破了。",
+      "startTime": 270.94,
+      "endTime": 276.32,
+      "words": [
+        {
+          "w": "She",
+          "s": 270.94,
+          "e": 271.04
+        },
+        {
+          "w": "moved",
+          "s": 271.03,
+          "e": 271.3
+        },
+        {
+          "w": "from",
+          "s": 271.3,
+          "e": 271.59
+        },
+        {
+          "w": "knowing",
+          "s": 271.59,
+          "e": 272.1
+        },
+        {
+          "w": "in",
+          "s": 272.1,
+          "e": 272.24
+        },
+        {
+          "w": "her",
+          "s": 272.24,
+          "e": 272.46
+        },
+        {
+          "w": "head",
+          "s": 272.46,
+          "e": 272.75
+        },
+        {
+          "w": "that",
+          "s": 272.75,
+          "e": 273.04
+        },
+        {
+          "w": "smoking",
+          "s": 273.04,
+          "e": 273.55
+        },
+        {
+          "w": "is",
+          "s": 273.55,
+          "e": 273.69
+        },
+        {
+          "w": "bad",
+          "s": 273.69,
+          "e": 273.91
+        },
+        {
+          "w": "for",
+          "s": 273.91,
+          "e": 274.13
+        },
+        {
+          "w": "her,",
+          "s": 274.13,
+          "e": 274.49
+        },
+        {
+          "w": "to",
+          "s": 274.49,
+          "e": 274.63
+        },
+        {
+          "w": "knowing",
+          "s": 274.63,
+          "e": 275.14
+        },
+        {
+          "w": "it",
+          "s": 275.14,
+          "e": 275.28
+        },
+        {
+          "w": "in",
+          "s": 275.28,
+          "e": 275.42
+        },
+        {
+          "w": "her",
+          "s": 275.42,
+          "e": 275.64
+        },
+        {
+          "w": "bones.",
+          "s": 275.64,
+          "e": 276.32
+        }
+      ]
+    },
+    {
+      "text": "And this spell of smoking was broken.",
+      "translation": "她开始对自己的行为「祛魅」。",
+      "startTime": 276.53,
+      "endTime": 278.56,
+      "words": [
+        {
+          "w": "And",
+          "s": 276.53,
+          "e": 276.63
+        },
+        {
+          "w": "this",
+          "s": 276.63,
+          "e": 276.74
+        },
+        {
+          "w": "spell",
+          "s": 276.74,
+          "e": 277.08
+        },
+        {
+          "w": "of",
+          "s": 277.08,
+          "e": 277.22
+        },
+        {
+          "w": "smoking",
+          "s": 277.22,
+          "e": 277.7
+        },
+        {
+          "w": "was",
+          "s": 277.7,
+          "e": 277.91
+        },
+        {
+          "w": "broken.",
+          "s": 277.91,
+          "e": 278.56
+        }
+      ]
+    },
+    {
+      "text": "She started to become disenchanted with her behavior.",
+      "translation": "她开始对自己的行为「祛魅」。",
+      "startTime": 278.85,
+      "endTime": 283.28,
+      "words": [
+        {
+          "w": "She",
+          "s": 278.85,
+          "e": 278.95
+        },
+        {
+          "w": "started",
+          "s": 278.87,
+          "e": 279.53
+        },
+        {
+          "w": "to",
+          "s": 279.53,
+          "e": 279.72
+        },
+        {
+          "w": "become",
+          "s": 279.72,
+          "e": 280.31
+        },
+        {
+          "w": "disenchanted",
+          "s": 280.31,
+          "e": 281.48
+        },
+        {
+          "w": "with",
+          "s": 281.48,
+          "e": 281.87
+        },
+        {
+          "w": "her",
+          "s": 281.87,
+          "e": 282.16
+        },
+        {
+          "w": "behavior.",
+          "s": 282.16,
+          "e": 283.28
+        }
+      ]
+    },
+    {
+      "text": "Now, the prefrontal cortex, that youngest part of our brain from an evolutionary perspective,",
+      "translation": "而前额叶皮层，从进化角度看，是我们大脑里最年轻的部分，",
+      "startTime": 283.48,
+      "endTime": 288.92,
+      "words": [
+        {
+          "w": "Now,",
+          "s": 283.48,
+          "e": 283.61
+        },
+        {
+          "w": "the",
+          "s": 283.61,
+          "e": 283.81
+        },
+        {
+          "w": "prefrontal",
+          "s": 283.81,
+          "e": 284.46
+        },
+        {
+          "w": "cortex,",
+          "s": 284.48,
+          "e": 285.01
+        },
+        {
+          "w": "that",
+          "s": 285.01,
+          "e": 285.27
+        },
+        {
+          "w": "youngest",
+          "s": 285.27,
+          "e": 285.8
+        },
+        {
+          "w": "part",
+          "s": 285.8,
+          "e": 286.05
+        },
+        {
+          "w": "of",
+          "s": 286.06,
+          "e": 286.19
+        },
+        {
+          "w": "our",
+          "s": 286.19,
+          "e": 286.38
+        },
+        {
+          "w": "brain",
+          "s": 286.39,
+          "e": 286.71
+        },
+        {
+          "w": "from",
+          "s": 286.72,
+          "e": 286.98
+        },
+        {
+          "w": "an",
+          "s": 286.98,
+          "e": 287.1
+        },
+        {
+          "w": "evolutionary",
+          "s": 287.1,
+          "e": 287.91
+        },
+        {
+          "w": "perspective,",
+          "s": 287.91,
+          "e": 288.92
+        }
+      ]
+    },
+    {
+      "text": "It understands on an intellectual level that we shouldn't smoke.",
+      "translation": "它在理智层面上明白我们不该抽烟。",
+      "startTime": 289.06,
+      "endTime": 293.04,
+      "words": [
+        {
+          "w": "It",
+          "s": 289.06,
+          "e": 289.16
+        },
+        {
+          "w": "understands",
+          "s": 289.23,
+          "e": 289.85
+        },
+        {
+          "w": "on",
+          "s": 289.85,
+          "e": 289.99
+        },
+        {
+          "w": "an",
+          "s": 289.99,
+          "e": 290.12
+        },
+        {
+          "w": "intellectual",
+          "s": 290.16,
+          "e": 290.99
+        },
+        {
+          "w": "level",
+          "s": 290.99,
+          "e": 291.35
+        },
+        {
+          "w": "that",
+          "s": 291.35,
+          "e": 291.63
+        },
+        {
+          "w": "we",
+          "s": 291.63,
+          "e": 291.77
+        },
+        {
+          "w": "shouldn't",
+          "s": 291.77,
+          "e": 292.41
+        },
+        {
+          "w": "smoke.",
+          "s": 292.41,
+          "e": 293.04
+        }
+      ]
+    },
+    {
+      "text": "And it tries its hardest to help us change our behavior, to help us stop smoking, to help",
+      "translation": "它会竭尽全力帮我们改变行为、帮我们戒烟，",
+      "startTime": 293.25,
+      "endTime": 298.32,
+      "words": [
+        {
+          "w": "And",
+          "s": 293.25,
+          "e": 293.35
+        },
+        {
+          "w": "it",
+          "s": 293.35,
+          "e": 293.39
+        },
+        {
+          "w": "tries",
+          "s": 293.39,
+          "e": 293.75
+        },
+        {
+          "w": "its",
+          "s": 293.75,
+          "e": 293.96
+        },
+        {
+          "w": "hardest",
+          "s": 293.96,
+          "e": 294.46
+        },
+        {
+          "w": "to",
+          "s": 294.46,
+          "e": 294.59
+        },
+        {
+          "w": "help",
+          "s": 294.6,
+          "e": 294.89
+        },
+        {
+          "w": "us",
+          "s": 294.89,
+          "e": 295.03
+        },
+        {
+          "w": "change",
+          "s": 295.03,
+          "e": 295.46
+        },
+        {
+          "w": "our",
+          "s": 295.46,
+          "e": 295.67
+        },
+        {
+          "w": "behavior,",
+          "s": 295.67,
+          "e": 296.37
+        },
+        {
+          "w": "to",
+          "s": 296.38,
+          "e": 296.52
+        },
+        {
+          "w": "help",
+          "s": 296.52,
+          "e": 296.81
+        },
+        {
+          "w": "us",
+          "s": 296.81,
+          "e": 296.95
+        },
+        {
+          "w": "stop",
+          "s": 296.95,
+          "e": 297.23
+        },
+        {
+          "w": "smoking,",
+          "s": 297.24,
+          "e": 297.88
+        },
+        {
+          "w": "to",
+          "s": 297.88,
+          "e": 298.12
+        },
+        {
+          "w": "help",
+          "s": 298.12,
+          "e": 298.32
+        }
+      ]
+    },
+    {
+      "text": "Us stop eating that second, that third, that fourth cookie.",
+      "translation": "帮我们不再吃那第二块、第三块、第四块饼干。",
+      "startTime": 298.5,
+      "endTime": 303.24,
+      "words": [
+        {
+          "w": "Us",
+          "s": 298.5,
+          "e": 298.6
+        },
+        {
+          "w": "stop",
+          "s": 298.63,
+          "e": 298.86
+        },
+        {
+          "w": "eating",
+          "s": 298.86,
+          "e": 299.4
+        },
+        {
+          "w": "that",
+          "s": 299.4,
+          "e": 299.76
+        },
+        {
+          "w": "second,",
+          "s": 299.76,
+          "e": 300.48
+        },
+        {
+          "w": "that",
+          "s": 300.48,
+          "e": 300.84
+        },
+        {
+          "w": "third,",
+          "s": 300.84,
+          "e": 301.47
+        },
+        {
+          "w": "that",
+          "s": 301.47,
+          "e": 301.82
+        },
+        {
+          "w": "fourth",
+          "s": 301.83,
+          "e": 302.37
+        },
+        {
+          "w": "cookie.",
+          "s": 302.37,
+          "e": 303.24
+        }
+      ]
+    },
+    {
+      "text": "We call this cognitive control.",
+      "translation": "我们把这叫做「认知控制」。",
+      "startTime": 303.33,
+      "endTime": 304.6,
+      "words": [
+        {
+          "w": "We",
+          "s": 303.33,
+          "e": 303.43
+        },
+        {
+          "w": "call",
+          "s": 303.51,
+          "e": 303.61
+        },
+        {
+          "w": "this",
+          "s": 303.55,
+          "e": 303.69
+        },
+        {
+          "w": "cognitive",
+          "s": 303.69,
+          "e": 304.11
+        },
+        {
+          "w": "control.",
+          "s": 304.11,
+          "e": 304.6
+        }
+      ]
+    },
+    {
+      "text": "We're using cognition to control our behavior.",
+      "translation": "也就是用认知来控制我们的行为。",
+      "startTime": 304.76,
+      "endTime": 307.96,
+      "words": [
+        {
+          "w": "We're",
+          "s": 304.76,
+          "e": 304.99
+        },
+        {
+          "w": "using",
+          "s": 304.99,
+          "e": 305.38
+        },
+        {
+          "w": "cognition",
+          "s": 305.39,
+          "e": 306.1
+        },
+        {
+          "w": "to",
+          "s": 306.1,
+          "e": 306.26
+        },
+        {
+          "w": "control",
+          "s": 306.26,
+          "e": 306.81
+        },
+        {
+          "w": "our",
+          "s": 306.81,
+          "e": 307.05
+        },
+        {
+          "w": "behavior.",
+          "s": 307.06,
+          "e": 307.96
+        }
+      ]
+    },
+    {
+      "text": "Unfortunately, this is also the first part of our brain that goes offline when we get stressed",
+      "translation": "可惜的是，当我们压力一大，这也是大脑里最先掉线的部分，",
+      "startTime": 308.27,
+      "endTime": 312.24,
+      "words": [
+        {
+          "w": "Unfortunately,",
+          "s": 308.27,
+          "e": 308.75
+        },
+        {
+          "w": "this",
+          "s": 308.76,
+          "e": 308.97
+        },
+        {
+          "w": "is",
+          "s": 308.97,
+          "e": 309.07
+        },
+        {
+          "w": "also",
+          "s": 309.07,
+          "e": 309.28
+        },
+        {
+          "w": "the",
+          "s": 309.28,
+          "e": 309.44
+        },
+        {
+          "w": "first",
+          "s": 309.44,
+          "e": 309.71
+        },
+        {
+          "w": "part",
+          "s": 309.71,
+          "e": 309.92
+        },
+        {
+          "w": "of",
+          "s": 309.92,
+          "e": 310.02
+        },
+        {
+          "w": "our",
+          "s": 310.02,
+          "e": 310.18
+        },
+        {
+          "w": "brain",
+          "s": 310.18,
+          "e": 310.45
+        },
+        {
+          "w": "that",
+          "s": 310.45,
+          "e": 310.66
+        },
+        {
+          "w": "goes",
+          "s": 310.66,
+          "e": 310.87
+        },
+        {
+          "w": "offline",
+          "s": 310.87,
+          "e": 311.25
+        },
+        {
+          "w": "when",
+          "s": 311.25,
+          "e": 311.46
+        },
+        {
+          "w": "we",
+          "s": 311.46,
+          "e": 311.56
+        },
+        {
+          "w": "get",
+          "s": 311.56,
+          "e": 311.84
+        },
+        {
+          "w": "stressed",
+          "s": 311.84,
+          "e": 312.24
+        }
+      ]
+    },
+    {
+      "text": "Out.",
+      "translation": "压力一大就掉线。",
+      "startTime": 312.55,
+      "endTime": 313.24,
+      "words": [
+        {
+          "w": "Out.",
+          "s": 312.55,
+          "e": 313.24
+        }
+      ]
+    },
+    {
+      "text": "Which isn't that helpful.",
+      "translation": "这可不怎么管用。",
+      "startTime": 313.44,
+      "endTime": 314.24,
+      "words": [
+        {
+          "w": "Which",
+          "s": 313.44,
+          "e": 313.54
+        },
+        {
+          "w": "isn't",
+          "s": 313.55,
+          "e": 313.64
+        },
+        {
+          "w": "that",
+          "s": 313.64,
+          "e": 313.8
+        },
+        {
+          "w": "helpful.",
+          "s": 313.8,
+          "e": 314.24
+        }
+      ]
+    },
+    {
+      "text": "Now, we can all relate to this on our own experience.",
+      "translation": "我们都能从自己的经验里体会到这一点。",
+      "startTime": 314.43,
+      "endTime": 317.2,
+      "words": [
+        {
+          "w": "Now,",
+          "s": 314.43,
+          "e": 314.65
+        },
+        {
+          "w": "we",
+          "s": 314.55,
+          "e": 314.67
+        },
+        {
+          "w": "can",
+          "s": 314.67,
+          "e": 314.86
+        },
+        {
+          "w": "all",
+          "s": 314.86,
+          "e": 315.05
+        },
+        {
+          "w": "relate",
+          "s": 315.05,
+          "e": 315.42
+        },
+        {
+          "w": "to",
+          "s": 315.44,
+          "e": 315.55
+        },
+        {
+          "w": "this",
+          "s": 315.55,
+          "e": 315.79
+        },
+        {
+          "w": "on",
+          "s": 315.79,
+          "e": 315.92
+        },
+        {
+          "w": "our",
+          "s": 315.92,
+          "e": 316.11
+        },
+        {
+          "w": "own",
+          "s": 316.11,
+          "e": 316.3
+        },
+        {
+          "w": "experience.",
+          "s": 316.3,
+          "e": 317.2
+        }
+      ]
+    },
+    {
+      "text": "We're much more likely to do things like yell at our spouse or kids when we're stressed",
+      "translation": "压力大或累坏了的时候，我们更容易对伴侣或孩子大吼大叫，",
+      "startTime": 317.3,
+      "endTime": 320.92,
+      "words": [
+        {
+          "w": "We're",
+          "s": 317.3,
+          "e": 317.55
+        },
+        {
+          "w": "much",
+          "s": 317.51,
+          "e": 317.65
+        },
+        {
+          "w": "more",
+          "s": 317.65,
+          "e": 317.85
+        },
+        {
+          "w": "likely",
+          "s": 317.85,
+          "e": 318.16
+        },
+        {
+          "w": "to",
+          "s": 318.16,
+          "e": 318.26
+        },
+        {
+          "w": "do",
+          "s": 318.26,
+          "e": 318.36
+        },
+        {
+          "w": "things",
+          "s": 318.36,
+          "e": 318.67
+        },
+        {
+          "w": "like",
+          "s": 318.67,
+          "e": 318.87
+        },
+        {
+          "w": "yell",
+          "s": 318.87,
+          "e": 319.07
+        },
+        {
+          "w": "at",
+          "s": 319.07,
+          "e": 319.17
+        },
+        {
+          "w": "our",
+          "s": 319.17,
+          "e": 319.32
+        },
+        {
+          "w": "spouse",
+          "s": 319.32,
+          "e": 319.63
+        },
+        {
+          "w": "or",
+          "s": 319.63,
+          "e": 319.73
+        },
+        {
+          "w": "kids",
+          "s": 319.73,
+          "e": 319.93
+        },
+        {
+          "w": "when",
+          "s": 319.93,
+          "e": 320.13
+        },
+        {
+          "w": "we're",
+          "s": 320.13,
+          "e": 320.38
+        },
+        {
+          "w": "stressed",
+          "s": 320.38,
+          "e": 320.92
+        }
+      ]
+    },
+    {
+      "text": "Out or retired even though we know it's not going to be helpful.",
+      "translation": "即便心里清楚这没什么用。",
+      "startTime": 321.09,
+      "endTime": 324.04,
+      "words": [
+        {
+          "w": "Out",
+          "s": 321.09,
+          "e": 321.19
+        },
+        {
+          "w": "or",
+          "s": 321.2,
+          "e": 321.3
+        },
+        {
+          "w": "retired",
+          "s": 321.23,
+          "e": 321.59
+        },
+        {
+          "w": "even",
+          "s": 321.59,
+          "e": 321.82
+        },
+        {
+          "w": "though",
+          "s": 321.82,
+          "e": 322.12
+        },
+        {
+          "w": "we",
+          "s": 322.16,
+          "e": 322.27
+        },
+        {
+          "w": "know",
+          "s": 322.27,
+          "e": 322.5
+        },
+        {
+          "w": "it's",
+          "s": 322.5,
+          "e": 322.72
+        },
+        {
+          "w": "not",
+          "s": 322.72,
+          "e": 322.89
+        },
+        {
+          "w": "going",
+          "s": 322.89,
+          "e": 323.17
+        },
+        {
+          "w": "to",
+          "s": 323.17,
+          "e": 323.28
+        },
+        {
+          "w": "be",
+          "s": 323.28,
+          "e": 323.39
+        },
+        {
+          "w": "helpful.",
+          "s": 323.39,
+          "e": 324.04
+        }
+      ]
+    },
+    {
+      "text": "We just can't help ourselves.",
+      "translation": "我们就是控制不住自己。",
+      "startTime": 324.18,
+      "endTime": 325.96,
+      "words": [
+        {
+          "w": "We",
+          "s": 324.18,
+          "e": 324.28
+        },
+        {
+          "w": "just",
+          "s": 324.35,
+          "e": 324.46
+        },
+        {
+          "w": "can't",
+          "s": 324.46,
+          "e": 324.81
+        },
+        {
+          "w": "help",
+          "s": 324.81,
+          "e": 325.09
+        },
+        {
+          "w": "ourselves.",
+          "s": 325.09,
+          "e": 325.96
+        }
+      ]
+    },
+    {
+      "text": "Now, when the prefrontal cortex goes offline, we fall back into our old habits, which",
+      "translation": "前额叶一掉线，我们就退回到旧习惯里。",
+      "startTime": 326.19,
+      "endTime": 331.88,
+      "words": [
+        {
+          "w": "Now,",
+          "s": 326.19,
+          "e": 326.34
+        },
+        {
+          "w": "when",
+          "s": 326.34,
+          "e": 326.65
+        },
+        {
+          "w": "the",
+          "s": 326.65,
+          "e": 326.88
+        },
+        {
+          "w": "prefrontal",
+          "s": 326.88,
+          "e": 327.65
+        },
+        {
+          "w": "cortex",
+          "s": 327.65,
+          "e": 328.11
+        },
+        {
+          "w": "goes",
+          "s": 328.11,
+          "e": 328.42
+        },
+        {
+          "w": "offline,",
+          "s": 328.42,
+          "e": 329.11
+        },
+        {
+          "w": "we",
+          "s": 329.11,
+          "e": 329.26
+        },
+        {
+          "w": "fall",
+          "s": 329.26,
+          "e": 329.56
+        },
+        {
+          "w": "back",
+          "s": 329.57,
+          "e": 329.87
+        },
+        {
+          "w": "into",
+          "s": 329.87,
+          "e": 330.19
+        },
+        {
+          "w": "our",
+          "s": 330.19,
+          "e": 330.41
+        },
+        {
+          "w": "old",
+          "s": 330.42,
+          "e": 330.8
+        },
+        {
+          "w": "habits,",
+          "s": 330.8,
+          "e": 331.41
+        },
+        {
+          "w": "which",
+          "s": 331.41,
+          "e": 331.88
+        }
+      ]
+    },
+    {
+      "text": "Is why this disenchantment is so important.",
+      "translation": "这就是为什么「祛魅」如此重要。",
+      "startTime": 332.02,
+      "endTime": 334.72,
+      "words": [
+        {
+          "w": "Is",
+          "s": 332.02,
+          "e": 332.12
+        },
+        {
+          "w": "why",
+          "s": 332.19,
+          "e": 332.23
+        },
+        {
+          "w": "this",
+          "s": 332.23,
+          "e": 332.52
+        },
+        {
+          "w": "disenchantment",
+          "s": 332.52,
+          "e": 333.52
+        },
+        {
+          "w": "is",
+          "s": 333.52,
+          "e": 333.66
+        },
+        {
+          "w": "so",
+          "s": 333.66,
+          "e": 333.8
+        },
+        {
+          "w": "important.",
+          "s": 333.8,
+          "e": 334.72
+        }
+      ]
+    },
+    {
+      "text": "Seeing what we get from our habits helps us understand them in a deeper level, to know",
+      "translation": "看清习惯到底给了我们什么，才能在更深处理解它。",
+      "startTime": 335.03,
+      "endTime": 338.8,
+      "words": [
+        {
+          "w": "Seeing",
+          "s": 335.03,
+          "e": 335.06
+        },
+        {
+          "w": "what",
+          "s": 335.06,
+          "e": 335.28
+        },
+        {
+          "w": "we",
+          "s": 335.28,
+          "e": 335.39
+        },
+        {
+          "w": "get",
+          "s": 335.39,
+          "e": 335.55
+        },
+        {
+          "w": "from",
+          "s": 335.56,
+          "e": 335.78
+        },
+        {
+          "w": "our",
+          "s": 335.78,
+          "e": 335.92
+        },
+        {
+          "w": "habits",
+          "s": 335.96,
+          "e": 336.29
+        },
+        {
+          "w": "helps",
+          "s": 336.29,
+          "e": 336.57
+        },
+        {
+          "w": "us",
+          "s": 336.57,
+          "e": 336.68
+        },
+        {
+          "w": "understand",
+          "s": 336.68,
+          "e": 337.24
+        },
+        {
+          "w": "them",
+          "s": 337.24,
+          "e": 337.46
+        },
+        {
+          "w": "in",
+          "s": 337.46,
+          "e": 337.57
+        },
+        {
+          "w": "a",
+          "s": 337.57,
+          "e": 337.62
+        },
+        {
+          "w": "deeper",
+          "s": 337.62,
+          "e": 337.96
+        },
+        {
+          "w": "level,",
+          "s": 337.96,
+          "e": 338.34
+        },
+        {
+          "w": "to",
+          "s": 338.35,
+          "e": 338.52
+        },
+        {
+          "w": "know",
+          "s": 338.52,
+          "e": 338.8
+        }
+      ]
+    },
+    {
+      "text": "It in our bones so we don't have to force ourselves to hold back or restrain ourselves",
+      "translation": "把它刻进骨子里，这样我们就不必强迫自己克制、",
+      "startTime": 338.89,
+      "endTime": 342.36,
+      "words": [
+        {
+          "w": "It",
+          "s": 338.89,
+          "e": 339.13
+        },
+        {
+          "w": "in",
+          "s": 339.11,
+          "e": 339.12
+        },
+        {
+          "w": "our",
+          "s": 339.12,
+          "e": 339.26
+        },
+        {
+          "w": "bones",
+          "s": 339.26,
+          "e": 339.62
+        },
+        {
+          "w": "so",
+          "s": 339.62,
+          "e": 339.71
+        },
+        {
+          "w": "we",
+          "s": 339.71,
+          "e": 339.8
+        },
+        {
+          "w": "don't",
+          "s": 339.8,
+          "e": 340.0
+        },
+        {
+          "w": "have",
+          "s": 340.04,
+          "e": 340.21
+        },
+        {
+          "w": "to",
+          "s": 340.21,
+          "e": 340.3
+        },
+        {
+          "w": "force",
+          "s": 340.3,
+          "e": 340.52
+        },
+        {
+          "w": "ourselves",
+          "s": 340.53,
+          "e": 340.95
+        },
+        {
+          "w": "to",
+          "s": 340.95,
+          "e": 341.04
+        },
+        {
+          "w": "hold",
+          "s": 341.04,
+          "e": 341.22
+        },
+        {
+          "w": "back",
+          "s": 341.22,
+          "e": 341.39
+        },
+        {
+          "w": "or",
+          "s": 341.4,
+          "e": 341.49
+        },
+        {
+          "w": "restrain",
+          "s": 341.49,
+          "e": 341.85
+        },
+        {
+          "w": "ourselves",
+          "s": 341.86,
+          "e": 342.36
+        }
+      ]
+    },
+    {
+      "text": "From behavior.",
+      "translation": "压抑自己的行为。",
+      "startTime": 342.62,
+      "endTime": 343.36,
+      "words": [
+        {
+          "w": "From",
+          "s": 342.62,
+          "e": 342.72
+        },
+        {
+          "w": "behavior.",
+          "s": 342.67,
+          "e": 343.36
+        }
+      ]
+    },
+    {
+      "text": "We're just less interested in doing it in the first place.",
+      "translation": "我们本来就不那么想做了。",
+      "startTime": 343.49,
+      "endTime": 346.72,
+      "words": [
+        {
+          "w": "We're",
+          "s": 343.49,
+          "e": 343.69
+        },
+        {
+          "w": "just",
+          "s": 343.69,
+          "e": 343.95
+        },
+        {
+          "w": "less",
+          "s": 343.95,
+          "e": 344.21
+        },
+        {
+          "w": "interested",
+          "s": 344.21,
+          "e": 344.88
+        },
+        {
+          "w": "in",
+          "s": 344.88,
+          "e": 345.01
+        },
+        {
+          "w": "doing",
+          "s": 345.01,
+          "e": 345.34
+        },
+        {
+          "w": "it",
+          "s": 345.34,
+          "e": 345.47
+        },
+        {
+          "w": "in",
+          "s": 345.47,
+          "e": 345.6
+        },
+        {
+          "w": "the",
+          "s": 345.6,
+          "e": 345.8
+        },
+        {
+          "w": "first",
+          "s": 345.8,
+          "e": 346.13
+        },
+        {
+          "w": "place.",
+          "s": 346.13,
+          "e": 346.72
+        }
+      ]
+    },
+    {
+      "text": "And this is what mindfulness is all about, seeing really clearly what we get when we get",
+      "translation": "正念做的就是这件事：清清楚楚看见我们陷进行为时得到了什么。",
+      "startTime": 346.91,
+      "endTime": 351.48,
+      "words": [
+        {
+          "w": "And",
+          "s": 346.91,
+          "e": 347.01
+        },
+        {
+          "w": "this",
+          "s": 347.03,
+          "e": 347.17
+        },
+        {
+          "w": "is",
+          "s": 347.17,
+          "e": 347.3
+        },
+        {
+          "w": "what",
+          "s": 347.3,
+          "e": 347.55
+        },
+        {
+          "w": "mindfulness",
+          "s": 347.56,
+          "e": 348.28
+        },
+        {
+          "w": "is",
+          "s": 348.28,
+          "e": 348.41
+        },
+        {
+          "w": "all",
+          "s": 348.41,
+          "e": 348.6
+        },
+        {
+          "w": "about,",
+          "s": 348.6,
+          "e": 349.05
+        },
+        {
+          "w": "seeing",
+          "s": 349.05,
+          "e": 349.44
+        },
+        {
+          "w": "really",
+          "s": 349.44,
+          "e": 349.82
+        },
+        {
+          "w": "clearly",
+          "s": 349.83,
+          "e": 350.28
+        },
+        {
+          "w": "what",
+          "s": 350.28,
+          "e": 350.54
+        },
+        {
+          "w": "we",
+          "s": 350.54,
+          "e": 350.66
+        },
+        {
+          "w": "get",
+          "s": 350.67,
+          "e": 350.86
+        },
+        {
+          "w": "when",
+          "s": 350.86,
+          "e": 351.12
+        },
+        {
+          "w": "we",
+          "s": 351.12,
+          "e": 351.31
+        },
+        {
+          "w": "get",
+          "s": 351.32,
+          "e": 351.48
+        }
+      ]
+    },
+    {
+      "text": "Caught up in our behaviors, becoming disenchanted on a visceral level, and from this disenchanted",
+      "translation": "看清我们被行为裹挟时到底得到了什么，在身体层面「祛魅」，",
+      "startTime": 351.79,
+      "endTime": 358.52,
+      "words": [
+        {
+          "w": "Caught",
+          "s": 351.79,
+          "e": 351.97
+        },
+        {
+          "w": "up",
+          "s": 351.97,
+          "e": 352.13
+        },
+        {
+          "w": "in",
+          "s": 352.13,
+          "e": 352.29
+        },
+        {
+          "w": "our",
+          "s": 352.29,
+          "e": 352.53
+        },
+        {
+          "w": "behaviors,",
+          "s": 352.53,
+          "e": 353.43
+        },
+        {
+          "w": "becoming",
+          "s": 353.43,
+          "e": 354.09
+        },
+        {
+          "w": "disenchanted",
+          "s": 354.09,
+          "e": 355.07
+        },
+        {
+          "w": "on",
+          "s": 355.07,
+          "e": 355.23
+        },
+        {
+          "w": "a",
+          "s": 355.23,
+          "e": 355.3
+        },
+        {
+          "w": "visceral",
+          "s": 355.3,
+          "e": 355.97
+        },
+        {
+          "w": "level,",
+          "s": 355.97,
+          "e": 356.54
+        },
+        {
+          "w": "and",
+          "s": 356.54,
+          "e": 356.78
+        },
+        {
+          "w": "from",
+          "s": 356.78,
+          "e": 357.11
+        },
+        {
+          "w": "this",
+          "s": 357.11,
+          "e": 357.44
+        },
+        {
+          "w": "disenchanted",
+          "s": 357.44,
+          "e": 358.52
+        }
+      ]
+    },
+    {
+      "text": "Stance naturally letting go.",
+      "translation": "然后从这种「祛魅」的状态里自然而然地放手。",
+      "startTime": 358.83,
+      "endTime": 361.24,
+      "words": [
+        {
+          "w": "Stance",
+          "s": 358.83,
+          "e": 359.12
+        },
+        {
+          "w": "naturally",
+          "s": 359.12,
+          "e": 360.02
+        },
+        {
+          "w": "letting",
+          "s": 360.02,
+          "e": 360.72
+        },
+        {
+          "w": "go.",
+          "s": 360.72,
+          "e": 361.24
+        }
+      ]
+    },
+    {
+      "text": "This isn't to say that poof magically we quit smoking, but over time as we learn to",
+      "translation": "这不是说「砰」的一下我们就神奇地戒了烟，而是随着时间推移，",
+      "startTime": 361.5,
+      "endTime": 365.8,
+      "words": [
+        {
+          "w": "This",
+          "s": 361.5,
+          "e": 361.6
+        },
+        {
+          "w": "isn't",
+          "s": 361.55,
+          "e": 361.83
+        },
+        {
+          "w": "to",
+          "s": 361.83,
+          "e": 361.96
+        },
+        {
+          "w": "say",
+          "s": 361.96,
+          "e": 362.16
+        },
+        {
+          "w": "that",
+          "s": 362.16,
+          "e": 362.42
+        },
+        {
+          "w": "poof",
+          "s": 362.42,
+          "e": 362.68
+        },
+        {
+          "w": "magically",
+          "s": 362.68,
+          "e": 363.28
+        },
+        {
+          "w": "we",
+          "s": 363.28,
+          "e": 363.41
+        },
+        {
+          "w": "quit",
+          "s": 363.41,
+          "e": 363.67
+        },
+        {
+          "w": "smoking,",
+          "s": 363.67,
+          "e": 364.26
+        },
+        {
+          "w": "but",
+          "s": 364.26,
+          "e": 364.46
+        },
+        {
+          "w": "over",
+          "s": 364.46,
+          "e": 364.72
+        },
+        {
+          "w": "time",
+          "s": 364.72,
+          "e": 364.98
+        },
+        {
+          "w": "as",
+          "s": 364.98,
+          "e": 365.11
+        },
+        {
+          "w": "we",
+          "s": 365.11,
+          "e": 365.24
+        },
+        {
+          "w": "learn",
+          "s": 365.24,
+          "e": 365.57
+        },
+        {
+          "w": "to",
+          "s": 365.57,
+          "e": 365.8
+        }
+      ]
+    },
+    {
+      "text": "See more and more clearly the results of our actions, we let go of old habits and form",
+      "translation": "当我们越来越清楚地看见行为的后果，我们就会放下旧习惯、",
+      "startTime": 365.99,
+      "endTime": 370.47,
+      "words": [
+        {
+          "w": "See",
+          "s": 365.99,
+          "e": 366.09
+        },
+        {
+          "w": "more",
+          "s": 366.11,
+          "e": 366.25
+        },
+        {
+          "w": "and",
+          "s": 366.25,
+          "e": 366.44
+        },
+        {
+          "w": "more",
+          "s": 366.44,
+          "e": 366.7
+        },
+        {
+          "w": "clearly",
+          "s": 366.7,
+          "e": 367.16
+        },
+        {
+          "w": "the",
+          "s": 367.16,
+          "e": 367.35
+        },
+        {
+          "w": "results",
+          "s": 367.35,
+          "e": 367.81
+        },
+        {
+          "w": "of",
+          "s": 367.81,
+          "e": 367.94
+        },
+        {
+          "w": "our",
+          "s": 367.94,
+          "e": 368.13
+        },
+        {
+          "w": "actions,",
+          "s": 368.13,
+          "e": 368.72
+        },
+        {
+          "w": "we",
+          "s": 368.72,
+          "e": 368.85
+        },
+        {
+          "w": "let",
+          "s": 368.85,
+          "e": 369.04
+        },
+        {
+          "w": "go",
+          "s": 369.04,
+          "e": 369.17
+        },
+        {
+          "w": "of",
+          "s": 369.17,
+          "e": 369.3
+        },
+        {
+          "w": "old",
+          "s": 369.3,
+          "e": 369.49
+        },
+        {
+          "w": "habits",
+          "s": 369.49,
+          "e": 369.88
+        },
+        {
+          "w": "and",
+          "s": 369.88,
+          "e": 370.16
+        },
+        {
+          "w": "form",
+          "s": 370.16,
+          "e": 370.47
+        }
+      ]
+    },
+    {
+      "text": "New nuanced",
+      "translation": "形成新的习惯。",
+      "startTime": 370.79,
+      "endTime": 372.4,
+      "words": [
+        {
+          "w": "New",
+          "s": 370.79,
+          "e": 371.05
+        },
+        {
+          "w": "nuanced",
+          "s": 371.05,
+          "e": 372.4
+        }
+      ]
+    },
+    {
+      "text": "The paradox here is that mindfulness is just about being really interested in getting",
+      "translation": "这里的悖论在于：正念其实只是对每时每刻",
+      "startTime": 372.58,
+      "endTime": 376.8,
+      "words": [
+        {
+          "w": "The",
+          "s": 372.58,
+          "e": 372.68
+        },
+        {
+          "w": "paradox",
+          "s": 372.71,
+          "e": 373.0
+        },
+        {
+          "w": "here",
+          "s": 373.0,
+          "e": 373.23
+        },
+        {
+          "w": "is",
+          "s": 373.24,
+          "e": 373.36
+        },
+        {
+          "w": "that",
+          "s": 373.36,
+          "e": 373.58
+        },
+        {
+          "w": "mindfulness",
+          "s": 373.6,
+          "e": 374.26
+        },
+        {
+          "w": "is",
+          "s": 374.26,
+          "e": 374.38
+        },
+        {
+          "w": "just",
+          "s": 374.38,
+          "e": 374.62
+        },
+        {
+          "w": "about",
+          "s": 374.62,
+          "e": 374.92
+        },
+        {
+          "w": "being",
+          "s": 374.92,
+          "e": 375.22
+        },
+        {
+          "w": "really",
+          "s": 375.22,
+          "e": 375.58
+        },
+        {
+          "w": "interested",
+          "s": 375.58,
+          "e": 376.17
+        },
+        {
+          "w": "in",
+          "s": 376.18,
+          "e": 376.36
+        },
+        {
+          "w": "getting",
+          "s": 376.36,
+          "e": 376.8
+        }
+      ]
+    },
+    {
+      "text": "Close and personal with what's actually happening in our bodies and minds from moment to moment.",
+      "translation": "身体和心里正在发生的事，真正感兴趣、愿意亲近。",
+      "startTime": 377.06,
+      "endTime": 382.24,
+      "words": [
+        {
+          "w": "Close",
+          "s": 377.06,
+          "e": 377.16
+        },
+        {
+          "w": "and",
+          "s": 377.11,
+          "e": 377.21
+        },
+        {
+          "w": "personal",
+          "s": 377.21,
+          "e": 377.62
+        },
+        {
+          "w": "with",
+          "s": 377.62,
+          "e": 377.82
+        },
+        {
+          "w": "what's",
+          "s": 377.82,
+          "e": 378.12
+        },
+        {
+          "w": "actually",
+          "s": 378.12,
+          "e": 378.52
+        },
+        {
+          "w": "happening",
+          "s": 378.53,
+          "e": 378.99
+        },
+        {
+          "w": "in",
+          "s": 378.99,
+          "e": 379.09
+        },
+        {
+          "w": "our",
+          "s": 379.09,
+          "e": 379.24
+        },
+        {
+          "w": "bodies",
+          "s": 379.24,
+          "e": 379.55
+        },
+        {
+          "w": "and",
+          "s": 379.55,
+          "e": 379.7
+        },
+        {
+          "w": "minds",
+          "s": 379.7,
+          "e": 379.96
+        },
+        {
+          "w": "from",
+          "s": 379.96,
+          "e": 380.16
+        },
+        {
+          "w": "moment",
+          "s": 380.16,
+          "e": 380.56
+        },
+        {
+          "w": "to",
+          "s": 380.56,
+          "e": 380.86
+        },
+        {
+          "w": "moment.",
+          "s": 380.86,
+          "e": 382.24
+        }
+      ]
+    },
+    {
+      "text": "This willingness to turn toward our experience rather than trying to make unpleasant cravings",
+      "translation": "这种愿意转向自己体验的态度，而不是急着把那些不快的渴望",
+      "startTime": 382.44,
+      "endTime": 386.24,
+      "words": [
+        {
+          "w": "This",
+          "s": 382.44,
+          "e": 382.54
+        },
+        {
+          "w": "willingness",
+          "s": 382.55,
+          "e": 382.98
+        },
+        {
+          "w": "to",
+          "s": 382.98,
+          "e": 383.07
+        },
+        {
+          "w": "turn",
+          "s": 383.08,
+          "e": 383.28
+        },
+        {
+          "w": "toward",
+          "s": 383.28,
+          "e": 383.57
+        },
+        {
+          "w": "our",
+          "s": 383.57,
+          "e": 383.72
+        },
+        {
+          "w": "experience",
+          "s": 383.72,
+          "e": 384.21
+        },
+        {
+          "w": "rather",
+          "s": 384.21,
+          "e": 384.5
+        },
+        {
+          "w": "than",
+          "s": 384.5,
+          "e": 384.7
+        },
+        {
+          "w": "trying",
+          "s": 384.7,
+          "e": 384.99
+        },
+        {
+          "w": "to",
+          "s": 384.99,
+          "e": 385.09
+        },
+        {
+          "w": "make",
+          "s": 385.09,
+          "e": 385.29
+        },
+        {
+          "w": "unpleasant",
+          "s": 385.29,
+          "e": 385.78
+        },
+        {
+          "w": "cravings",
+          "s": 385.78,
+          "e": 386.24
+        }
+      ]
+    },
+    {
+      "text": "Go away as quickly as possible.",
+      "translation": "尽快赶走。",
+      "startTime": 386.44,
+      "endTime": 389.12,
+      "words": [
+        {
+          "w": "Go",
+          "s": 386.44,
+          "e": 386.54
+        },
+        {
+          "w": "away",
+          "s": 386.55,
+          "e": 386.85
+        },
+        {
+          "w": "as",
+          "s": 386.85,
+          "e": 387.05
+        },
+        {
+          "w": "quickly",
+          "s": 387.05,
+          "e": 387.76
+        },
+        {
+          "w": "as",
+          "s": 387.76,
+          "e": 387.96
+        },
+        {
+          "w": "possible.",
+          "s": 387.96,
+          "e": 389.12
+        }
+      ]
+    },
+    {
+      "text": "And this willingness to turn toward our experience is supported by curiosity, which is naturally",
+      "translation": "好奇是什么感觉？",
+      "startTime": 389.3,
+      "endTime": 394.28,
+      "words": [
+        {
+          "w": "And",
+          "s": 389.3,
+          "e": 389.4
+        },
+        {
+          "w": "this",
+          "s": 389.43,
+          "e": 389.54
+        },
+        {
+          "w": "willingness",
+          "s": 389.54,
+          "e": 390.22
+        },
+        {
+          "w": "to",
+          "s": 390.22,
+          "e": 390.32
+        },
+        {
+          "w": "turn",
+          "s": 390.36,
+          "e": 390.58
+        },
+        {
+          "w": "toward",
+          "s": 390.58,
+          "e": 390.95
+        },
+        {
+          "w": "our",
+          "s": 390.95,
+          "e": 391.13
+        },
+        {
+          "w": "experience",
+          "s": 391.14,
+          "e": 391.75
+        },
+        {
+          "w": "is",
+          "s": 391.75,
+          "e": 391.87
+        },
+        {
+          "w": "supported",
+          "s": 391.87,
+          "e": 392.42
+        },
+        {
+          "w": "by",
+          "s": 392.42,
+          "e": 392.53
+        },
+        {
+          "w": "curiosity,",
+          "s": 392.54,
+          "e": 393.21
+        },
+        {
+          "w": "which",
+          "s": 393.21,
+          "e": 393.52
+        },
+        {
+          "w": "is",
+          "s": 393.52,
+          "e": 393.71
+        },
+        {
+          "w": "naturally",
+          "s": 393.72,
+          "e": 394.28
+        }
+      ]
+    },
+    {
+      "text": "Rewarding.",
+      "translation": "是有回报的。",
+      "startTime": 394.59,
+      "endTime": 395.28,
+      "words": [
+        {
+          "w": "Rewarding.",
+          "s": 394.59,
+          "e": 395.28
+        }
+      ]
+    },
+    {
+      "text": "Does curiosity feel like it feels good.",
+      "translation": "感觉很好。",
+      "startTime": 395.59,
+      "endTime": 399.28,
+      "words": [
+        {
+          "w": "Does",
+          "s": 395.59,
+          "e": 396.01
+        },
+        {
+          "w": "curiosity",
+          "s": 396.01,
+          "e": 396.95
+        },
+        {
+          "w": "feel",
+          "s": 396.95,
+          "e": 397.37
+        },
+        {
+          "w": "like",
+          "s": 397.37,
+          "e": 397.79
+        },
+        {
+          "w": "it",
+          "s": 397.79,
+          "e": 398.0
+        },
+        {
+          "w": "feels",
+          "s": 398.0,
+          "e": 398.52
+        },
+        {
+          "w": "good.",
+          "s": 398.52,
+          "e": 399.28
+        }
+      ]
+    },
+    {
+      "text": "And what happens when we get curious?",
+      "translation": "我们开始发现，",
+      "startTime": 399.49,
+      "endTime": 401.6,
+      "words": [
+        {
+          "w": "And",
+          "s": 399.49,
+          "e": 399.59
+        },
+        {
+          "w": "what",
+          "s": 399.59,
+          "e": 399.77
+        },
+        {
+          "w": "happens",
+          "s": 399.77,
+          "e": 400.26
+        },
+        {
+          "w": "when",
+          "s": 400.26,
+          "e": 400.54
+        },
+        {
+          "w": "we",
+          "s": 400.54,
+          "e": 400.68
+        },
+        {
+          "w": "get",
+          "s": 400.68,
+          "e": 400.89
+        },
+        {
+          "w": "curious?",
+          "s": 400.89,
+          "e": 401.6
+        }
+      ]
+    },
+    {
+      "text": "We start to notice the cravings are simply made up of body sensations.",
+      "translation": "渴望不过是一堆身体感觉。哦，",
+      "startTime": 401.7,
+      "endTime": 404.87,
+      "words": [
+        {
+          "w": "We",
+          "s": 401.7,
+          "e": 401.8
+        },
+        {
+          "w": "start",
+          "s": 401.91,
+          "e": 401.96
+        },
+        {
+          "w": "to",
+          "s": 401.96,
+          "e": 402.06
+        },
+        {
+          "w": "notice",
+          "s": 402.06,
+          "e": 402.38
+        },
+        {
+          "w": "the",
+          "s": 402.38,
+          "e": 402.59
+        },
+        {
+          "w": "cravings",
+          "s": 402.59,
+          "e": 403.01
+        },
+        {
+          "w": "are",
+          "s": 403.01,
+          "e": 403.17
+        },
+        {
+          "w": "simply",
+          "s": 403.17,
+          "e": 403.49
+        },
+        {
+          "w": "made",
+          "s": 403.49,
+          "e": 403.7
+        },
+        {
+          "w": "up",
+          "s": 403.7,
+          "e": 403.8
+        },
+        {
+          "w": "of",
+          "s": 403.8,
+          "e": 403.9
+        },
+        {
+          "w": "body",
+          "s": 403.9,
+          "e": 404.11
+        },
+        {
+          "w": "sensations.",
+          "s": 404.11,
+          "e": 404.87
+        }
+      ]
+    },
+    {
+      "text": "Oh, there's tightness, there's tension, there's restlessness, and that these body sensations",
+      "translation": "有发紧、有绷着、有坐立不安。",
+      "startTime": 405.0,
+      "endTime": 410.24,
+      "words": [
+        {
+          "w": "Oh,",
+          "s": 405.0,
+          "e": 405.22
+        },
+        {
+          "w": "there's",
+          "s": 405.19,
+          "e": 405.56
+        },
+        {
+          "w": "tightness,",
+          "s": 405.56,
+          "e": 406.24
+        },
+        {
+          "w": "there's",
+          "s": 406.24,
+          "e": 406.69
+        },
+        {
+          "w": "tension,",
+          "s": 406.69,
+          "e": 407.25
+        },
+        {
+          "w": "there's",
+          "s": 407.25,
+          "e": 407.69
+        },
+        {
+          "w": "restlessness,",
+          "s": 407.69,
+          "e": 408.57
+        },
+        {
+          "w": "and",
+          "s": 408.57,
+          "e": 408.76
+        },
+        {
+          "w": "that",
+          "s": 408.76,
+          "e": 409.01
+        },
+        {
+          "w": "these",
+          "s": 409.01,
+          "e": 409.33
+        },
+        {
+          "w": "body",
+          "s": 409.33,
+          "e": 409.68
+        },
+        {
+          "w": "sensations",
+          "s": 409.68,
+          "e": 410.24
+        }
+      ]
+    },
+    {
+      "text": "Come and go.",
+      "translation": "来了又去。",
+      "startTime": 410.55,
+      "endTime": 412.16,
+      "words": [
+        {
+          "w": "Come",
+          "s": 410.55,
+          "e": 410.88
+        },
+        {
+          "w": "and",
+          "s": 410.88,
+          "e": 411.36
+        },
+        {
+          "w": "go.",
+          "s": 411.36,
+          "e": 412.16
+        }
+      ]
+    },
+    {
+      "text": "These are sized pieces of experiences that we can manage from moment to moment rather",
+      "translation": "这些是一小片一小片的体验，我们可以在每个当下从容应对。",
+      "startTime": 412.47,
+      "endTime": 417.32,
+      "words": [
+        {
+          "w": "These",
+          "s": 412.47,
+          "e": 412.5
+        },
+        {
+          "w": "are",
+          "s": 412.5,
+          "e": 412.7
+        },
+        {
+          "w": "sized",
+          "s": 412.7,
+          "e": 413.36
+        },
+        {
+          "w": "pieces",
+          "s": 413.4,
+          "e": 413.78
+        },
+        {
+          "w": "of",
+          "s": 413.78,
+          "e": 413.91
+        },
+        {
+          "w": "experiences",
+          "s": 413.91,
+          "e": 414.67
+        },
+        {
+          "w": "that",
+          "s": 414.67,
+          "e": 414.93
+        },
+        {
+          "w": "we",
+          "s": 414.94,
+          "e": 415.07
+        },
+        {
+          "w": "can",
+          "s": 415.07,
+          "e": 415.26
+        },
+        {
+          "w": "manage",
+          "s": 415.27,
+          "e": 415.68
+        },
+        {
+          "w": "from",
+          "s": 415.68,
+          "e": 415.95
+        },
+        {
+          "w": "moment",
+          "s": 415.95,
+          "e": 416.35
+        },
+        {
+          "w": "to",
+          "s": 416.36,
+          "e": 416.49
+        },
+        {
+          "w": "moment",
+          "s": 416.49,
+          "e": 417.04
+        },
+        {
+          "w": "rather",
+          "s": 417.04,
+          "e": 417.32
+        }
+      ]
+    },
+    {
+      "text": "Than getting clobbered by this huge scary craving that we choke on.",
+      "translation": "换句话说，",
+      "startTime": 417.63,
+      "endTime": 422.76,
+      "words": [
+        {
+          "w": "Than",
+          "s": 417.63,
+          "e": 417.69
+        },
+        {
+          "w": "getting",
+          "s": 417.69,
+          "e": 418.34
+        },
+        {
+          "w": "clobbered",
+          "s": 418.34,
+          "e": 419.16
+        },
+        {
+          "w": "by",
+          "s": 419.16,
+          "e": 419.34
+        },
+        {
+          "w": "this",
+          "s": 419.34,
+          "e": 419.71
+        },
+        {
+          "w": "huge",
+          "s": 419.71,
+          "e": 420.08
+        },
+        {
+          "w": "scary",
+          "s": 420.08,
+          "e": 420.54
+        },
+        {
+          "w": "craving",
+          "s": 420.54,
+          "e": 421.19
+        },
+        {
+          "w": "that",
+          "s": 421.19,
+          "e": 421.56
+        },
+        {
+          "w": "we",
+          "s": 421.56,
+          "e": 421.74
+        },
+        {
+          "w": "choke",
+          "s": 421.74,
+          "e": 422.2
+        },
+        {
+          "w": "on.",
+          "s": 422.2,
+          "e": 422.76
+        }
+      ]
+    },
+    {
+      "text": "In other words, when we get curious, we step out of our old based reactive habit patterns",
+      "translation": "好奇让我们走出恐惧驱动的旧反应模式，回到「在场」。",
+      "startTime": 422.92,
+      "endTime": 429.88,
+      "words": [
+        {
+          "w": "In",
+          "s": 422.92,
+          "e": 423.02
+        },
+        {
+          "w": "other",
+          "s": 423.07,
+          "e": 423.33
+        },
+        {
+          "w": "words,",
+          "s": 423.33,
+          "e": 423.9
+        },
+        {
+          "w": "when",
+          "s": 423.9,
+          "e": 424.23
+        },
+        {
+          "w": "we",
+          "s": 424.23,
+          "e": 424.39
+        },
+        {
+          "w": "get",
+          "s": 424.39,
+          "e": 424.64
+        },
+        {
+          "w": "curious,",
+          "s": 424.64,
+          "e": 425.38
+        },
+        {
+          "w": "we",
+          "s": 425.38,
+          "e": 425.53
+        },
+        {
+          "w": "step",
+          "s": 425.54,
+          "e": 425.86
+        },
+        {
+          "w": "out",
+          "s": 425.87,
+          "e": 426.12
+        },
+        {
+          "w": "of",
+          "s": 426.12,
+          "e": 426.28
+        },
+        {
+          "w": "our",
+          "s": 426.28,
+          "e": 426.53
+        },
+        {
+          "w": "old",
+          "s": 426.53,
+          "e": 426.78
+        },
+        {
+          "w": "based",
+          "s": 426.78,
+          "e": 427.6
+        },
+        {
+          "w": "reactive",
+          "s": 427.6,
+          "e": 428.26
+        },
+        {
+          "w": "habit",
+          "s": 428.26,
+          "e": 428.78
+        },
+        {
+          "w": "patterns",
+          "s": 428.78,
+          "e": 429.88
+        }
+      ]
+    },
+    {
+      "text": "And we step into being.",
+      "translation": "走进「存在」的状态。",
+      "startTime": 430.19,
+      "endTime": 432.28,
+      "words": [
+        {
+          "w": "And",
+          "s": 430.19,
+          "e": 430.22
+        },
+        {
+          "w": "we",
+          "s": 430.22,
+          "e": 430.44
+        },
+        {
+          "w": "step",
+          "s": 430.44,
+          "e": 430.89
+        },
+        {
+          "w": "into",
+          "s": 430.89,
+          "e": 431.34
+        },
+        {
+          "w": "being.",
+          "s": 431.34,
+          "e": 432.28
+        }
+      ]
+    },
+    {
+      "text": "We become this inner scientist where we're eagerly awaiting that next data point.",
+      "translation": "我们变成了内在的科学家，热切地等待着下一个数据点。",
+      "startTime": 432.45,
+      "endTime": 438.44,
+      "words": [
+        {
+          "w": "We",
+          "s": 432.45,
+          "e": 432.55
+        },
+        {
+          "w": "become",
+          "s": 432.59,
+          "e": 432.97
+        },
+        {
+          "w": "this",
+          "s": 432.97,
+          "e": 433.31
+        },
+        {
+          "w": "inner",
+          "s": 433.31,
+          "e": 433.74
+        },
+        {
+          "w": "scientist",
+          "s": 433.74,
+          "e": 434.52
+        },
+        {
+          "w": "where",
+          "s": 434.52,
+          "e": 434.95
+        },
+        {
+          "w": "we're",
+          "s": 434.95,
+          "e": 435.37
+        },
+        {
+          "w": "eagerly",
+          "s": 435.37,
+          "e": 435.97
+        },
+        {
+          "w": "awaiting",
+          "s": 435.97,
+          "e": 436.66
+        },
+        {
+          "w": "that",
+          "s": 436.66,
+          "e": 437.0
+        },
+        {
+          "w": "next",
+          "s": 437.0,
+          "e": 437.34
+        },
+        {
+          "w": "data",
+          "s": 437.34,
+          "e": 437.68
+        },
+        {
+          "w": "point.",
+          "s": 437.68,
+          "e": 438.44
+        }
+      ]
+    },
+    {
+      "text": "Now this might sound too simplistic to affect behavior, but in one study we found that mindfulness",
+      "translation": "在一项研究里，",
+      "startTime": 438.66,
+      "endTime": 444.52,
+      "words": [
+        {
+          "w": "Now",
+          "s": 438.66,
+          "e": 438.76
+        },
+        {
+          "w": "this",
+          "s": 438.75,
+          "e": 438.95
+        },
+        {
+          "w": "might",
+          "s": 438.95,
+          "e": 439.31
+        },
+        {
+          "w": "sound",
+          "s": 439.31,
+          "e": 439.64
+        },
+        {
+          "w": "too",
+          "s": 439.68,
+          "e": 439.89
+        },
+        {
+          "w": "simplistic",
+          "s": 439.89,
+          "e": 440.62
+        },
+        {
+          "w": "to",
+          "s": 440.62,
+          "e": 440.76
+        },
+        {
+          "w": "affect",
+          "s": 440.76,
+          "e": 441.19
+        },
+        {
+          "w": "behavior,",
+          "s": 441.19,
+          "e": 441.91
+        },
+        {
+          "w": "but",
+          "s": 441.91,
+          "e": 442.13
+        },
+        {
+          "w": "in",
+          "s": 442.13,
+          "e": 442.26
+        },
+        {
+          "w": "one",
+          "s": 442.26,
+          "e": 442.49
+        },
+        {
+          "w": "study",
+          "s": 442.49,
+          "e": 442.84
+        },
+        {
+          "w": "we",
+          "s": 442.84,
+          "e": 442.99
+        },
+        {
+          "w": "found",
+          "s": 442.99,
+          "e": 443.35
+        },
+        {
+          "w": "that",
+          "s": 443.35,
+          "e": 443.64
+        },
+        {
+          "w": "mindfulness",
+          "s": 443.64,
+          "e": 444.52
+        }
+      ]
+    },
+    {
+      "text": "Training was twice as good as gold standard therapy at helping people quit smoking.",
+      "translation": "正念训练帮助戒烟的效果是标准疗法的两倍。",
+      "startTime": 444.83,
+      "endTime": 449.36,
+      "words": [
+        {
+          "w": "Training",
+          "s": 444.83,
+          "e": 445.05
+        },
+        {
+          "w": "was",
+          "s": 445.05,
+          "e": 445.25
+        },
+        {
+          "w": "twice",
+          "s": 445.25,
+          "e": 445.58
+        },
+        {
+          "w": "as",
+          "s": 445.58,
+          "e": 445.7
+        },
+        {
+          "w": "good",
+          "s": 445.72,
+          "e": 445.97
+        },
+        {
+          "w": "as",
+          "s": 445.97,
+          "e": 446.1
+        },
+        {
+          "w": "gold",
+          "s": 446.1,
+          "e": 446.36
+        },
+        {
+          "w": "standard",
+          "s": 446.36,
+          "e": 446.89
+        },
+        {
+          "w": "therapy",
+          "s": 446.89,
+          "e": 447.36
+        },
+        {
+          "w": "at",
+          "s": 447.36,
+          "e": 447.48
+        },
+        {
+          "w": "helping",
+          "s": 447.49,
+          "e": 447.95
+        },
+        {
+          "w": "people",
+          "s": 447.96,
+          "e": 448.36
+        },
+        {
+          "w": "quit",
+          "s": 448.36,
+          "e": 448.62
+        },
+        {
+          "w": "smoking.",
+          "s": 448.62,
+          "e": 449.36
+        }
+      ]
+    },
+    {
+      "text": "So it actually works.",
+      "translation": "所以它真的有效。",
+      "startTime": 449.63,
+      "endTime": 452.12,
+      "words": [
+        {
+          "w": "So",
+          "s": 449.63,
+          "e": 449.73
+        },
+        {
+          "w": "it",
+          "s": 449.67,
+          "e": 449.9
+        },
+        {
+          "w": "actually",
+          "s": 449.9,
+          "e": 451.0
+        },
+        {
+          "w": "works.",
+          "s": 451.0,
+          "e": 452.12
+        }
+      ]
+    },
+    {
+      "text": "When we studied the brains of experienced meditators, we found that parts of a neural",
+      "translation": "研究资深冥想者的大脑时，我们发现默认模式网络参与其中。",
+      "startTime": 452.36,
+      "endTime": 456.48,
+      "words": [
+        {
+          "w": "When",
+          "s": 452.36,
+          "e": 452.46
+        },
+        {
+          "w": "we",
+          "s": 452.43,
+          "e": 452.48
+        },
+        {
+          "w": "studied",
+          "s": 452.48,
+          "e": 452.9
+        },
+        {
+          "w": "the",
+          "s": 452.9,
+          "e": 453.08
+        },
+        {
+          "w": "brains",
+          "s": 453.08,
+          "e": 453.44
+        },
+        {
+          "w": "of",
+          "s": 453.44,
+          "e": 453.56
+        },
+        {
+          "w": "experienced",
+          "s": 453.56,
+          "e": 454.22
+        },
+        {
+          "w": "meditators,",
+          "s": 454.22,
+          "e": 454.94
+        },
+        {
+          "w": "we",
+          "s": 454.94,
+          "e": 455.06
+        },
+        {
+          "w": "found",
+          "s": 455.06,
+          "e": 455.36
+        },
+        {
+          "w": "that",
+          "s": 455.36,
+          "e": 455.6
+        },
+        {
+          "w": "parts",
+          "s": 455.6,
+          "e": 455.89
+        },
+        {
+          "w": "of",
+          "s": 455.9,
+          "e": 456.01
+        },
+        {
+          "w": "a",
+          "s": 456.02,
+          "e": 456.08
+        },
+        {
+          "w": "neural",
+          "s": 456.08,
+          "e": 456.48
+        }
+      ]
+    },
+    {
+      "text": "Network of referential processing called the default network where it play.",
+      "translation": "即「默认模式网络」这套参照加工网络在起作用。",
+      "startTime": 456.79,
+      "endTime": 461.48,
+      "words": [
+        {
+          "w": "Network",
+          "s": 456.79,
+          "e": 456.96
+        },
+        {
+          "w": "of",
+          "s": 456.96,
+          "e": 457.09
+        },
+        {
+          "w": "referential",
+          "s": 457.09,
+          "e": 458.17
+        },
+        {
+          "w": "processing",
+          "s": 458.18,
+          "e": 458.86
+        },
+        {
+          "w": "called",
+          "s": 458.86,
+          "e": 459.27
+        },
+        {
+          "w": "the",
+          "s": 459.27,
+          "e": 459.46
+        },
+        {
+          "w": "default",
+          "s": 459.47,
+          "e": 459.95
+        },
+        {
+          "w": "network",
+          "s": 459.95,
+          "e": 460.42
+        },
+        {
+          "w": "where",
+          "s": 460.43,
+          "e": 460.77
+        },
+        {
+          "w": "it",
+          "s": 460.77,
+          "e": 460.9
+        },
+        {
+          "w": "play.",
+          "s": 460.9,
+          "e": 461.48
+        }
+      ]
+    },
+    {
+      "text": "Now one current hypothesis is that a region of this network called the posterior simulate",
+      "translation": "目前的一个假说是：这个网络中一个叫「后扣带皮层」的区域",
+      "startTime": 461.64,
+      "endTime": 465.67,
+      "words": [
+        {
+          "w": "Now",
+          "s": 461.64,
+          "e": 461.74
+        },
+        {
+          "w": "one",
+          "s": 461.79,
+          "e": 461.8
+        },
+        {
+          "w": "current",
+          "s": 461.8,
+          "e": 462.18
+        },
+        {
+          "w": "hypothesis",
+          "s": 462.18,
+          "e": 462.73
+        },
+        {
+          "w": "is",
+          "s": 462.73,
+          "e": 462.84
+        },
+        {
+          "w": "that",
+          "s": 462.84,
+          "e": 463.06
+        },
+        {
+          "w": "a",
+          "s": 463.06,
+          "e": 463.11
+        },
+        {
+          "w": "region",
+          "s": 463.11,
+          "e": 463.44
+        },
+        {
+          "w": "of",
+          "s": 463.44,
+          "e": 463.55
+        },
+        {
+          "w": "this",
+          "s": 463.55,
+          "e": 463.77
+        },
+        {
+          "w": "network",
+          "s": 463.77,
+          "e": 464.15
+        },
+        {
+          "w": "called",
+          "s": 464.15,
+          "e": 464.47
+        },
+        {
+          "w": "the",
+          "s": 464.48,
+          "e": 464.64
+        },
+        {
+          "w": "posterior",
+          "s": 464.64,
+          "e": 465.13
+        },
+        {
+          "w": "simulate",
+          "s": 465.13,
+          "e": 465.67
+        }
+      ]
+    },
+    {
+      "text": "Cortex is activated not necessarily by craving itself, but when we get caught up in it, when",
+      "translation": "被激活，未必是因为渴望本身，而是因为我们被它卷进去、",
+      "startTime": 465.99,
+      "endTime": 470.88,
+      "words": [
+        {
+          "w": "Cortex",
+          "s": 465.99,
+          "e": 466.09
+        },
+        {
+          "w": "is",
+          "s": 466.09,
+          "e": 466.22
+        },
+        {
+          "w": "activated",
+          "s": 466.22,
+          "e": 466.83
+        },
+        {
+          "w": "not",
+          "s": 466.83,
+          "e": 467.03
+        },
+        {
+          "w": "necessarily",
+          "s": 467.03,
+          "e": 467.78
+        },
+        {
+          "w": "by",
+          "s": 467.78,
+          "e": 467.91
+        },
+        {
+          "w": "craving",
+          "s": 467.91,
+          "e": 468.45
+        },
+        {
+          "w": "itself,",
+          "s": 468.45,
+          "e": 468.99
+        },
+        {
+          "w": "but",
+          "s": 468.99,
+          "e": 469.18
+        },
+        {
+          "w": "when",
+          "s": 469.19,
+          "e": 469.45
+        },
+        {
+          "w": "we",
+          "s": 469.46,
+          "e": 469.59
+        },
+        {
+          "w": "get",
+          "s": 469.59,
+          "e": 469.78
+        },
+        {
+          "w": "caught",
+          "s": 469.79,
+          "e": 470.2
+        },
+        {
+          "w": "up",
+          "s": 470.2,
+          "e": 470.33
+        },
+        {
+          "w": "in",
+          "s": 470.33,
+          "e": 470.46
+        },
+        {
+          "w": "it,",
+          "s": 470.46,
+          "e": 470.84
+        },
+        {
+          "w": "when",
+          "s": 470.84,
+          "e": 470.88
+        }
+      ]
+    },
+    {
+      "text": "We get sucked in and it takes us for a ride.",
+      "translation": "被它吸进去、被它带着跑的时候。",
+      "startTime": 471.04,
+      "endTime": 473.87,
+      "words": [
+        {
+          "w": "We",
+          "s": 471.04,
+          "e": 471.14
+        },
+        {
+          "w": "get",
+          "s": 471.19,
+          "e": 471.29
+        },
+        {
+          "w": "sucked",
+          "s": 471.29,
+          "e": 471.78
+        },
+        {
+          "w": "in",
+          "s": 471.78,
+          "e": 471.94
+        },
+        {
+          "w": "and",
+          "s": 471.94,
+          "e": 472.19
+        },
+        {
+          "w": "it",
+          "s": 472.19,
+          "e": 472.35
+        },
+        {
+          "w": "takes",
+          "s": 472.35,
+          "e": 472.76
+        },
+        {
+          "w": "us",
+          "s": 472.76,
+          "e": 472.92
+        },
+        {
+          "w": "for",
+          "s": 472.92,
+          "e": 473.17
+        },
+        {
+          "w": "a",
+          "s": 473.17,
+          "e": 473.25
+        },
+        {
+          "w": "ride.",
+          "s": 473.25,
+          "e": 473.87
+        }
+      ]
+    },
+    {
+      "text": "In contrast, when we let go, step out of the process just by being curiously aware of what's",
+      "translation": "相反，当我们放手，只是带着好奇去觉察正在发生的事、",
+      "startTime": 474.02,
+      "endTime": 479.0,
+      "words": [
+        {
+          "w": "In",
+          "s": 474.02,
+          "e": 474.12
+        },
+        {
+          "w": "contrast,",
+          "s": 474.19,
+          "e": 474.71
+        },
+        {
+          "w": "when",
+          "s": 474.72,
+          "e": 475.0
+        },
+        {
+          "w": "we",
+          "s": 475.0,
+          "e": 475.14
+        },
+        {
+          "w": "let",
+          "s": 475.14,
+          "e": 475.35
+        },
+        {
+          "w": "go,",
+          "s": 475.35,
+          "e": 475.63
+        },
+        {
+          "w": "step",
+          "s": 475.63,
+          "e": 475.91
+        },
+        {
+          "w": "out",
+          "s": 475.91,
+          "e": 476.12
+        },
+        {
+          "w": "of",
+          "s": 476.12,
+          "e": 476.26
+        },
+        {
+          "w": "the",
+          "s": 476.26,
+          "e": 476.47
+        },
+        {
+          "w": "process",
+          "s": 476.47,
+          "e": 476.96
+        },
+        {
+          "w": "just",
+          "s": 476.96,
+          "e": 477.24
+        },
+        {
+          "w": "by",
+          "s": 477.24,
+          "e": 477.38
+        },
+        {
+          "w": "being",
+          "s": 477.38,
+          "e": 477.73
+        },
+        {
+          "w": "curiously",
+          "s": 477.73,
+          "e": 478.22
+        },
+        {
+          "w": "aware",
+          "s": 478.22,
+          "e": 478.57
+        },
+        {
+          "w": "of",
+          "s": 478.57,
+          "e": 478.8
+        },
+        {
+          "w": "what's",
+          "s": 478.8,
+          "e": 479.0
+        }
+      ]
+    },
+    {
+      "text": "Happening, this same brain region quiets down.",
+      "translation": "从而从这个过程里走出来时，同一个脑区就会安静下来。",
+      "startTime": 479.31,
+      "endTime": 483.64,
+      "words": [
+        {
+          "w": "Happening,",
+          "s": 479.31,
+          "e": 480.18
+        },
+        {
+          "w": "this",
+          "s": 480.18,
+          "e": 480.61
+        },
+        {
+          "w": "same",
+          "s": 480.61,
+          "e": 481.04
+        },
+        {
+          "w": "brain",
+          "s": 481.04,
+          "e": 481.57
+        },
+        {
+          "w": "region",
+          "s": 481.57,
+          "e": 482.2
+        },
+        {
+          "w": "quiets",
+          "s": 482.21,
+          "e": 482.85
+        },
+        {
+          "w": "down.",
+          "s": 482.85,
+          "e": 483.64
+        }
+      ]
+    },
+    {
+      "text": "Now we're testing app and based mindfulness training programs that target these core mechanisms",
+      "translation": "我们现在正在测试针对这些核心机制的 App 与在线正念训练。",
+      "startTime": 483.85,
+      "endTime": 490.74,
+      "words": [
+        {
+          "w": "Now",
+          "s": 483.85,
+          "e": 483.95
+        },
+        {
+          "w": "we're",
+          "s": 483.95,
+          "e": 484.2
+        },
+        {
+          "w": "testing",
+          "s": 484.2,
+          "e": 484.71
+        },
+        {
+          "w": "app",
+          "s": 484.71,
+          "e": 484.91
+        },
+        {
+          "w": "and",
+          "s": 484.92,
+          "e": 485.13
+        },
+        {
+          "w": "based",
+          "s": 485.13,
+          "e": 485.99
+        },
+        {
+          "w": "mindfulness",
+          "s": 486.0,
+          "e": 486.79
+        },
+        {
+          "w": "training",
+          "s": 486.79,
+          "e": 487.36
+        },
+        {
+          "w": "programs",
+          "s": 487.36,
+          "e": 487.95
+        },
+        {
+          "w": "that",
+          "s": 487.95,
+          "e": 488.23
+        },
+        {
+          "w": "target",
+          "s": 488.24,
+          "e": 488.76
+        },
+        {
+          "w": "these",
+          "s": 488.76,
+          "e": 489.13
+        },
+        {
+          "w": "core",
+          "s": 489.13,
+          "e": 489.44
+        },
+        {
+          "w": "mechanisms",
+          "s": 489.44,
+          "e": 490.74
+        }
+      ]
+    },
+    {
+      "text": "And ironically use the same technology that's driving us to distraction to help us step",
+      "translation": "颇具讽刺的是，我们用的正是那个让我们分心的技术，来帮我们走出",
+      "startTime": 490.96,
+      "endTime": 496.2,
+      "words": [
+        {
+          "w": "And",
+          "s": 490.96,
+          "e": 491.06
+        },
+        {
+          "w": "ironically",
+          "s": 491.05,
+          "e": 491.7
+        },
+        {
+          "w": "use",
+          "s": 491.7,
+          "e": 491.92
+        },
+        {
+          "w": "the",
+          "s": 491.92,
+          "e": 492.14
+        },
+        {
+          "w": "same",
+          "s": 492.14,
+          "e": 492.43
+        },
+        {
+          "w": "technology",
+          "s": 492.44,
+          "e": 493.17
+        },
+        {
+          "w": "that's",
+          "s": 493.17,
+          "e": 493.6
+        },
+        {
+          "w": "driving",
+          "s": 493.6,
+          "e": 494.11
+        },
+        {
+          "w": "us",
+          "s": 494.12,
+          "e": 494.27
+        },
+        {
+          "w": "to",
+          "s": 494.27,
+          "e": 494.42
+        },
+        {
+          "w": "distraction",
+          "s": 494.42,
+          "e": 495.24
+        },
+        {
+          "w": "to",
+          "s": 495.24,
+          "e": 495.39
+        },
+        {
+          "w": "help",
+          "s": 495.39,
+          "e": 495.68
+        },
+        {
+          "w": "us",
+          "s": 495.68,
+          "e": 495.83
+        },
+        {
+          "w": "step",
+          "s": 495.83,
+          "e": 496.2
+        }
+      ]
+    },
+    {
+      "text": "Out of our unhealthy habit patterns of smoking, of stress eating, and other addictive behaviors.",
+      "translation": "吸烟、压力性进食以及其它成瘾行为这些不健康的习惯模式。",
+      "startTime": 496.4,
+      "endTime": 501.96,
+      "words": [
+        {
+          "w": "Out",
+          "s": 496.4,
+          "e": 496.5
+        },
+        {
+          "w": "of",
+          "s": 496.51,
+          "e": 496.53
+        },
+        {
+          "w": "our",
+          "s": 496.53,
+          "e": 496.73
+        },
+        {
+          "w": "unhealthy",
+          "s": 496.73,
+          "e": 497.33
+        },
+        {
+          "w": "habit",
+          "s": 497.33,
+          "e": 497.66
+        },
+        {
+          "w": "patterns",
+          "s": 497.66,
+          "e": 498.19
+        },
+        {
+          "w": "of",
+          "s": 498.19,
+          "e": 498.32
+        },
+        {
+          "w": "smoking,",
+          "s": 498.32,
+          "e": 498.91
+        },
+        {
+          "w": "of",
+          "s": 498.91,
+          "e": 499.04
+        },
+        {
+          "w": "stress",
+          "s": 499.04,
+          "e": 499.44
+        },
+        {
+          "w": "eating,",
+          "s": 499.44,
+          "e": 499.97
+        },
+        {
+          "w": "and",
+          "s": 499.97,
+          "e": 500.17
+        },
+        {
+          "w": "other",
+          "s": 500.17,
+          "e": 500.5
+        },
+        {
+          "w": "addictive",
+          "s": 500.5,
+          "e": 501.1
+        },
+        {
+          "w": "behaviors.",
+          "s": 501.1,
+          "e": 501.96
+        }
+      ]
+    },
+    {
+      "text": "Now remember that bit about dependent memory?",
+      "translation": "还记得前面提到的依赖情境的记忆吗？",
+      "startTime": 502.1,
+      "endTime": 504.36,
+      "words": [
+        {
+          "w": "Now",
+          "s": 502.1,
+          "e": 502.2
+        },
+        {
+          "w": "remember",
+          "s": 502.27,
+          "e": 502.49
+        },
+        {
+          "w": "that",
+          "s": 502.49,
+          "e": 502.68
+        },
+        {
+          "w": "bit",
+          "s": 502.68,
+          "e": 502.82
+        },
+        {
+          "w": "about",
+          "s": 502.82,
+          "e": 503.06
+        },
+        {
+          "w": "dependent",
+          "s": 503.06,
+          "e": 503.88
+        },
+        {
+          "w": "memory?",
+          "s": 503.88,
+          "e": 504.36
+        }
+      ]
+    },
+    {
+      "text": "We can deliver these tools to people's fingertips in the context that matter most, so we can",
+      "translation": "我们可以在最关键的场景里，把这些工具送到人们指尖，这样就能",
+      "startTime": 504.5,
+      "endTime": 510.0,
+      "words": [
+        {
+          "w": "We",
+          "s": 504.5,
+          "e": 504.6
+        },
+        {
+          "w": "can",
+          "s": 504.67,
+          "e": 504.71
+        },
+        {
+          "w": "deliver",
+          "s": 504.71,
+          "e": 505.22
+        },
+        {
+          "w": "these",
+          "s": 505.22,
+          "e": 505.56
+        },
+        {
+          "w": "tools",
+          "s": 505.6,
+          "e": 505.94
+        },
+        {
+          "w": "to",
+          "s": 505.94,
+          "e": 506.08
+        },
+        {
+          "w": "people's",
+          "s": 506.08,
+          "e": 506.65
+        },
+        {
+          "w": "fingertips",
+          "s": 506.65,
+          "e": 507.38
+        },
+        {
+          "w": "in",
+          "s": 507.38,
+          "e": 507.52
+        },
+        {
+          "w": "the",
+          "s": 507.52,
+          "e": 507.73
+        },
+        {
+          "w": "context",
+          "s": 507.73,
+          "e": 508.24
+        },
+        {
+          "w": "that",
+          "s": 508.24,
+          "e": 508.53
+        },
+        {
+          "w": "matter",
+          "s": 508.53,
+          "e": 508.95
+        },
+        {
+          "w": "most,",
+          "s": 508.96,
+          "e": 509.39
+        },
+        {
+          "w": "so",
+          "s": 509.39,
+          "e": 509.53
+        },
+        {
+          "w": "we",
+          "s": 509.53,
+          "e": 509.67
+        },
+        {
+          "w": "can",
+          "s": 509.67,
+          "e": 510.0
+        }
+      ]
+    },
+    {
+      "text": "Help them tap into their inherent capacity to be curiously aware right when that urge to",
+      "translation": "让人们在冲动升起的当下，就能调用天生带着好奇去觉察的能力。",
+      "startTime": 510.27,
+      "endTime": 514.96,
+      "words": [
+        {
+          "w": "Help",
+          "s": 510.27,
+          "e": 510.37
+        },
+        {
+          "w": "them",
+          "s": 510.31,
+          "e": 510.54
+        },
+        {
+          "w": "tap",
+          "s": 510.54,
+          "e": 510.74
+        },
+        {
+          "w": "into",
+          "s": 510.74,
+          "e": 511.01
+        },
+        {
+          "w": "their",
+          "s": 511.01,
+          "e": 511.35
+        },
+        {
+          "w": "inherent",
+          "s": 511.35,
+          "e": 511.9
+        },
+        {
+          "w": "capacity",
+          "s": 511.9,
+          "e": 512.45
+        },
+        {
+          "w": "to",
+          "s": 512.46,
+          "e": 512.57
+        },
+        {
+          "w": "be",
+          "s": 512.58,
+          "e": 512.71
+        },
+        {
+          "w": "curiously",
+          "s": 512.71,
+          "e": 513.19
+        },
+        {
+          "w": "aware",
+          "s": 513.19,
+          "e": 513.53
+        },
+        {
+          "w": "right",
+          "s": 513.53,
+          "e": 513.87
+        },
+        {
+          "w": "when",
+          "s": 513.87,
+          "e": 514.14
+        },
+        {
+          "w": "that",
+          "s": 514.14,
+          "e": 514.4
+        },
+        {
+          "w": "urge",
+          "s": 514.41,
+          "e": 514.76
+        },
+        {
+          "w": "to",
+          "s": 514.76,
+          "e": 514.96
+        }
+      ]
+    },
+    {
+      "text": "Smoke or stress eat or whatever arises.",
+      "translation": "抽烟、压力性进食或其它冲动一升起的时候。",
+      "startTime": 515.27,
+      "endTime": 518.87,
+      "words": [
+        {
+          "w": "Smoke",
+          "s": 515.27,
+          "e": 515.52
+        },
+        {
+          "w": "or",
+          "s": 515.52,
+          "e": 515.74
+        },
+        {
+          "w": "stress",
+          "s": 515.74,
+          "e": 516.41
+        },
+        {
+          "w": "eat",
+          "s": 516.41,
+          "e": 516.74
+        },
+        {
+          "w": "or",
+          "s": 516.74,
+          "e": 516.96
+        },
+        {
+          "w": "whatever",
+          "s": 516.99,
+          "e": 517.85
+        },
+        {
+          "w": "arises.",
+          "s": 517.85,
+          "e": 518.87
+        }
+      ]
+    },
+    {
+      "text": "So if you don't smoke or stress stressy maybe the next time you feel this urge to check",
+      "translation": "所以如果你不抽烟、也不靠吃来减压，也许下次当你感到想查",
+      "startTime": 518.99,
+      "endTime": 522.84,
+      "words": [
+        {
+          "w": "So",
+          "s": 518.99,
+          "e": 519.09
+        },
+        {
+          "w": "if",
+          "s": 519.1,
+          "e": 519.2
+        },
+        {
+          "w": "you",
+          "s": 519.19,
+          "e": 519.27
+        },
+        {
+          "w": "don't",
+          "s": 519.27,
+          "e": 519.55
+        },
+        {
+          "w": "smoke",
+          "s": 519.55,
+          "e": 519.84
+        },
+        {
+          "w": "or",
+          "s": 519.84,
+          "e": 519.95
+        },
+        {
+          "w": "stress",
+          "s": 519.95,
+          "e": 520.29
+        },
+        {
+          "w": "stressy",
+          "s": 520.29,
+          "e": 520.57
+        },
+        {
+          "w": "maybe",
+          "s": 520.57,
+          "e": 520.86
+        },
+        {
+          "w": "the",
+          "s": 520.86,
+          "e": 521.03
+        },
+        {
+          "w": "next",
+          "s": 521.03,
+          "e": 521.26
+        },
+        {
+          "w": "time",
+          "s": 521.26,
+          "e": 521.49
+        },
+        {
+          "w": "you",
+          "s": 521.49,
+          "e": 521.65
+        },
+        {
+          "w": "feel",
+          "s": 521.66,
+          "e": 521.89
+        },
+        {
+          "w": "this",
+          "s": 521.89,
+          "e": 522.12
+        },
+        {
+          "w": "urge",
+          "s": 522.12,
+          "e": 522.35
+        },
+        {
+          "w": "to",
+          "s": 522.35,
+          "e": 522.46
+        },
+        {
+          "w": "check",
+          "s": 522.46,
+          "e": 522.84
+        }
+      ]
+    },
+    {
+      "text": "Your email when you're bored or you're trying to distract yourself from work, or maybe to",
+      "translation": "邮件的冲动，当你无聊或想从工作里分心时，又或者",
+      "startTime": 523.05,
+      "endTime": 526.92,
+      "words": [
+        {
+          "w": "Your",
+          "s": 523.05,
+          "e": 523.15
+        },
+        {
+          "w": "email",
+          "s": 523.15,
+          "e": 523.32
+        },
+        {
+          "w": "when",
+          "s": 523.32,
+          "e": 523.52
+        },
+        {
+          "w": "you're",
+          "s": 523.53,
+          "e": 523.85
+        },
+        {
+          "w": "bored",
+          "s": 523.85,
+          "e": 524.11
+        },
+        {
+          "w": "or",
+          "s": 524.12,
+          "e": 524.22
+        },
+        {
+          "w": "you're",
+          "s": 524.22,
+          "e": 524.54
+        },
+        {
+          "w": "trying",
+          "s": 524.54,
+          "e": 524.86
+        },
+        {
+          "w": "to",
+          "s": 524.86,
+          "e": 524.96
+        },
+        {
+          "w": "distract",
+          "s": 524.96,
+          "e": 525.39
+        },
+        {
+          "w": "yourself",
+          "s": 525.39,
+          "e": 525.82
+        },
+        {
+          "w": "from",
+          "s": 525.82,
+          "e": 526.03
+        },
+        {
+          "w": "work,",
+          "s": 526.03,
+          "e": 526.34
+        },
+        {
+          "w": "or",
+          "s": 526.34,
+          "e": 526.44
+        },
+        {
+          "w": "maybe",
+          "s": 526.44,
+          "e": 526.8
+        },
+        {
+          "w": "to",
+          "s": 526.8,
+          "e": 526.92
+        }
+      ]
+    },
+    {
+      "text": "Compulsively respond to that text message when you're driving, see if you can tap into this",
+      "translation": "开车时忍不住想回那条短信时，试试调用这种",
+      "startTime": 527.23,
+      "endTime": 533.87,
+      "words": [
+        {
+          "w": "Compulsively",
+          "s": 527.23,
+          "e": 527.98
+        },
+        {
+          "w": "respond",
+          "s": 527.98,
+          "e": 528.6
+        },
+        {
+          "w": "to",
+          "s": 528.6,
+          "e": 528.78
+        },
+        {
+          "w": "that",
+          "s": 528.78,
+          "e": 529.13
+        },
+        {
+          "w": "text",
+          "s": 529.13,
+          "e": 529.48
+        },
+        {
+          "w": "message",
+          "s": 529.48,
+          "e": 530.1
+        },
+        {
+          "w": "when",
+          "s": 530.1,
+          "e": 530.45
+        },
+        {
+          "w": "you're",
+          "s": 530.45,
+          "e": 530.97
+        },
+        {
+          "w": "driving,",
+          "s": 530.97,
+          "e": 531.76
+        },
+        {
+          "w": "see",
+          "s": 531.76,
+          "e": 532.02
+        },
+        {
+          "w": "if",
+          "s": 532.02,
+          "e": 532.2
+        },
+        {
+          "w": "you",
+          "s": 532.2,
+          "e": 532.46
+        },
+        {
+          "w": "can",
+          "s": 532.46,
+          "e": 532.72
+        },
+        {
+          "w": "tap",
+          "s": 532.72,
+          "e": 532.98
+        },
+        {
+          "w": "into",
+          "s": 532.98,
+          "e": 533.48
+        },
+        {
+          "w": "this",
+          "s": 533.48,
+          "e": 533.87
+        }
+      ]
+    },
+    {
+      "text": "Natural capacity, just be curiously aware of what's happening in your body and mind in",
+      "translation": "天生的能力，只是带着好奇去觉察此刻身体和心里",
+      "startTime": 534.19,
+      "endTime": 538.36,
+      "words": [
+        {
+          "w": "Natural",
+          "s": 534.19,
+          "e": 534.32
+        },
+        {
+          "w": "capacity,",
+          "s": 534.32,
+          "e": 534.94
+        },
+        {
+          "w": "just",
+          "s": 534.94,
+          "e": 535.19
+        },
+        {
+          "w": "be",
+          "s": 535.19,
+          "e": 535.31
+        },
+        {
+          "w": "curiously",
+          "s": 535.31,
+          "e": 535.75
+        },
+        {
+          "w": "aware",
+          "s": 535.75,
+          "e": 536.06
+        },
+        {
+          "w": "of",
+          "s": 536.06,
+          "e": 536.18
+        },
+        {
+          "w": "what's",
+          "s": 536.18,
+          "e": 536.55
+        },
+        {
+          "w": "happening",
+          "s": 536.55,
+          "e": 537.11
+        },
+        {
+          "w": "in",
+          "s": 537.11,
+          "e": 537.23
+        },
+        {
+          "w": "your",
+          "s": 537.23,
+          "e": 537.48
+        },
+        {
+          "w": "body",
+          "s": 537.48,
+          "e": 537.73
+        },
+        {
+          "w": "and",
+          "s": 537.73,
+          "e": 537.91
+        },
+        {
+          "w": "mind",
+          "s": 537.91,
+          "e": 538.24
+        },
+        {
+          "w": "in",
+          "s": 538.24,
+          "e": 538.36
+        }
+      ]
+    },
+    {
+      "text": "That moment.",
+      "translation": "正在发生什么。",
+      "startTime": 538.67,
+      "endTime": 539.48,
+      "words": [
+        {
+          "w": "That",
+          "s": 538.67,
+          "e": 538.7
+        },
+        {
+          "w": "moment.",
+          "s": 538.7,
+          "e": 539.48
+        }
+      ]
+    },
+    {
+      "text": "It will just be another chance to perpetuate one of our endless and exhaustive habit loops,",
+      "translation": "这要么是又一次机会，让我们延续那无穷无尽、令人疲惫的习惯循环，",
+      "startTime": 539.61,
+      "endTime": 544.6,
+      "words": [
+        {
+          "w": "It",
+          "s": 539.61,
+          "e": 539.71
+        },
+        {
+          "w": "will",
+          "s": 539.79,
+          "e": 539.87
+        },
+        {
+          "w": "just",
+          "s": 539.87,
+          "e": 540.13
+        },
+        {
+          "w": "be",
+          "s": 540.13,
+          "e": 540.26
+        },
+        {
+          "w": "another",
+          "s": 540.26,
+          "e": 540.73
+        },
+        {
+          "w": "chance",
+          "s": 540.73,
+          "e": 541.13
+        },
+        {
+          "w": "to",
+          "s": 541.13,
+          "e": 541.26
+        },
+        {
+          "w": "perpetuate",
+          "s": 541.26,
+          "e": 541.93
+        },
+        {
+          "w": "one",
+          "s": 541.94,
+          "e": 542.13
+        },
+        {
+          "w": "of",
+          "s": 542.13,
+          "e": 542.25
+        },
+        {
+          "w": "our",
+          "s": 542.26,
+          "e": 542.46
+        },
+        {
+          "w": "endless",
+          "s": 542.46,
+          "e": 542.93
+        },
+        {
+          "w": "and",
+          "s": 542.93,
+          "e": 543.13
+        },
+        {
+          "w": "exhaustive",
+          "s": 543.13,
+          "e": 543.8
+        },
+        {
+          "w": "habit",
+          "s": 543.8,
+          "e": 544.13
+        },
+        {
+          "w": "loops,",
+          "s": 544.13,
+          "e": 544.6
+        }
+      ]
+    },
+    {
+      "text": "Or step out of it.",
+      "translation": "要么就从中走出来。",
+      "startTime": 544.85,
+      "endTime": 546.62,
+      "words": [
+        {
+          "w": "Or",
+          "s": 544.85,
+          "e": 544.95
+        },
+        {
+          "w": "step",
+          "s": 544.91,
+          "e": 545.35
+        },
+        {
+          "w": "out",
+          "s": 545.35,
+          "e": 545.72
+        },
+        {
+          "w": "of",
+          "s": 545.72,
+          "e": 545.97
+        },
+        {
+          "w": "it.",
+          "s": 545.97,
+          "e": 546.62
+        }
+      ]
+    },
+    {
+      "text": "Instead of c text message compulsively text back, feel a little bit better, notice the",
+      "translation": "不再是「看到消息→忍不住回→稍微好受」，",
+      "startTime": 546.93,
+      "endTime": 551.28,
+      "words": [
+        {
+          "w": "Instead",
+          "s": 546.93,
+          "e": 547.05
+        },
+        {
+          "w": "of",
+          "s": 547.05,
+          "e": 547.17
+        },
+        {
+          "w": "c",
+          "s": 547.17,
+          "e": 547.23
+        },
+        {
+          "w": "text",
+          "s": 547.23,
+          "e": 547.59
+        },
+        {
+          "w": "message",
+          "s": 547.59,
+          "e": 548.02
+        },
+        {
+          "w": "compulsively",
+          "s": 548.02,
+          "e": 548.76
+        },
+        {
+          "w": "text",
+          "s": 548.76,
+          "e": 549.0
+        },
+        {
+          "w": "back,",
+          "s": 549.0,
+          "e": 549.36
+        },
+        {
+          "w": "feel",
+          "s": 549.36,
+          "e": 549.6
+        },
+        {
+          "w": "a",
+          "s": 549.6,
+          "e": 549.66
+        },
+        {
+          "w": "little",
+          "s": 549.66,
+          "e": 550.03
+        },
+        {
+          "w": "bit",
+          "s": 550.03,
+          "e": 550.21
+        },
+        {
+          "w": "better,",
+          "s": 550.21,
+          "e": 550.7
+        },
+        {
+          "w": "notice",
+          "s": 550.7,
+          "e": 551.15
+        },
+        {
+          "w": "the",
+          "s": 551.16,
+          "e": 551.28
+        }
+      ]
+    },
+    {
+      "text": "Urge, get curious, feel the joy of letting go, and repeat.",
+      "translation": "而是「觉察冲动→好奇→体会放下的轻松→再来一次」。",
+      "startTime": 551.59,
+      "endTime": 557.84,
+      "words": [
+        {
+          "w": "Urge,",
+          "s": 551.59,
+          "e": 552.01
+        },
+        {
+          "w": "get",
+          "s": 552.01,
+          "e": 552.38
+        },
+        {
+          "w": "curious,",
+          "s": 552.38,
+          "e": 553.48
+        },
+        {
+          "w": "feel",
+          "s": 553.48,
+          "e": 553.97
+        },
+        {
+          "w": "the",
+          "s": 553.97,
+          "e": 554.33
+        },
+        {
+          "w": "joy",
+          "s": 554.34,
+          "e": 554.71
+        },
+        {
+          "w": "of",
+          "s": 554.71,
+          "e": 554.95
+        },
+        {
+          "w": "letting",
+          "s": 554.95,
+          "e": 555.81
+        },
+        {
+          "w": "go,",
+          "s": 555.81,
+          "e": 556.29
+        },
+        {
+          "w": "and",
+          "s": 556.29,
+          "e": 556.66
+        },
+        {
+          "w": "repeat.",
+          "s": 556.66,
+          "e": 557.84
+        }
+      ]
+    },
+    {
+      "text": "Thank you.",
+      "translation": "谢谢。",
+      "startTime": 558.16,
+      "endTime": 563.8,
+      "words": [
+        {
+          "w": "Thank",
+          "s": 558.16,
+          "e": 560.54
+        },
+        {
+          "w": "you.",
+          "s": 560.54,
+          "e": 563.8
+        }
+      ]
+    }
+  ],
+  "alignmentNote": "完整逐字稿时间码 + 按词数分配 + 音素权重词级插值",
+  "difficultyNote": "均词长 4.58 客观分级",
+  "clips": [
+    {
+      "startTime": 0.31,
+      "endTime": 59.32,
+      "startIndex": 0,
+      "endIndex": 11,
+      "summary": "讲者回忆初学冥想时，指引很简单：把注意力放在呼吸上，走神就拉回来，可他却在大冬天汗湿了 T 恤、累得精疲力尽。他意识到，即便努力专注，大约一半人迟早会走神做白日梦，或忍不住想刷推特。",
+      "keyPoints": [
+        {
+          "phrase": "pay attention",
+          "synonyms": [
+            "stay focused",
+            "concentrate",
+            "keep your mind on"
+          ]
+        },
+        {
+          "phrase": "drift off into a daydream",
+          "synonyms": [
+            "wander off",
+            "zone out",
+            "lose focus"
+          ]
+        },
+        {
+          "phrase": "check our Twitter feed",
+          "synonyms": [
+            "scroll Twitter",
+            "open social media",
+            "check our phones"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 59.42,
+      "endTime": 76.48,
+      "startIndex": 12,
+      "endIndex": 16,
+      "summary": "我们对抗的，是科学已知最古老、最保守的学习过程之一，它可一直回溯到人类最原始的神经系统。这种基于奖赏的学习过程，就叫正强化与负强化。",
+      "keyPoints": [
+        {
+          "phrase": "evolutionarily conserved learning processes",
+          "synonyms": [
+            "ancient learning mechanisms",
+            "primal learning patterns",
+            "hardwired learning"
+          ]
+        },
+        {
+          "phrase": "positive and negative reinforcement",
+          "synonyms": [
+            "reward and punishment",
+            "reinforcement learning",
+            "carrot and stick"
+          ]
+        },
+        {
+          "phrase": "most basic nervous systems",
+          "synonyms": [
+            "primitive nervous systems",
+            "simplest brains",
+            "earliest nervous systems"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 76.62,
+      "endTime": 104.0,
+      "startIndex": 17,
+      "endIndex": 22,
+      "summary": "看到诱人的食物，大脑会说「热量、活下去」；尤其是糖会让身体发信号，记住你吃的是什么、在哪儿找到的。于是形成依赖情境的记忆，下次照做：看见食物、吃、爽、再来一次——触发、行为、奖赏。",
+      "keyPoints": [
+        {
+          "phrase": "calories",
+          "synonyms": [
+            "energy",
+            "fuel",
+            "nourishment"
+          ]
+        },
+        {
+          "phrase": "feel good",
+          "synonyms": [
+            "feel great",
+            "get a buzz",
+            "feel satisfied"
+          ]
+        },
+        {
+          "phrase": "repeat",
+          "synonyms": [
+            "do it again",
+            "loop back",
+            "rinse and repeat"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 104.31,
+      "endTime": 129.04,
+      "startIndex": 23,
+      "endIndex": 28,
+      "summary": "过了一阵子，我们那富有创造力的大脑想到：这套机制不只能用来记食物在哪儿。下次心情不好，不如吃点好吃的让自己舒服点——于是我们学会生气或难过时吃巧克力、冰淇淋来好受些。",
+      "keyPoints": [
+        {
+          "phrase": "our creative brains",
+          "synonyms": [
+            "our clever minds",
+            "our inventive brains",
+            "our imaginative brains"
+          ]
+        },
+        {
+          "phrase": "remembering where food is",
+          "synonyms": [
+            "locating food",
+            "finding food",
+            "recalling food sources"
+          ]
+        },
+        {
+          "phrase": "feel better",
+          "synonyms": [
+            "feel good",
+            "feel comforted",
+            "lift our mood"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 129.35,
+      "endTime": 150.03,
+      "startIndex": 29,
+      "endIndex": 33,
+      "summary": "同一套机制，只是触发条件变了：不再是胃里的饥饿信号，而是「难过」这种情绪信号触发了想吃的冲动。十几岁时，看到校外那些抽烟的叛逆孩子，我们想变酷，于是也开始抽烟。",
+      "keyPoints": [
+        {
+          "phrase": "different trigger",
+          "synonyms": [
+            "new trigger",
+            "changed cue",
+            "another trigger"
+          ]
+        },
+        {
+          "phrase": "emotional signal",
+          "synonyms": [
+            "feeling cue",
+            "mood signal",
+            "emotional cue"
+          ]
+        },
+        {
+          "phrase": "I want to be cool",
+          "synonyms": [
+            "I want to fit in",
+            "I want to look cool",
+            "I want to be liked"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 150.27,
+      "endTime": 183.88,
+      "startIndex": 34,
+      "endIndex": 40,
+      "summary": "看见酷、为了变酷而抽烟、感觉良好、再来一次。每重复一次就更熟练，最终变成习惯：一有压力就想抽烟或吃甜食。同样的脑机制，把「学会求生」变成了「用习惯慢慢害死自己」——肥胖和吸烟是全球可预防疾病与死亡的主因。",
+      "keyPoints": [
+        {
+          "phrase": "smoke to be cool",
+          "synonyms": [
+            "smoke to look cool",
+            "smoke to fit in",
+            "smoke for status"
+          ]
+        },
+        {
+          "phrase": "becomes a habit",
+          "synonyms": [
+            "turns into a habit",
+            "becomes automatic",
+            "forms a habit"
+          ]
+        },
+        {
+          "phrase": "obesity and smoking",
+          "synonyms": [
+            "weight and tobacco",
+            "overeating and smoking",
+            "poor diet and nicotine"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 184.19,
+      "endTime": 206.92,
+      "startIndex": 41,
+      "endIndex": 47,
+      "summary": "回到呼吸。如果我们不是跟大脑对着干、不是强迫自己专注，而是利用这套天生的奖赏学习机制、再加上一点转折——对当下正在发生的体验真心感到好奇，会怎样？",
+      "keyPoints": [
+        {
+          "phrase": "back to my breath",
+          "synonyms": [
+            "return to the breath",
+            "back to breathing",
+            "refocus on the breath"
+          ]
+        },
+        {
+          "phrase": "fighting our brains",
+          "synonyms": [
+            "struggling with our minds",
+            "battling our brains",
+            "resisting our minds"
+          ]
+        },
+        {
+          "phrase": "really curious",
+          "synonyms": [
+            "genuinely curious",
+            "truly interested",
+            "deeply curious"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 207.04,
+      "endTime": 243.0,
+      "startIndex": 48,
+      "endIndex": 59,
+      "summary": "实验室研究正念训练能否帮人戒烟：多数人此前都试过强迫戒烟，平均失败六次。正念训练不讲「强迫」，只讲「好奇」，甚至让他们去抽——只是抽的时候好好好奇那到底是什么感觉。",
+      "keyPoints": [
+        {
+          "phrase": "quit smoking",
+          "synonyms": [
+            "stop smoking",
+            "give up cigarettes",
+            "kick the habit"
+          ]
+        },
+        {
+          "phrase": "on average six times",
+          "synonyms": [
+            "about six times",
+            "six failed attempts",
+            "six times on average"
+          ]
+        },
+        {
+          "phrase": "go ahead and smoke",
+          "synonyms": [
+            "go ahead, smoke",
+            "feel free to smoke",
+            "go on and smoke"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 243.23,
+      "endTime": 278.56,
+      "startIndex": 60,
+      "endIndex": 68,
+      "summary": "一位参与者说：正念抽烟闻着像臭奶酪、尝着像化学药品，呕！她理智上早知道吸烟有害，但带着好奇去觉察才发现烟的味道糟透了。她于是从「知道」走到「体会」，从脑子明白变成骨子里明白，烟的魔咒就此破除，她开始对自己的行为「祛魅」。",
+      "keyPoints": [
+        {
+          "phrase": "stinky cheese",
+          "synonyms": [
+            "smelly cheese",
+            "rotten cheese",
+            "foul cheese"
+          ]
+        },
+        {
+          "phrase": "from knowledge to wisdom",
+          "synonyms": [
+            "from knowing to understanding",
+            "from head to heart",
+            "from intellect to insight"
+          ]
+        },
+        {
+          "phrase": "knowing it in her bones",
+          "synonyms": [
+            "feeling it deeply",
+            "knowing it viscerally",
+            "knowing it in her gut"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 278.85,
+      "endTime": 325.96,
+      "startIndex": 69,
+      "endIndex": 82,
+      "summary": "前额叶皮层从进化角度看是大脑最年轻的部分，它在理智上明白我们不该抽烟，会竭尽全力帮我们改变行为、别再吃第二块第三块饼干——这叫认知控制。可惜压力一大，它正是大脑里最先掉线的部分，这时我们就容易对伴侣或孩子发火，明知没用也控制不住。",
+      "keyPoints": [
+        {
+          "phrase": "prefrontal cortex",
+          "synonyms": [
+            "frontal lobe",
+            "executive brain",
+            "reasoning center"
+          ]
+        },
+        {
+          "phrase": "cognitive control",
+          "synonyms": [
+            "self-control",
+            "executive control",
+            "willpower"
+          ]
+        },
+        {
+          "phrase": "goes offline",
+          "synonyms": [
+            "shuts down",
+            "checks out",
+            "stops working"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 326.19,
+      "endTime": 389.12,
+      "startIndex": 83,
+      "endIndex": 98,
+      "summary": "前额叶一掉线，我们就退回旧习惯，所以「祛魅」才重要：看清习惯到底给了我们什么，才能更深地理解它、把它刻进骨子里，不必强迫自己克制，因为我们本来就没那么想做了。正念就是清清楚楚看见陷进行为时得到了什么，从身体层面祛魅、自然而然地放手；而它的悖论在于，正念不过是对每时每刻身心正发生的事真正感兴趣、愿意亲近。",
+      "keyPoints": [
+        {
+          "phrase": "fall back into our old habits",
+          "synonyms": [
+            "revert to old habits",
+            "slip into old patterns",
+            "return to old routines"
+          ]
+        },
+        {
+          "phrase": "letting go",
+          "synonyms": [
+            "releasing",
+            "letting it be",
+            "moving on"
+          ]
+        },
+        {
+          "phrase": "being really interested",
+          "synonyms": [
+            "genuinely curious",
+            "truly engaged",
+            "deeply attentive"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 389.3,
+      "endTime": 452.12,
+      "startIndex": 99,
+      "endIndex": 113,
+      "summary": "这种愿意转向体验的态度，由天生就有回报的「好奇」支撑。好奇起来，我们会发现渴望不过是一堆身体感觉——发紧、绷着、坐立不安，来了又去；于是走出旧的反应模式，走进「存在」，变成热切等待下一个数据点的内在科学家。一项研究里，正念训练帮人戒烟的效果是金标准疗法的两倍。",
+      "keyPoints": [
+        {
+          "phrase": "body sensations",
+          "synonyms": [
+            "physical sensations",
+            "bodily feelings",
+            "physical feelings"
+          ]
+        },
+        {
+          "phrase": "step into being",
+          "synonyms": [
+            "step into presence",
+            "enter a state of being",
+            "become present"
+          ]
+        },
+        {
+          "phrase": "inner scientist",
+          "synonyms": [
+            "internal observer",
+            "curious investigator",
+            "inner researcher"
+          ]
+        },
+        {
+          "phrase": "twice as good as gold standard therapy",
+          "synonyms": [
+            "twice the gold standard",
+            "double the standard therapy",
+            "twice as effective"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 452.36,
+      "endTime": 518.87,
+      "startIndex": 114,
+      "endIndex": 127,
+      "summary": "研究资深冥想者的大脑发现，默认模式网络参与其中。一个假说认为，其中叫后扣带皮层的区域，未必因渴望本身、而是因我们被它卷进去、被带着跑才被激活；当我们放手、带着好奇觉察并走出来，同一脑区就安静下来。如今他们正用那套让我们分心的技术，开发针对核心机制的 App，在最关键的场景把工具送到人们指尖。",
+      "keyPoints": [
+        {
+          "phrase": "referential processing",
+          "synonyms": [
+            "self-referential thinking",
+            "self-referential processing",
+            "default network"
+          ]
+        },
+        {
+          "phrase": "quiets down",
+          "synonyms": [
+            "calms down",
+            "settles down",
+            "goes quiet"
+          ]
+        },
+        {
+          "phrase": "addictive behaviors",
+          "synonyms": [
+            "addictive habits",
+            "compulsive behaviors",
+            "addictions"
+          ]
+        }
+      ]
+    },
+    {
+      "startTime": 518.99,
+      "endTime": 563.8,
+      "startIndex": 128,
+      "endIndex": 137,
+      "summary": "如果不抽烟、也不靠吃减压，那下次想查邮件、想分心、开车想回短信时，试试调用天生带着好奇去觉察的能力。这要么是又一次延续无尽习惯循环的机会，要么就从中走出来——不再「看到消息→忍不住回」，而是「觉察冲动→好奇→体会放下的轻松→再来一次」。",
+      "keyPoints": [
+        {
+          "phrase": "curiously aware",
+          "synonyms": [
+            "curiously attentive",
+            "curiously mindful",
+            "attentively curious"
+          ]
+        },
+        {
+          "phrase": "habit loops",
+          "synonyms": [
+            "habit cycles",
+            "behavior loops",
+            "automatic patterns"
+          ]
+        },
+        {
+          "phrase": "step out of it",
+          "synonyms": [
+            "break out of it",
+            "escape the loop",
+            "walk away from it"
+          ]
+        }
+      ]
+    }
+  ]
+}

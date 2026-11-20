@@ -1,0 +1,87 @@
+{
+  "sourceDir": "C:\\Users\\L't\\Desktop\\TED音频",
+  "media": [
+    {
+      "source": "【TED演讲】20岁,光阴不再来!.mp4",
+      "asset": "assets/audio/ted_01.mp4",
+      "durationSeconds": 871.68,
+      "sizeBytes": 8492512
+    },
+    {
+      "source": "TED演讲_念头不停内耗_学会夺回大脑的控制权.mp4",
+      "asset": "assets/audio/ted_02.mp4",
+      "durationSeconds": 898.61,
+      "sizeBytes": 9239930
+    },
+    {
+      "source": "【TED 演讲_中英字幕】如何在压力很大时保持冷静 _ How to stay calm when you know you'll be stressed.mp4",
+      "asset": "assets/audio/ted_03.mp4",
+      "durationSeconds": 740.51,
+      "sizeBytes": 7814306
+    },
+    {
+      "source": "【TED演讲】什么是真正的自信_拥有它,一切皆有可能.mp4",
+      "asset": "assets/audio/ted_04.mp4",
+      "durationSeconds": 950.37,
+      "sizeBytes": 8469207
+    },
+    {
+      "source": "为什么我们需要知道自己的生命有意义音频.mp4",
+      "sourceMissing": true,
+      "note": "素材目录未提供，App 使用已导入音频",
+      "asset": "assets/audio/ted_05.mp4",
+      "durationSeconds": 753.0,
+      "sizeBytes": 7974694
+    },
+    {
+      "source": "【TED演讲】保持谦逊——以及其他的“水之道” Be humble -- and other lessons from the philosophy of wa.mp4",
+      "asset": "assets/audio/ted_06.mp4",
+      "durationSeconds": 572.73,
+      "sizeBytes": 5733098
+    },
+    {
+      "source": "反复失败的戒断_TED演讲 _ 分享改掉坏习惯的可行方法.mp4",
+      "asset": "assets/audio/ted_07.mp4",
+      "durationSeconds": 564.71,
+      "sizeBytes": 4896187
+    },
+    {
+      "source": "如何学会别把事都往心里去？音频.mp4",
+      "sourceMissing": true,
+      "note": "素材目录未提供，App 使用已导入音频",
+      "asset": "assets/audio/ted_08.mp4",
+      "durationSeconds": 1056.09,
+      "sizeBytes": 9491986
+    },
+    {
+      "source": "如何相信自己【TED演讲】 - P2 英文字幕(中文外挂).mp4",
+      "asset": "assets/audio/ted_09.mp4",
+      "durationSeconds": 494.26,
+      "sizeBytes": 4043429
+    },
+    {
+      "source": "TED演讲_我们活着的意义! - P1 双语.mp4",
+      "asset": "assets/audio/ted_10.mp4",
+      "durationSeconds": 1306.21,
+      "sizeBytes": 21153416
+    },
+    {
+      "source": "有想法,5 秒之内做出行动!赶在 「这样做肯定不行」「还是算了吧」之前.mp4",
+      "asset": "assets/audio/ted_11.mp4",
+      "durationSeconds": 1277.84,
+      "sizeBytes": 7142455
+    },
+    {
+      "source": "【TED演讲】生活不只是快乐,怎样的人生更有意义_.mp4",
+      "asset": "assets/audio/ted_12.mp4",
+      "durationSeconds": 724.79,
+      "sizeBytes": 12129171
+    },
+    {
+      "source": "靠批判自己,永远无法长久改变_TED 演讲.mp4",
+      "asset": "assets/audio/ted_13.mp4",
+      "durationSeconds": 985.11,
+      "sizeBytes": 8999979
+    }
+  ]
+}

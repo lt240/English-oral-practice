@@ -1,0 +1,65 @@
+name: ted_companion
+description: 英语口语学习助手 — 本地离线演讲跟读练习（iOS / Android）
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # 本地离线语音识别（端侧 ONNX Runtime，无需联网）
+  sherpa_onnx: ^1.13.8
+  # 麦克风实时 PCM 采集
+  record: ^6.0.0
+
+  # 模型/素材文件路径
+  path_provider: ^2.1.6
+  path: ^1.9.0
+
+  # 本地数据库：演讲稿索引 + 练习记录
+  sqflite: ^2.4.1
+
+  # 原版音频播放（支持按时间范围截取「单词发音」片段）
+  just_audio: ^0.9.40
+
+  # 本地 TTS：无原声时用系统内置语音朗读（免费、离线）
+  flutter_tts: ^4.2.0
+
+  # 轻量本地存储：统计数据、设置项（等价 Web 的 localStorage）
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 逐文件声明：避免把孤立素材（meg_jay_30_not_20.mp3，11MB）打进安装包
+  assets:
+    - assets/models/silero_vad.onnx
+    - assets/models/tiny.en-encoder.int8.onnx
+    - assets/models/tiny.en-decoder.int8.onnx
+    - assets/models/tiny.en-tokens.txt
+    - assets/content/
+    - assets/dict/
+    - assets/audio/matt_cutts_30_days.mp3
+    - assets/audio/ted_01.mp4
+    - assets/audio/ted_02.mp4
+    - assets/audio/ted_03.mp4
+    - assets/audio/ted_04.mp4
+    - assets/audio/ted_05.mp4
+    - assets/audio/ted_06.mp4
+    - assets/audio/ted_07.mp4
+    - assets/audio/ted_08.mp4
+    - assets/audio/ted_09.mp4
+    - assets/audio/ted_10.mp4
+    - assets/audio/ted_11.mp4
+    - assets/audio/ted_12.mp4
+    - assets/audio/ted_13.mp4

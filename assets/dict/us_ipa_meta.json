@@ -1,0 +1,10 @@
+{
+  "source": "CMU Pronouncing Dictionary (cmusphinx/cmudict), public domain",
+  "notation": "General American English IPA",
+  "entries": 125955,
+  "ecdictEntries": 90021,
+  "coveredByUsIpa": 55468,
+  "coverage": 0.6162,
+  "rawBytes": 3618488,
+  "compressedBytes": 830592
+}

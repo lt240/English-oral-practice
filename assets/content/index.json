@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "source": "TED音频素材库 + TED 官方公开逐字稿",
+  "entries": [
+    {
+      "id": "matt_cutts_30_days",
+      "file": "matt_cutts_30_days.json",
+      "title": "Try something new for 30 days",
+      "topicZh": "习惯养成",
+      "enabled": true
+    },
+    {
+      "id": "meg_jay_why_30",
+      "file": "meg_jay_why_30.json",
+      "title": "Why 30 Is Not the New 20",
+      "topicZh": "二十几岁的人生",
+      "enabled": true
+    },
+    {
+      "id": "ted_mind_control",
+      "file": "ted_mind_control.json",
+      "title": "Take Back Control of Your Mind",
+      "topicZh": "专注与内耗",
+      "enabled": true
+    },
+    {
+      "id": "levitin_stay_calm",
+      "file": "levitin_stay_calm.json",
+      "title": "How to Stay Calm Under Stress",
+      "topicZh": "压力管理",
+      "enabled": true
+    },
+    {
+      "id": "ted_true_confidence",
+      "file": "ted_true_confidence.json",
+      "title": "What Is Real Confidence",
+      "topicZh": "自信与自我",
+      "enabled": true
+    },
+    {
+      "id": "ted_why_meaning",
+      "file": "ted_why_meaning.json",
+      "title": "Why We Need Meaning",
+      "topicZh": "人生意义",
+      "enabled": true
+    },
+    {
+      "id": "ted_humility_water",
+      "file": "ted_humility_water.json",
+      "title": "The Way of Water and Humility",
+      "topicZh": "谦逊与处世",
+      "enabled": true
+    },
+    {
+      "id": "brewer_break_habit",
+      "file": "brewer_break_habit.json",
+      "title": "A Simple Way to Break a Bad Habit",
+      "topicZh": "习惯与改变",
+      "enabled": true
+    },
+    {
+      "id": "ted_not_personal",
+      "file": "ted_not_personal.json",
+      "title": "How to Not Take Things Personally",
+      "topicZh": "情绪边界",
+      "enabled": true
+    },
+    {
+      "id": "ted_believe_yourself",
+      "file": "ted_believe_yourself.json",
+      "title": "How to Believe in Yourself",
+      "topicZh": "自信与自我",
+      "enabled": true
+    },
+    {
+      "id": "ted_meaning_of_life",
+      "file": "ted_meaning_of_life.json",
+      "title": "The Meaning of Life",
+      "topicZh": "人生意义",
+      "enabled": true
+    },
+    {
+      "id": "robbins_five_seconds",
+      "file": "robbins_five_seconds.json",
+      "title": "How to Stop Screwing Yourself Over",
+      "topicZh": "行动力",
+      "enabled": true
+    },
+    {
+      "id": "esfahani_more_than_happy",
+      "file": "esfahani_more_than_happy.json",
+      "title": "There's More to Life Than Being Happy",
+      "topicZh": "人生意义",
+      "enabled": true
+    },
+    {
+      "id": "ted_self_criticism",
+      "file": "ted_self_criticism.json",
+      "title": "Why Self-Criticism Never Lasts",
+      "topicZh": "自我接纳",
+      "enabled": true
+    }
+  ]
+}
