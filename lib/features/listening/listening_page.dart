@@ -41,6 +41,14 @@ class _ListeningPageState extends State<ListeningPage> {
   Duration? _abEnd;
   bool _showTranslation = true;
   double _speed = 1.0;
+
+  /// 拖动进度条时的本地进度（0~1）。非空表示用户正在拖动：
+  /// 此时进度条与高亮都跟随手指，忽略播放器位置流，松手后才真正 seek。
+  double? _dragFraction;
+
+  /// 松手后 seek 的目标位置；位置流追上它之前，进度条仍用本地进度显示，
+  /// 避免「松手瞬间 thumb 先弹回旧位置、再跳到新位置」。
+  Duration? _pendingSeek;
   static const _speeds = [0.75, 1.0, 1.25, 1.5];
 
   late final SpeechEntry _speech =
@@ -82,16 +90,24 @@ class _ListeningPageState extends State<ListeningPage> {
     // 单句循环 / A-B 复读处于 clip 模式，positionStream 是裁剪后相对值，
     // 高亮保持当前句不变，避免用相对位置误算索引。
     if (!_hasScript || _loopSentence || _abEnd != null) return;
+    // 拖动进度条期间由手指决定高亮，忽略播放器位置流（否则 thumb 与字幕回跳）。
+    if (_dragFraction != null) {
+      final target = _pendingSeek;
+      final reached =
+          target == null ||
+          (pos - target).abs() <= const Duration(milliseconds: 400);
+      if (!reached) return; // 还在发 seek 前的旧位置
+      // 位置流已追上目标：交还控制权，并用真实位置刷新一次高亮。
+      setState(() {
+        _dragFraction = null;
+        _pendingSeek = null;
+      });
+    }
     if (_refreshHighlight(pos)) _scrollToCurrent();
   }
 
-  /// 根据播放位置重算当前句/词并刷新高亮，返回是否发生变化。
-  ///
-  /// 时间轴基准：句子的 startTime/endTime 是「音频绝对时间」（首句 startTime 即
-  /// 片头时长，末句 endTime ≈ 音频时长），播放器 position 也是绝对时间，
-  /// 二者直接匹配，无需任何偏移换算。片头/文末空白只影响进度条的「正文视角」显示，
-  /// 不影响这里的句/词定位。
-  bool _refreshHighlight(Duration pos) {
+  /// 按音频绝对时间算出所在句/词并更新高亮（不触发保存）。
+  void _applyHighlightAt(Duration pos) {
     final sentences = _speech.sentences;
     final t = pos.inMilliseconds / 1000.0;
     final idx =
@@ -104,30 +120,71 @@ class _ListeningPageState extends State<ListeningPage> {
         break;
       }
     }
-    final sentenceChanged = idx != _activeIndex;
-    final changed = sentenceChanged || wordIdx != _activeWord;
-    if (changed) {
+    if (idx != _activeIndex || wordIdx != _activeWord) {
       setState(() {
         _activeIndex = idx;
         _activeWord = wordIdx;
       });
-      if (sentenceChanged) _saveProgress();
     }
+  }
+
+  /// 根据播放位置重算当前句/词并刷新高亮，返回是否发生变化。
+  ///
+  /// 时间轴基准：句子的 startTime/endTime 是「音频绝对时间」（首句 startTime 即
+  /// 片头时长，末句 endTime ≈ 音频时长），播放器 position 也是绝对时间，
+  /// 二者直接匹配，无需任何偏移换算。片头/文末空白只影响进度条的「正文视角」显示，
+  /// 不影响这里的句/词定位。
+  bool _refreshHighlight(Duration pos) {
+    final before = _activeIndex;
+    final beforeWord = _activeWord;
+    _applyHighlightAt(pos);
+    final changed = _activeIndex != before || _activeWord != beforeWord;
+    if (changed && _activeIndex != before) _saveProgress();
     return changed;
   }
 
-  void _scrollToCurrent() {
-    if (!_scroll.hasClients || !_hasScript) return;
-    // 每句约 74px，滚动到让当前句保持在中上部
-    final target = (_activeIndex * 74.0 - 80).clamp(
-      0.0,
-      _scroll.position.maxScrollExtent,
-    );
-    _scroll.animateTo(
-      target,
-      duration: const Duration(milliseconds: 260),
-      curve: Curves.easeOut,
-    );
+  /// 每句的布局 Key，用于按真实高度精确滚动（固定行高估算在长句/译文行会严重偏差）。
+  final List<GlobalKey> _sentenceKeys = <GlobalKey>[];
+
+  GlobalKey _sentenceKey(int i) {
+    while (_sentenceKeys.length <= i) {
+      _sentenceKeys.add(GlobalKey());
+    }
+    return _sentenceKeys[i];
+  }
+
+  void _scrollToCurrent({bool immediate = false}) {
+    if (!_hasScript) return;
+    final i = _activeIndex;
+    final ctx =
+        i < _sentenceKeys.length ? _sentenceKeys[i].currentContext : null;
+    if (ctx != null) {
+      Scrollable.ensureVisible(
+        ctx,
+        alignment: 0.25,
+        duration: immediate ? Duration.zero : const Duration(milliseconds: 260),
+        curve: Curves.easeOut,
+      );
+      return;
+    }
+    if (!_scroll.hasClients) return;
+    // 目标句还没被 ListView 构建：先按平均句高粗跳，等一帧后再用真实布局精修。
+    final total = _scroll.position.maxScrollExtent;
+    final count = _speech.sentences.length;
+    final avg = count > 0 ? total / count : 0.0;
+    _scroll.jumpTo((i * avg).clamp(0.0, total));
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final c2 =
+          i < _sentenceKeys.length ? _sentenceKeys[i].currentContext : null;
+      if (c2 == null) return;
+      Scrollable.ensureVisible(
+        c2,
+        alignment: 0.25,
+        duration: immediate ? Duration.zero : const Duration(milliseconds: 200),
+        curve: Curves.easeOut,
+      );
+    });
   }
 
   void _saveProgress() {
@@ -155,7 +212,42 @@ class _ListeningPageState extends State<ListeningPage> {
   /// 片头偏移（毫秒）：进度条与时间显示统一扣除，片头音乐不占据进度条。
   int get _offsetMs => (_speech.audioOffsetSec * 1000).round();
 
-  /// 进度条拖动：把正文进度 x∈[0,1] 换算回音频绝对位置 seek，
+  /// 把正文进度 x∈[0,1] 换算成音频绝对位置。
+  Duration _targetForFraction(double x) {
+    final bodyTotal = (_speech.bodyDurationSec * 1000).round().clamp(
+      1,
+      1 << 31,
+    );
+    return Duration(milliseconds: (bodyTotal * x).round() + _offsetMs);
+  }
+
+  /// 拖动中：只更新本地进度与高亮预览，不 seek（连续 seek 会互相打断、
+  /// 触发乱序位置事件，导致松手后位置与字幕对不上）。
+  void _onSliderDrag(double x) {
+    _pendingSeek = null; // 新一次拖动接管，作废上一轮的待定目标
+    setState(() => _dragFraction = x);
+    if (!_hasScript) return;
+    _applyHighlightAt(_targetForFraction(x));
+    _scrollToCurrent(immediate: true);
+  }
+
+  /// 松手：按最终进度 seek 一次，并强制刷新高亮与滚动。
+  Future<void> _onSliderDragEnd(double x) async {
+    final target = _targetForFraction(x);
+    _pendingSeek = target;
+    await _onSliderSeek(x);
+    // 位置流追上目标时会自动交还控制权；暂停状态下若迟迟没有新位置事件，
+    // 600ms 后兜底。若期间已开始新的拖动（_pendingSeek 被改写），则不处理。
+    await Future<void>.delayed(const Duration(milliseconds: 600));
+    if (mounted && _pendingSeek == target) {
+      setState(() {
+        _dragFraction = null;
+        _pendingSeek = null;
+      });
+    }
+  }
+
+  /// 进度条定位：把正文进度 x∈[0,1] 换算回音频绝对位置 seek，
   /// 并主动重算高亮（just_audio seek 后位置流可能不立即触发）。
   Future<void> _onSliderSeek(double x) async {
     if (!_ready) return;
@@ -168,11 +260,7 @@ class _ListeningPageState extends State<ListeningPage> {
       });
       await _player.clearClip();
     }
-    final bodyTotal = (_speech.bodyDurationSec * 1000).round().clamp(
-      1,
-      1 << 31,
-    );
-    final target = Duration(milliseconds: (bodyTotal * x).round() + _offsetMs);
+    final target = _targetForFraction(x);
     await _player.seek(target);
     if (_hasScript) {
       _refreshHighlight(target);
@@ -389,57 +477,60 @@ class _ListeningPageState extends State<ListeningPage> {
         }
         final active = i == _activeIndex;
         final s = _speech.sentences[i];
-        return GestureDetector(
-          onTap: () => _jumpToSentence(i),
-          child: AnimatedContainer(
-            duration: const Duration(milliseconds: 180),
-            margin: const EdgeInsets.only(bottom: 8),
-            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(16),
-              color:
-                  active
-                      ? AppColors.primary.withValues(alpha: 0.16)
-                      : AppSurface.inset(context),
-              border:
-                  active
-                      ? Border.all(
-                        color: AppColors.primary.withValues(alpha: 0.5),
-                      )
-                      : null,
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      _fmt(Duration(milliseconds: (s.start * 1000).round())),
-                      style: TextStyle(
-                        fontSize: 11,
-                        color: AppSurface.textTertiary(context),
+        return KeyedSubtree(
+          key: _sentenceKey(i),
+          child: GestureDetector(
+            onTap: () => _jumpToSentence(i),
+            child: AnimatedContainer(
+              duration: const Duration(milliseconds: 180),
+              margin: const EdgeInsets.only(bottom: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                color:
+                    active
+                        ? AppColors.primary.withValues(alpha: 0.16)
+                        : AppSurface.inset(context),
+                border:
+                    active
+                        ? Border.all(
+                          color: AppColors.primary.withValues(alpha: 0.5),
+                        )
+                        : null,
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        _fmt(Duration(milliseconds: (s.start * 1000).round())),
+                        style: TextStyle(
+                          fontSize: 11,
+                          color: AppSurface.textTertiary(context),
+                        ),
                       ),
-                    ),
-                    const SizedBox(width: 10),
-                    Expanded(child: _buildWords(context, i, active)),
-                  ],
-                ),
-                if (_showTranslation && s.chinese.isNotEmpty) ...[
-                  const SizedBox(height: 5),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 42),
-                    child: Text(
-                      s.chinese,
-                      style: TextStyle(
-                        fontSize: 12.5,
-                        height: 1.4,
-                        color: AppSurface.textSecondary(context),
-                      ),
-                    ),
+                      const SizedBox(width: 10),
+                      Expanded(child: _buildWords(context, i, active)),
+                    ],
                   ),
+                  if (_showTranslation && s.chinese.isNotEmpty) ...[
+                    const SizedBox(height: 5),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 42),
+                      child: Text(
+                        s.chinese,
+                        style: TextStyle(
+                          fontSize: 12.5,
+                          height: 1.4,
+                          color: AppSurface.textSecondary(context),
+                        ),
+                      ),
+                    ),
+                  ],
                 ],
-              ],
+              ),
             ),
           ),
         );
@@ -558,8 +649,13 @@ class _ListeningPageState extends State<ListeningPage> {
                 1,
                 1 << 31,
               );
-              final bodyPos =
+              // 拖动时用本地进度，避免等待 seek 后的位置流回调导致 thumb 回跳。
+              final rawBodyPos =
                   (pos.inMilliseconds - offsetMs).clamp(0, bodyTotal).toInt();
+              final bodyPos =
+                  _dragFraction != null
+                      ? (bodyTotal * _dragFraction!).round().clamp(0, bodyTotal)
+                      : rawBodyPos;
               final v = (bodyPos / bodyTotal).clamp(0.0, 1.0).toDouble();
               return Column(
                 children: [
@@ -573,7 +669,9 @@ class _ListeningPageState extends State<ListeningPage> {
                     child: Slider(
                       value: v,
                       activeColor: AppColors.primary,
-                      onChanged: _ready ? _onSliderSeek : null,
+                      onChangeStart: _ready ? _onSliderDrag : null,
+                      onChanged: _ready ? _onSliderDrag : null,
+                      onChangeEnd: _ready ? _onSliderDragEnd : null,
                     ),
                   ),
                   Padding(
