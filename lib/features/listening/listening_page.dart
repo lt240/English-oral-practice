@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_surface.dart';
@@ -145,6 +146,8 @@ class _ListeningPageState extends State<ListeningPage> {
 
   /// 每句的布局 Key，用于按真实高度精确滚动（固定行高估算在长句/译文行会严重偏差）。
   final List<GlobalKey> _sentenceKeys = <GlobalKey>[];
+  /// 滚动请求序号：新请求会作废尚未执行完的逼近迭代。
+  int _scrollEpoch = 0;
 
   GlobalKey _sentenceKey(int i) {
     while (_sentenceKeys.length <= i) {
@@ -154,37 +157,62 @@ class _ListeningPageState extends State<ListeningPage> {
   }
 
   void _scrollToCurrent({bool immediate = false}) {
-    if (!_hasScript) return;
-    final i = _activeIndex;
-    final ctx =
-        i < _sentenceKeys.length ? _sentenceKeys[i].currentContext : null;
-    if (ctx != null) {
-      Scrollable.ensureVisible(
-        ctx,
-        alignment: 0.25,
-        duration: immediate ? Duration.zero : const Duration(milliseconds: 260),
-        curve: Curves.easeOut,
-      );
-      return;
-    }
-    if (!_scroll.hasClients) return;
-    // 目标句还没被 ListView 构建：先按平均句高粗跳，等一帧后再用真实布局精修。
-    final total = _scroll.position.maxScrollExtent;
-    final count = _speech.sentences.length;
-    final avg = count > 0 ? total / count : 0.0;
-    _scroll.jumpTo((i * avg).clamp(0.0, total));
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (!mounted) return;
-      final c2 =
+    if (!_hasScript || !_scroll.hasClients) return;
+    // 新的滚动请求作废仍在逼近中的旧请求，避免多组迭代互相抢位置。
+    final epoch = ++_scrollEpoch;
+    var attempt = 0;
+
+    void run() {
+      if (!mounted || epoch != _scrollEpoch || !_scroll.hasClients) return;
+      final i = _activeIndex;
+      final ctx =
           i < _sentenceKeys.length ? _sentenceKeys[i].currentContext : null;
-      if (c2 == null) return;
-      Scrollable.ensureVisible(
-        c2,
-        alignment: 0.25,
-        duration: immediate ? Duration.zero : const Duration(milliseconds: 200),
-        curve: Curves.easeOut,
-      );
-    });
+      if (ctx != null) {
+        // 目标句已构建：按真实布局把它的顶部对齐到视口 25% 处。
+        Scrollable.ensureVisible(
+          ctx,
+          alignment: 0.25,
+          duration: immediate || attempt > 0
+              ? Duration.zero
+              : const Duration(milliseconds: 260),
+          curve: Curves.easeOut,
+        );
+        return;
+      }
+      if (attempt >= 3) return;
+      attempt++;
+      // 目标句尚未被 ListView 构建：用「已构建锚点句的真实偏移 + 平均句高」
+      // 外推跳转，下一帧再试，逐次逼近（单次按全局平均跳在长句多时误差过大）。
+      final target = _estimateOffsetFor(i);
+      _scroll.jumpTo(target.clamp(0.0, _scroll.position.maxScrollExtent));
+      WidgetsBinding.instance.addPostFrameCallback((_) => run());
+    }
+
+    run();
+  }
+
+  /// 估算第 [i] 句的滚动偏移：优先用最近的已构建句作为锚点，
+  /// 取其真实布局偏移，再按平均句高外推到目标句。
+  double _estimateOffsetFor(int i) {
+    final maxExtent = _scroll.position.maxScrollExtent;
+    final count = _speech.sentences.length;
+    final avg = count > 0 ? maxExtent / count : 0.0;
+    for (var d = 1; d <= 8; d++) {
+      final a = i - d;
+      if (a < 0 || a >= _sentenceKeys.length) continue;
+      final c = _sentenceKeys[a].currentContext;
+      if (c == null) continue;
+      final box = c.findRenderObject();
+      if (box is! RenderBox || !box.hasSize) continue;
+      try {
+        final vp = RenderAbstractViewport.of(box);
+        final anchorOffset = vp.getOffsetToReveal(box, 0.0).offset;
+        return anchorOffset + (i - a) * avg;
+      } catch (_) {
+        continue;
+      }
+    }
+    return i * avg;
   }
 
   void _saveProgress() {
